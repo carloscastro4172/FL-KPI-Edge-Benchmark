@@ -656,34 +656,38 @@ Possible extensions:
 
 # Authors
 
-```latex
-\author{
-\IEEEauthorblockN{Carlos David Castro Rodriguez}
-\IEEEauthorblockA{\textit{School of Mathematical and Computational Sciences} \\
-\textit{Yachay Tech University}\\
-Urcuquí, Ecuador\\
-carlos.castro@yachaytech.edu.ec}
+## Research Team
 
-\and
-\IEEEauthorblockN{Ariel Pincay}
-\IEEEauthorblockA{\textit{School of Mathematical and Computational Sciences} \\
-\textit{Yachay Tech University}\\
-Urcuquí, Ecuador \\
-ariel.pincay@yachaytech.edu.ec}
-\linebreakand
-\IEEEauthorblockN{Joseph Tipan}
-\IEEEauthorblockA{\textit{School of Mathematical and Computational Sciences} \\
-\textit{Yachay Tech University}\\
-Urcuquí, Ecuador \\
-joseph.tipan@yachaytech.edu.ec}
-\and
-\IEEEauthorblockN{Freddy Valenzuela}
-\IEEEauthorblockA{\textit{School of Mathematical and Computational Sciences} \\
-\textit{Yachay Tech University}\\
-Urcuquí, Ecuador \\
-freddy.valenzuela@yachaytech.edu.ec}
-}
-```
+### Carlos David Castro Rodriguez
+**School of Mathematical and Computational Sciences**  
+Yachay Tech University  
+Urcuquí, Ecuador  
+📧 carlos.castro@yachaytech.edu.ec
+
+---
+
+### Ariel Pincay
+**School of Mathematical and Computational Sciences**  
+Yachay Tech University  
+Urcuquí, Ecuador  
+📧 ariel.pincay@yachaytech.edu.ec
+
+---
+
+### Joseph Tipan
+**School of Mathematical and Computational Sciences**  
+Yachay Tech University  
+Urcuquí, Ecuador  
+📧 joseph.tipan@yachaytech.edu.ec
+
+---
+
+### Freddy Valenzuela
+**School of Mathematical and Computational Sciences**  
+Yachay Tech University  
+Urcuquí, Ecuador  
+📧 freddy.valenzuela@yachaytech.edu.ec
+
 
 ---
 
