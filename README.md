@@ -1,4 +1,4 @@
-# FL-KPI-Edge-Benchmark
+# Federated Learning Hospital Architectures
 
 This repository contains three Federated Learning (FL) architectures designed for hospital-based distributed machine learning experiments using siloed healthcare datasets.
 
@@ -88,6 +88,7 @@ Recommended:
 ---
 
 # Installation
+
 
 # Create Virtual Environment
 
@@ -655,7 +656,34 @@ Possible extensions:
 
 # Authors
 
-Research-oriented Federated Learning implementation for distributed hospital environments.
+```latex
+\author{
+\IEEEauthorblockN{Carlos David Castro Rodriguez}
+\IEEEauthorblockA{\textit{School of Mathematical and Computational Sciences} \\
+\textit{Yachay Tech University}\\
+Urcuquí, Ecuador\\
+carlos.castro@yachaytech.edu.ec}
+
+\and
+\IEEEauthorblockN{Ariel Pincay}
+\IEEEauthorblockA{\textit{School of Mathematical and Computational Sciences} \\
+\textit{Yachay Tech University}\\
+Urcuquí, Ecuador \\
+ariel.pincay@yachaytech.edu.ec}
+\linebreakand
+\IEEEauthorblockN{Joseph Tipan}
+\IEEEauthorblockA{\textit{School of Mathematical and Computational Sciences} \\
+\textit{Yachay Tech University}\\
+Urcuquí, Ecuador \\
+joseph.tipan@yachaytech.edu.ec}
+\and
+\IEEEauthorblockN{Freddy Valenzuela}
+\IEEEauthorblockA{\textit{School of Mathematical and Computational Sciences} \\
+\textit{Yachay Tech University}\\
+Urcuquí, Ecuador \\
+freddy.valenzuela@yachaytech.edu.ec}
+}
+```
 
 ---
 
