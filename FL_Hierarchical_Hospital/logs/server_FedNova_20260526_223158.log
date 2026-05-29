@@ -1,0 +1,337 @@
+2026-05-26 22:32:05 | INFO     | __main__             | [CENTRAL] Iniciando | Método=FedNova
+2026-05-26 22:32:05 | INFO     | __main__             | [MODEL] Features inferidas desde preprocessor: 105 | /home/nodea/fl_cluster_hospital/data/preprocessor_global.joblib
+2026-05-26 22:32:05 | INFO     | __main__             | [MODEL] Creando modelo inicial con in_features=105
+2026-05-26 22:32:05 | INFO     | __main__             | [CENTRAL] Modelo inicial creado correctamente
+2026-05-26 22:32:05 | INFO     | __main__             | [HIER] Raíz. Esperando hijos...
+2026-05-26 22:32:05 | INFO     | connections.server   | [TEMP SERVER] Iniciando en ws://0.0.0.0:8765...
+2026-05-26 22:32:05 | INFO     | connections.server   | [TEMP SERVER] El servidor cerrará si pasan 40s sin nuevos nodos.
+2026-05-26 22:32:05 | INFO     | websockets.server    | server listening on 0.0.0.0:8765
+2026-05-26 22:32:10 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:32:12 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:32:25 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:32:27 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:32:30 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:32:31 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:32:33 | INFO     | websockets.server    | connection open
+2026-05-26 22:32:33 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.148:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:32:33 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:32:35 | INFO     | websockets.server    | connection open
+2026-05-26 22:32:35 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.153:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:32:37 | INFO     | websockets.server    | connection open
+2026-05-26 22:32:37 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.152:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:32:39 | INFO     | websockets.server    | connection open
+2026-05-26 22:32:39 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.144:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:32:41 | INFO     | websockets.server    | connection open
+2026-05-26 22:32:41 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.150:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:33:21 | INFO     | connections.server   | [TEMP SERVER] Se alcanzó el límite de 40s de inactividad total. Cerrando...
+2026-05-26 22:33:21 | INFO     | websockets.server    | server closing
+2026-05-26 22:33:21 | INFO     | websockets.server    | server closed
+2026-05-26 22:33:21 | INFO     | connections.server   | [TEMP SERVER] Servidor temporal cerrado exitosamente.
+2026-05-26 22:33:21 | INFO     | __main__             | [HIER] Distribuyendo modelo a 5 hijo(s)...
+2026-05-26 22:33:21 | INFO     | connections.client   | [SERVER] Iniciando distribución de archivo models/model.pt a 5 nodo(s)...
+2026-05-26 22:33:21 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.144:8765: ACK_FILE_SUCCESS
+2026-05-26 22:33:21 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.152:8765: ACK_FILE_SUCCESS
+2026-05-26 22:33:21 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.148:8765: ACK_FILE_SUCCESS
+2026-05-26 22:33:21 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.153:8765: ACK_FILE_SUCCESS
+2026-05-26 22:33:21 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.150:8765: ACK_FILE_SUCCESS
+2026-05-26 22:33:21 | INFO     | connections.client   | [SERVER] Archivo entregado con éxito a 5/5 nodo(s).
+2026-05-26 22:33:21 | INFO     | __main__             | 
+[INFO] ip=172.23.209.149:8765 | ip_father=172.23.209.149:8765 | leaf=False | método=FedNova
+2026-05-26 22:33:21 | INFO     | __main__             | 
+============================================================
+[HIER] Ronda jerárquica 0
+============================================================
+2026-05-26 22:33:21 | INFO     | utils                | [CENTRAL] Nodos guardados: {'Nodo_1': '172.23.209.148:8765', 'Nodo_2': '172.23.209.153:8765', 'Nodo_3': '172.23.209.152:8765', 'Nodo_4': '172.23.209.144:8765', 'Nodo_5': '172.23.209.150:8765', 'n_nodes': 5}
+2026-05-26 22:33:21 | INFO     | federated            | [CENTRAL] Arquitectura=Cluster | Método=FedNova | Rondas=50
+2026-05-26 22:33:21 | INFO     | federated            | 
+[CENTRAL] ══ Ronda 1/50 ══
+2026-05-26 22:33:21 | INFO     | connections.server   | [SERVER] Listening on ws://0.0.0.0:8765 (esperando 5 nodo(s), max 3000s)...
+2026-05-26 22:33:21 | INFO     | websockets.server    | server listening on 0.0.0.0:8765
+2026-05-26 22:33:26 | INFO     | websockets.server    | connection open
+2026-05-26 22:33:26 | INFO     | websockets.server    | connection open
+2026-05-26 22:33:26 | INFO     | websockets.server    | connection open
+2026-05-26 22:33:26 | INFO     | utils                | [FILE SAVED] received_files/round_1/Nodo_3_model.pt
+2026-05-26 22:33:26 | INFO     | utils                | [FILE SAVED] received_files/round_1/Nodo_4_model.pt
+2026-05-26 22:33:26 | INFO     | utils                | [FILE SAVED] received_files/round_1/Nodo_5_model.pt
+2026-05-26 22:33:26 | INFO     | websockets.server    | connection open
+2026-05-26 22:33:26 | INFO     | websockets.server    | connection open
+2026-05-26 22:33:26 | INFO     | websockets.server    | connection open
+2026-05-26 22:33:26 | INFO     | connections.server   | [SERVER] [Nodo_4] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.09376668930053711, "loss": 4.1710702996504934e-05, "cpu_percent_before": 7.7, "cpu_percent_after": 7.3, "ram_mb_before": 598.05, "ram_mb_after": 667.28, "temperature_c": 42.84, "cpu_freq_mhz": 1500.0, "open_sockets": 15, "ecomp_j": 0.00229824, "ecomm_j": 0.0, "etotal_j": 0.00229824, "cumulative_etotal_j": 0.002298, "n_train_samples": 38, "fednova_tau": 9, "nova_grad_available": true, "comm_overhead_bytes": 0, "latency_model_download_s": 0.0, "h_ronda": 0, "latency_model_upload_s": 0.246, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93120, "net_bandwidth_tx_kbps": 3024.73, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 3791.82, "net_transmission_time_s": 0.246}
+2026-05-26 22:33:26 | INFO     | connections.server   | [SERVER] [Nodo_4] completado (1/5) - Red: TX=1829B, RX=1036B, BW=2750.28kbps
+2026-05-26 22:33:26 | INFO     | connections.server   | [SERVER] [Nodo_3] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.10837340354919434, "loss": 1.4901161193847656e-07, "cpu_percent_before": 7.7, "cpu_percent_after": 2.5, "ram_mb_before": 555.75, "ram_mb_after": 645.0, "temperature_c": 47.71, "cpu_freq_mhz": 1500.0, "open_sockets": 15, "ecomp_j": 0.0038707200000000002, "ecomm_j": 0.0, "etotal_j": 0.0038707200000000002, "cumulative_etotal_j": 0.003871, "n_train_samples": 64, "fednova_tau": 12, "nova_grad_available": true, "comm_overhead_bytes": 0, "latency_model_download_s": 0.0, "h_ronda": 0, "latency_model_upload_s": 0.177, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93226, "net_bandwidth_tx_kbps": 4210.02, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 4906.78, "net_transmission_time_s": 0.177}
+2026-05-26 22:33:26 | INFO     | connections.server   | [SERVER] [Nodo_3] completado (2/5) - Red: TX=2526B, RX=829B, BW=2884.62kbps
+2026-05-26 22:33:26 | INFO     | connections.server   | [SERVER] [Nodo_5] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.058513641357421875, "loss": 0.013010950051248074, "cpu_percent_before": 14.6, "cpu_percent_after": 7.5, "ram_mb_before": 597.67, "ram_mb_after": 671.23, "temperature_c": 43.33, "cpu_freq_mhz": 1500.0, "open_sockets": 15, "ecomp_j": 0.001512, "ecomm_j": 0.0, "etotal_j": 0.001512, "cumulative_etotal_j": 0.001512, "n_train_samples": 25, "fednova_tau": 6, "nova_grad_available": true, "comm_overhead_bytes": 0, "latency_model_download_s": 0.0, "h_ronda": 0, "latency_model_upload_s": 0.249, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 92931, "net_bandwidth_tx_kbps": 2982.45, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 3767.19, "net_transmission_time_s": 0.249}
+2026-05-26 22:33:26 | INFO     | connections.server   | [SERVER] [Nodo_5] completado (3/5) - Red: TX=1318B, RX=691B, BW=2132.98kbps
+2026-05-26 22:33:26 | INFO     | websockets.server    | connection open
+2026-05-26 22:33:26 | INFO     | utils                | [FILE SAVED] received_files/round_1/Nodo_2_model.pt
+2026-05-26 22:33:26 | INFO     | websockets.server    | connection open
+2026-05-26 22:33:26 | INFO     | websockets.server    | connection open
+2026-05-26 22:33:26 | INFO     | connections.server   | [SERVER] [Nodo_2] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.33571314811706543, "loss": 0.0, "cpu_percent_before": 7.7, "cpu_percent_after": 4.9, "ram_mb_before": 617.02, "ram_mb_after": 689.21, "temperature_c": 42.84, "cpu_freq_mhz": 1500.0, "open_sockets": 15, "ecomp_j": 0.011975040000000001, "ecomm_j": 0.0, "etotal_j": 0.011975040000000001, "cumulative_etotal_j": 0.011975, "n_train_samples": 198, "fednova_tau": 39, "nova_grad_available": true, "comm_overhead_bytes": 0, "latency_model_download_s": 0.0, "h_ronda": 0, "latency_model_upload_s": 0.094, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93347, "net_bandwidth_tx_kbps": 7912.33, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 8501.0, "net_transmission_time_s": 0.094}
+2026-05-26 22:33:26 | INFO     | connections.server   | [SERVER] [Nodo_2] completado (4/5) - Red: TX=1396B, RX=15469B, BW=13710.37kbps
+2026-05-26 22:33:26 | INFO     | utils                | [FILE SAVED] received_files/round_1/Nodo_1_model.pt
+2026-05-26 22:33:26 | INFO     | websockets.server    | connection open
+2026-05-26 22:33:26 | INFO     | connections.server   | [SERVER] [Nodo_1] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.3884861469268799, "loss": 0.0, "cpu_percent_before": 10.3, "cpu_percent_after": 4.9, "ram_mb_before": 638.16, "ram_mb_after": 706.63, "temperature_c": 42.35, "cpu_freq_mhz": 1500.0, "open_sockets": 17, "ecomp_j": 0.015180480000000001, "ecomm_j": 0.0, "etotal_j": 0.015180480000000001, "cumulative_etotal_j": 0.01518, "n_train_samples": 251, "fednova_tau": 48, "nova_grad_available": true, "comm_overhead_bytes": 0, "latency_model_download_s": 0.0, "h_ronda": 0, "latency_model_upload_s": 0.105, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93216, "net_bandwidth_tx_kbps": 7084.57, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 7632.09, "net_transmission_time_s": 0.105}
+2026-05-26 22:33:26 | INFO     | connections.server   | [SERVER] [Nodo_1] completado (5/5) - Red: TX=1132B, RX=470B, BW=2259.15kbps
+2026-05-26 22:33:26 | INFO     | connections.server   | [SERVER] Todos los nodos completados.
+2026-05-26 22:33:26 | INFO     | websockets.server    | server closing
+2026-05-26 22:33:26 | INFO     | websockets.server    | server closed
+2026-05-26 22:33:26 | INFO     | federated            | [CENTRAL] Ronda 1: recall=1.0000 var=0.0000 straggler=0.00s agg=0.041s
+2026-05-26 22:33:26 | INFO     | federated            | [CENTRAL] ✅ Mejora → recall=1.0000
+2026-05-26 22:33:27 | INFO     | utils                | [CENTRAL] Ronda 1 guardada → logs/metrics.csv
+2026-05-26 22:33:27 | INFO     | utils                | [CONVERGENCIA] ¡Convergido en ronda 1!
+2026-05-26 22:33:27 | INFO     | connections.client   | [SERVER] Iniciando distribución de mensaje a 5 nodo(s)...
+2026-05-26 22:33:27 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.148:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:33:27 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.150:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:33:27 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.144:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:33:27 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.153:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:33:27 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.152:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:33:27 | INFO     | connections.client   | [SERVER] Mensaje entregado con éxito a 5/5 nodo(s).
+2026-05-26 22:33:27 | INFO     | federated            | 
+[CENTRAL] Entrenamiento completado. Best recall=1.0000
+2026-05-26 22:33:27 | INFO     | __main__             | [HIER] Proceso completado.
+[create_model] Modelo guardado: models/model.pt (105 features)

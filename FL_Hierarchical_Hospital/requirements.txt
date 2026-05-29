@@ -1,0 +1,8 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+websockets>=14.0
+pandas
+scikit-learn
+psutil>=5.10.0
+numpy
+joblib

@@ -1,0 +1,222 @@
+2026-05-26 22:20:31 | INFO     | __main__             | [CENTRAL] Iniciando | Método=FedAvg
+2026-05-26 22:20:31 | INFO     | __main__             | [MODEL] Features inferidas desde preprocessor: 105 | /home/nodea/fl_cluster_hospital/data/preprocessor_global.joblib
+2026-05-26 22:20:31 | INFO     | __main__             | [MODEL] Creando modelo inicial con in_features=105
+2026-05-26 22:20:31 | INFO     | __main__             | [CENTRAL] Modelo inicial creado correctamente
+2026-05-26 22:20:31 | INFO     | __main__             | [HIER] Raíz. Esperando hijos...
+2026-05-26 22:20:31 | INFO     | connections.server   | [TEMP SERVER] Iniciando en ws://0.0.0.0:8765...
+2026-05-26 22:20:31 | INFO     | connections.server   | [TEMP SERVER] El servidor cerrará si pasan 40s sin nuevos nodos.
+2026-05-26 22:20:31 | INFO     | websockets.server    | server listening on 0.0.0.0:8765
+2026-05-26 22:20:41 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:20:44 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:20:47 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:20:49 | INFO     | websockets.server    | connection open
+2026-05-26 22:20:49 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.148:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:20:49 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:20:51 | INFO     | websockets.server    | connection open
+2026-05-26 22:20:51 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:20:51 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.153:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:20:55 | INFO     | websockets.server    | connection open
+2026-05-26 22:20:55 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.152:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:20:57 | INFO     | websockets.server    | connection open
+2026-05-26 22:20:57 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.144:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:20:59 | INFO     | websockets.server    | connection open
+2026-05-26 22:20:59 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.150:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:21:39 | INFO     | connections.server   | [TEMP SERVER] Se alcanzó el límite de 40s de inactividad total. Cerrando...
+2026-05-26 22:21:39 | INFO     | websockets.server    | server closing
+2026-05-26 22:21:39 | INFO     | websockets.server    | server closed
+2026-05-26 22:21:39 | INFO     | connections.server   | [TEMP SERVER] Servidor temporal cerrado exitosamente.
+2026-05-26 22:21:39 | INFO     | __main__             | [HIER] Distribuyendo modelo a 5 hijo(s)...
+2026-05-26 22:21:39 | INFO     | connections.client   | [SERVER] Iniciando distribución de archivo models/model.pt a 5 nodo(s)...
+2026-05-26 22:21:39 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.153:8765: ACK_FILE_SUCCESS
+2026-05-26 22:21:39 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.144:8765: ACK_FILE_SUCCESS
+2026-05-26 22:21:39 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.148:8765: ACK_FILE_SUCCESS
+2026-05-26 22:21:40 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.152:8765: ACK_FILE_SUCCESS
+2026-05-26 22:21:40 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.150:8765: ACK_FILE_SUCCESS
+2026-05-26 22:21:40 | INFO     | connections.client   | [SERVER] Archivo entregado con éxito a 5/5 nodo(s).
+2026-05-26 22:21:40 | INFO     | __main__             | 
+[INFO] ip=172.23.209.149:8765 | ip_father=172.23.209.149:8765 | leaf=False | método=FedAvg
+2026-05-26 22:21:40 | INFO     | __main__             | 
+============================================================
+[HIER] Ronda jerárquica 0
+============================================================
+2026-05-26 22:21:40 | INFO     | utils                | [CENTRAL] Nodos guardados: {'Nodo_1': '172.23.209.148:8765', 'Nodo_2': '172.23.209.153:8765', 'Nodo_3': '172.23.209.152:8765', 'Nodo_4': '172.23.209.144:8765', 'Nodo_5': '172.23.209.150:8765', 'n_nodes': 5}
+2026-05-26 22:21:40 | INFO     | federated            | [CENTRAL] Arquitectura=Cluster | Método=FedAvg | Rondas=50
+2026-05-26 22:21:40 | INFO     | federated            | 
+[CENTRAL] ══ Ronda 1/50 ══
+2026-05-26 22:21:40 | INFO     | connections.server   | [SERVER] Listening on ws://0.0.0.0:8765 (esperando 5 nodo(s), max 3000s)...
+2026-05-26 22:21:40 | INFO     | websockets.server    | server listening on 0.0.0.0:8765

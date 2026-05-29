@@ -1,0 +1,10 @@
+2026-05-26 21:54:41 | DEBUG    | asyncio              | Using selector: EpollSelector
+2026-05-26 21:54:41 | INFO     | __main__             | [CENTRAL] Iniciando | Método=FedAvg
+2026-05-26 21:54:41 | INFO     | __main__             | [CENTRAL] Modelo inicial creado
+2026-05-26 21:54:41 | INFO     | __main__             | [HIER] Raíz. Esperando hijos...
+2026-05-26 21:54:41 | INFO     | connections.server   | [TEMP SERVER] Iniciando en ws://0.0.0.0:8765...
+2026-05-26 21:54:41 | INFO     | connections.server   | [TEMP SERVER] El servidor cerrará si pasan 40s sin nuevos nodos.
+2026-05-26 21:54:41 | INFO     | websockets.server    | server listening on 0.0.0.0:8765
+2026-05-26 21:55:06 | INFO     | websockets.server    | server closing
+2026-05-26 21:55:06 | INFO     | websockets.server    | server closed
+2026-05-26 21:55:06 | INFO     | connections.server   | [TEMP SERVER] Servidor temporal cerrado exitosamente.

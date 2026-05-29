@@ -1,0 +1,152 @@
+"""
+Entrada principal — FL Cluster Jerárquico (flat para comparación).
+Uso:
+  Servidor: python main.py 172.23.207.115:8765 null
+  Worker:   python main.py 172.23.207.114:8765 172.23.207.115:8765
+"""
+import asyncio
+import os
+import sys
+import time
+
+from connections.client import send, send_file_to_nodes, send_message_to_nodes, send_identified
+from connections.server import listener_ips, listener_server
+from config import H_ROUNDS, LISTENER_DURATION, MODEL_PATH, IN_FEATURES, METRICS_CSV, NODES_JSON, AGGREGATION_METHOD
+from utils import get_ipport, hierarchy_convergence, load_nodes2dict
+from federated import main as fed
+from logging_config import get_logger
+from model.create_model import create_model
+
+logger = get_logger(__name__)
+
+
+async def sharing(ip_father: str, ip: str, ips_children: list):
+    ips = []
+    _, listen_port = get_ipport(ip)
+    local_listen = f"0.0.0.0:{listen_port}"
+
+    if ip_father == ip:
+        logger.info(f"[CENTRAL] Iniciando | Método={AGGREGATION_METHOD}")
+        os.makedirs(os.path.dirname(os.path.abspath(MODEL_PATH)) or ".", exist_ok=True)
+        create_model(in_features=IN_FEATURES, path=MODEL_PATH)
+        logger.info("[CENTRAL] Modelo inicial creado")
+
+    if ip_father != ip:
+        logger.info("[HIER] Enviando IP al padre...")
+        await send(ip_father, ip)
+        logger.info("[HIER] Escuchando IPs hijas...")
+        ips = await listener_ips(local_listen, LISTENER_DURATION)
+        await get_model(local_listen, LISTENER_DURATION * 10)
+    else:
+        logger.info("[HIER] Raíz. Esperando hijos...")
+        ips = await listener_ips(local_listen, LISTENER_DURATION * 2)
+
+    if ips:
+        await send_model(ips)
+    else:
+        logger.info("[HIER] Nodo hoja sin hijos.")
+
+    for i in ips:
+        ips_children.append(i)
+
+
+async def get_model(local_listen: str, delay: int = LISTENER_DURATION):
+    received, _ = await listener_server(local_listen, delay, file_path=MODEL_PATH)
+    if received is None:
+        logger.error("[HIER] Sin modelo del padre.")
+
+
+async def send_model(ips_children: list):
+    logger.info(f"[HIER] Distribuyendo modelo a {len(ips_children)} hijo(s)...")
+    await send_file_to_nodes(ips_children, MODEL_PATH, delay=LISTENER_DURATION * 6)
+    os.remove(MODEL_PATH)
+
+
+async def distribute_model(ips_children: list, ip_father: str, ip: str):
+    _, listen_port = get_ipport(ip)
+    local_listen = f"0.0.0.0:{listen_port}"
+    if ips_children and ip_father == ip:
+        await send_model(ips_children)
+    elif ips_children:
+        await get_model(local_listen, LISTENER_DURATION * 100)
+        await send_model(ips_children)
+    else:
+        await get_model(local_listen, LISTENER_DURATION * 100)
+
+
+async def convergence(ip_father: str, ip: str, ips_children: list, result: list):
+    _, listen_port = get_ipport(ip)
+    local_listen = f"0.0.0.0:{listen_port}"
+    status = "CONVERGED" if (os.path.exists(METRICS_CSV) and
+                              hierarchy_convergence(METRICS_CSV)) else "NOT CONVERGED"
+
+    if ip_father == ip:
+        nodes_by_addr = load_nodes2dict(NODES_JSON)
+        from connections.server import listener_nodes
+        conv = await listener_nodes(local_listen, nodes_by_addr,
+                                     LISTENER_DURATION * 100, message_only=True)
+        vals = [msgs[0] for msgs in conv.values() if msgs]
+        res = 'CONVERGED' if all(v == 'CONVERGED' for v in [*vals, status]) else 'NOT CONVERGED'
+        result.append(res)
+        await send_message_to_nodes(ips_children, result[-1], LISTENER_DURATION * 10)
+
+    elif ips_children:
+        nodes_by_addr = load_nodes2dict(NODES_JSON)
+        from connections.server import listener_nodes
+        conv = await listener_nodes(local_listen, nodes_by_addr,
+                                     LISTENER_DURATION * 100, message_only=True)
+        vals = [msgs[0] for msgs in conv.values() if msgs]
+        res = 'CONVERGED' if all(v == 'CONVERGED' for v in [*vals, status]) else 'NOT CONVERGED'
+        result.append(res)
+        await send_identified(ip, ip_father, res)
+        res2, _ = await listener_server(local_listen, LISTENER_DURATION * 100)
+        result.append(res2)
+        await send_message_to_nodes(ips_children, result[-1], LISTENER_DURATION * 10)
+    else:
+        await send_identified(ip, ip_father, status)
+        res, _ = await listener_server(local_listen, LISTENER_DURATION * 100)
+        result.append(res)
+
+
+def main():
+    if len(sys.argv) < 3:
+        print("Uso: python main.py <mi_ip:puerto> <ip_padre:puerto | null>")
+        print("  Servidor: python main.py 172.23.207.115:8765 null")
+        print("  Worker:   python main.py 172.23.207.114:8765 172.23.207.115:8765")
+        sys.exit(1)
+
+    ip        = sys.argv[1]
+    ip_father = sys.argv[2] if sys.argv[2].lower() != "null" else sys.argv[1]
+
+    os.makedirs("logs", exist_ok=True)
+    os.makedirs("models", exist_ok=True)
+
+    ips = []
+    asyncio.run(sharing(ip_father, ip, ips))
+    leaf = len(ips) == 0
+
+    logger.info(f"\n[INFO] ip={ip} | ip_father={ip_father} | leaf={leaf} | método={AGGREGATION_METHOD}")
+
+    for h_ronda in range(H_ROUNDS):
+        logger.info(f"\n{'='*60}\n[HIER] Ronda jerárquica {h_ronda}\n{'='*60}")
+
+        if leaf:
+            fed(central=False, addr=ip, server_addr=ip_father, h_ronda=h_ronda)
+        elif ip_father == ip:
+            fed(central=True, addr=ip, server_addr=ip, childs=ips, h_ronda=h_ronda)
+        else:
+            fed(central=True, addr=ip, server_addr=ip_father, childs=ips, h_ronda=h_ronda)
+            fed(central=False, addr=ip, server_addr=ip_father, h_ronda=h_ronda)
+
+        if h_ronda < (H_ROUNDS - 1):
+            result = []
+            asyncio.run(distribute_model(ips, ip_father, ip))
+            asyncio.run(convergence(ip_father, ip, ips, result))
+            if result and result[-1] == 'CONVERGED':
+                break
+
+    logger.info("[HIER] Proceso completado.")
+
+
+if __name__ == "__main__":
+    main()

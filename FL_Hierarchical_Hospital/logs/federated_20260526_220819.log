@@ -1,0 +1,509 @@
+2026-05-26 22:08:26 | DEBUG    | asyncio              | Using selector: EpollSelector
+2026-05-26 22:08:26 | INFO     | __main__             | [CENTRAL] Iniciando | Método=FedAvg
+2026-05-26 22:08:26 | INFO     | __main__             | [CENTRAL] Modelo inicial creado
+2026-05-26 22:08:26 | INFO     | __main__             | [HIER] Raíz. Esperando hijos...
+2026-05-26 22:08:26 | INFO     | connections.server   | [TEMP SERVER] Iniciando en ws://0.0.0.0:8765...
+2026-05-26 22:08:26 | INFO     | connections.server   | [TEMP SERVER] El servidor cerrará si pasan 40s sin nuevos nodos.
+2026-05-26 22:08:26 | INFO     | websockets.server    | server listening on 0.0.0.0:8765
+2026-05-26 22:08:38 | DEBUG    | websockets.server    | = connection is CONNECTING
+2026-05-26 22:08:38 | DEBUG    | websockets.server    | > EOF
+2026-05-26 22:08:38 | DEBUG    | websockets.server    | < EOF
+2026-05-26 22:08:38 | DEBUG    | websockets.server    | = connection is CLOSED
+2026-05-26 22:08:38 | DEBUG    | websockets.server    | x half-closing TCP connection
+2026-05-26 22:08:38 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:08:40 | DEBUG    | websockets.server    | = connection is CONNECTING
+2026-05-26 22:08:40 | DEBUG    | websockets.server    | > EOF
+2026-05-26 22:08:40 | DEBUG    | websockets.server    | < EOF
+2026-05-26 22:08:40 | DEBUG    | websockets.server    | = connection is CLOSED
+2026-05-26 22:08:40 | DEBUG    | websockets.server    | x half-closing TCP connection
+2026-05-26 22:08:40 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | = connection is CONNECTING
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | < GET / HTTP/1.1
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | < Host: 172.23.209.149:8765
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | < Upgrade: websocket
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | < Connection: Upgrade
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | < Sec-WebSocket-Key: CEPOETF1LaAQzUx2hw1+KQ==
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | < Sec-WebSocket-Version: 13
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | < User-Agent: Python/3.13 websockets/16.0
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | > HTTP/1.1 101 Switching Protocols
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | > Date: Tue, 26 May 2026 21:08:46 GMT
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | > Upgrade: websocket
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | > Connection: Upgrade
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | > Sec-WebSocket-Accept: vTry8NV7cyynP4ihxU6sD9hg430=
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | > Server: Python/3.13 websockets/16.0
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | = connection is OPEN
+2026-05-26 22:08:46 | INFO     | websockets.server    | connection open
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | < TEXT '172.23.209.148:8765' [19 bytes]
+2026-05-26 22:08:46 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.148:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | > TEXT 'Registered' [10 bytes]
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | > CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | = connection is CLOSING
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | < CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | > EOF
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | x half-closing TCP connection
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | < EOF
+2026-05-26 22:08:46 | DEBUG    | websockets.server    | = connection is CLOSED
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | = connection is CONNECTING
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | < GET / HTTP/1.1
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | < Host: 172.23.209.149:8765
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | < Upgrade: websocket
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | < Connection: Upgrade
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | < Sec-WebSocket-Key: NPI7lO+Bci+gOvakQpcp2w==
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | < Sec-WebSocket-Version: 13
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | < User-Agent: Python/3.13 websockets/16.0
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | > HTTP/1.1 101 Switching Protocols
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | > Date: Tue, 26 May 2026 21:08:47 GMT
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | > Upgrade: websocket
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | > Connection: Upgrade
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | > Sec-WebSocket-Accept: 1Wm05S2t8PsdMriO16Rkj1TrQwQ=
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | > Server: Python/3.13 websockets/16.0
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | = connection is OPEN
+2026-05-26 22:08:47 | INFO     | websockets.server    | connection open
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | < TEXT '172.23.209.153:8765' [19 bytes]
+2026-05-26 22:08:47 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.153:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | > TEXT 'Registered' [10 bytes]
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | > CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | = connection is CLOSING
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | < CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | > EOF
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | x half-closing TCP connection
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | < EOF
+2026-05-26 22:08:47 | DEBUG    | websockets.server    | = connection is CLOSED
+2026-05-26 22:09:11 | DEBUG    | websockets.server    | = connection is CONNECTING
+2026-05-26 22:09:11 | DEBUG    | websockets.server    | > EOF
+2026-05-26 22:09:11 | DEBUG    | websockets.server    | < EOF
+2026-05-26 22:09:11 | DEBUG    | websockets.server    | = connection is CLOSED
+2026-05-26 22:09:11 | DEBUG    | websockets.server    | x half-closing TCP connection
+2026-05-26 22:09:11 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | = connection is CONNECTING
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | < GET / HTTP/1.1
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | < Host: 172.23.209.149:8765
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | < Upgrade: websocket
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | < Connection: Upgrade
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | < Sec-WebSocket-Key: lu64ySo6d9u0vzO62tJjKg==
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | < Sec-WebSocket-Version: 13
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | < User-Agent: Python/3.13 websockets/16.0
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | > HTTP/1.1 101 Switching Protocols
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | > Date: Tue, 26 May 2026 21:09:19 GMT
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | > Upgrade: websocket
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | > Connection: Upgrade
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | > Sec-WebSocket-Accept: ZrKq+YpSFNOxJ590sXWNlhRviI4=
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | > Server: Python/3.13 websockets/16.0
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | = connection is OPEN
+2026-05-26 22:09:19 | INFO     | websockets.server    | connection open
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | < TEXT '172.23.209.152:8765' [19 bytes]
+2026-05-26 22:09:19 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.152:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | > TEXT 'Registered' [10 bytes]
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | > CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | = connection is CLOSING
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | < CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | > EOF
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | x half-closing TCP connection
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | < EOF
+2026-05-26 22:09:19 | DEBUG    | websockets.server    | = connection is CLOSED
+2026-05-26 22:09:21 | DEBUG    | websockets.server    | = connection is CONNECTING
+2026-05-26 22:09:21 | DEBUG    | websockets.server    | > EOF
+2026-05-26 22:09:21 | DEBUG    | websockets.server    | < EOF
+2026-05-26 22:09:21 | DEBUG    | websockets.server    | = connection is CLOSED
+2026-05-26 22:09:21 | DEBUG    | websockets.server    | x half-closing TCP connection
+2026-05-26 22:09:21 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | = connection is CONNECTING
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | < GET / HTTP/1.1
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | < Host: 172.23.209.149:8765
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | < Upgrade: websocket
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | < Connection: Upgrade
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | < Sec-WebSocket-Key: F5ItQTFbfAkWibq3cDuw1g==
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | < Sec-WebSocket-Version: 13
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | < User-Agent: Python/3.13 websockets/16.0
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | > HTTP/1.1 101 Switching Protocols
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | > Date: Tue, 26 May 2026 21:09:29 GMT
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | > Upgrade: websocket
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | > Connection: Upgrade
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | > Sec-WebSocket-Accept: gu7dKxk639/cLOg/PaIKXNTbO1g=
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | > Server: Python/3.13 websockets/16.0
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | = connection is OPEN
+2026-05-26 22:09:29 | INFO     | websockets.server    | connection open
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | < TEXT '172.23.209.144:8765' [19 bytes]
+2026-05-26 22:09:29 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.144:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | > TEXT 'Registered' [10 bytes]
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | > CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | = connection is CLOSING
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | < CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | > EOF
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | x half-closing TCP connection
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | < EOF
+2026-05-26 22:09:29 | DEBUG    | websockets.server    | = connection is CLOSED
+2026-05-26 22:09:34 | DEBUG    | websockets.server    | = connection is CONNECTING
+2026-05-26 22:09:34 | DEBUG    | websockets.server    | > EOF
+2026-05-26 22:09:34 | DEBUG    | websockets.server    | < EOF
+2026-05-26 22:09:34 | DEBUG    | websockets.server    | = connection is CLOSED
+2026-05-26 22:09:34 | DEBUG    | websockets.server    | x half-closing TCP connection
+2026-05-26 22:09:34 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | = connection is CONNECTING
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | < GET / HTTP/1.1
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | < Host: 172.23.209.149:8765
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | < Upgrade: websocket
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | < Connection: Upgrade
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | < Sec-WebSocket-Key: HqIRhqDg4D+ys9pNHjC0Yg==
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | < Sec-WebSocket-Version: 13
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | < User-Agent: Python/3.13 websockets/16.0
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | > HTTP/1.1 101 Switching Protocols
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | > Date: Tue, 26 May 2026 21:09:41 GMT
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | > Upgrade: websocket
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | > Connection: Upgrade
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | > Sec-WebSocket-Accept: xHdjbqtFua9ZIo9yi4QzWmbvl0c=
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | > Server: Python/3.13 websockets/16.0
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | = connection is OPEN
+2026-05-26 22:09:41 | INFO     | websockets.server    | connection open
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | < TEXT '172.23.209.150:8765' [19 bytes]
+2026-05-26 22:09:41 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.150:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | > TEXT 'Registered' [10 bytes]
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | > CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | = connection is CLOSING
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | < CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | > EOF
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | x half-closing TCP connection
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | < EOF
+2026-05-26 22:09:41 | DEBUG    | websockets.server    | = connection is CLOSED
+2026-05-26 22:10:22 | INFO     | connections.server   | [TEMP SERVER] Se alcanzó el límite de 40s de inactividad total. Cerrando...
+2026-05-26 22:10:22 | INFO     | websockets.server    | server closing
+2026-05-26 22:10:22 | INFO     | websockets.server    | server closed
+2026-05-26 22:10:22 | INFO     | connections.server   | [TEMP SERVER] Servidor temporal cerrado exitosamente.
+2026-05-26 22:10:22 | INFO     | __main__             | [HIER] Distribuyendo modelo a 5 hijo(s)...
+2026-05-26 22:10:22 | INFO     | connections.client   | [SERVER] Iniciando distribución de archivo models/model.pt a 5 nodo(s)...
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is CONNECTING
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > GET / HTTP/1.1
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Host: 172.23.209.150:8765
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Upgrade: websocket
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Connection: Upgrade
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Sec-WebSocket-Key: mXHRWSkhpJFFNlGRWYNvKg==
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Sec-WebSocket-Version: 13
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > User-Agent: Python/3.13 websockets/16.0
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is CONNECTING
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is CONNECTING
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > GET / HTTP/1.1
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Host: 172.23.209.153:8765
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Upgrade: websocket
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Connection: Upgrade
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Sec-WebSocket-Key: 45UoVHJGj9oSN9VvtYtC5A==
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Sec-WebSocket-Version: 13
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > User-Agent: Python/3.13 websockets/16.0
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > GET / HTTP/1.1
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Host: 172.23.209.144:8765
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Upgrade: websocket
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Connection: Upgrade
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Sec-WebSocket-Key: GQiTeo5seTtgsJbHLFjb4Q==
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Sec-WebSocket-Version: 13
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > User-Agent: Python/3.13 websockets/16.0
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is CONNECTING
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > GET / HTTP/1.1
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Host: 172.23.209.152:8765
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Upgrade: websocket
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Connection: Upgrade
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Sec-WebSocket-Key: 97e89e9fqOYGQClhhDORzQ==
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Sec-WebSocket-Version: 13
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > User-Agent: Python/3.13 websockets/16.0
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < HTTP/1.1 101 Switching Protocols
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Date: Tue, 26 May 2026 21:10:22 GMT
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Upgrade: websocket
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Connection: Upgrade
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Sec-WebSocket-Accept: jwV1cKR4byCtxD4H8GPRPjTAVaA=
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Server: Python/3.13 websockets/16.0
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is OPEN
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > BINARY 50 4b 03 04 00 00 08 08 00 00 00 00 00 00 00 00 ... 00 00 f8 6c 01 00 00 00 [94269 bytes]
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < HTTP/1.1 101 Switching Protocols
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Date: Tue, 26 May 2026 21:10:22 GMT
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Upgrade: websocket
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Connection: Upgrade
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Sec-WebSocket-Accept: kxCRHrLvhhGV3qWrciyJlCxz4E8=
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Server: Python/3.13 websockets/16.0
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is OPEN
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < HTTP/1.1 101 Switching Protocols
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Date: Tue, 26 May 2026 21:10:22 GMT
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Upgrade: websocket
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Connection: Upgrade
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Sec-WebSocket-Accept: mvo/njEBdJ4EER3t2yhPSML+0pE=
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Server: Python/3.13 websockets/16.0
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is OPEN
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < HTTP/1.1 101 Switching Protocols
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Date: Tue, 26 May 2026 21:10:22 GMT
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Upgrade: websocket
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Connection: Upgrade
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Sec-WebSocket-Accept: mXD+cayw3YC+Lf79atu1WXQDjTQ=
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Server: Python/3.13 websockets/16.0
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is OPEN
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > BINARY 50 4b 03 04 00 00 08 08 00 00 00 00 00 00 00 00 ... 00 00 f8 6c 01 00 00 00 [94269 bytes]
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > BINARY 50 4b 03 04 00 00 08 08 00 00 00 00 00 00 00 00 ... 00 00 f8 6c 01 00 00 00 [94269 bytes]
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > BINARY 50 4b 03 04 00 00 08 08 00 00 00 00 00 00 00 00 ... 00 00 f8 6c 01 00 00 00 [94269 bytes]
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < TEXT 'ACK_FILE_SUCCESS' [16 bytes]
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is CLOSING
+2026-05-26 22:10:22 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.144:8765: ACK_FILE_SUCCESS
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < TEXT 'ACK_FILE_SUCCESS' [16 bytes]
+2026-05-26 22:10:22 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.150:8765: ACK_FILE_SUCCESS
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is CLOSING
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < TEXT 'ACK_FILE_SUCCESS' [16 bytes]
+2026-05-26 22:10:22 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.153:8765: ACK_FILE_SUCCESS
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is CLOSING
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < EOF
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > EOF
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is CLOSED
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | x half-closing TCP connection
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < EOF
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > EOF
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is CLOSED
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | x half-closing TCP connection
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < EOF
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > EOF
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is CLOSED
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | x half-closing TCP connection
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < TEXT 'ACK_FILE_SUCCESS' [16 bytes]
+2026-05-26 22:10:22 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.152:8765: ACK_FILE_SUCCESS
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is CLOSING
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < EOF
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > EOF
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is CLOSED
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | x half-closing TCP connection
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is CONNECTING
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > GET / HTTP/1.1
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Host: 172.23.209.148:8765
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Upgrade: websocket
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Connection: Upgrade
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Sec-WebSocket-Key: w/nEFgoY8s6VPVmi4S/MRQ==
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Sec-WebSocket-Version: 13
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > User-Agent: Python/3.13 websockets/16.0
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < HTTP/1.1 101 Switching Protocols
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Date: Tue, 26 May 2026 21:10:22 GMT
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Upgrade: websocket
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Connection: Upgrade
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Sec-WebSocket-Accept: zBRy3krpxOxUOqlT5UzhNY8MF3E=
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | < Server: Python/3.13 websockets/16.0
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | = connection is OPEN
+2026-05-26 22:10:22 | DEBUG    | websockets.client    | > BINARY 50 4b 03 04 00 00 08 08 00 00 00 00 00 00 00 00 ... 00 00 f8 6c 01 00 00 00 [94269 bytes]
+2026-05-26 22:10:24 | DEBUG    | websockets.client    | < TEXT 'ACK_FILE_SUCCESS' [16 bytes]
+2026-05-26 22:10:24 | DEBUG    | websockets.client    | < CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:10:24 | DEBUG    | websockets.client    | > CLOSE 1000 (OK) [2 bytes]
+2026-05-26 22:10:24 | DEBUG    | websockets.client    | = connection is CLOSING
+2026-05-26 22:10:24 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.148:8765: ACK_FILE_SUCCESS
+2026-05-26 22:10:24 | DEBUG    | websockets.client    | < EOF
+2026-05-26 22:10:24 | DEBUG    | websockets.client    | > EOF
+2026-05-26 22:10:24 | DEBUG    | websockets.client    | = connection is CLOSED
+2026-05-26 22:10:24 | DEBUG    | websockets.client    | x half-closing TCP connection
+2026-05-26 22:10:24 | INFO     | connections.client   | [SERVER] Archivo entregado con éxito a 5/5 nodo(s).
+2026-05-26 22:10:24 | INFO     | __main__             | 
+[INFO] ip=172.23.209.149:8765 | ip_father=172.23.209.149:8765 | leaf=False | método=FedAvg
+2026-05-26 22:10:24 | INFO     | __main__             | 
+============================================================
+[HIER] Ronda jerárquica 0
+============================================================
+2026-05-26 22:10:24 | DEBUG    | asyncio              | Using selector: EpollSelector
+2026-05-26 22:10:24 | INFO     | utils                | [CENTRAL] Nodos guardados: {'Nodo_1': '172.23.209.148:8765', 'Nodo_2': '172.23.209.153:8765', 'Nodo_3': '172.23.209.152:8765', 'Nodo_4': '172.23.209.144:8765', 'Nodo_5': '172.23.209.150:8765', 'n_nodes': 5}
+2026-05-26 22:10:24 | INFO     | federated            | [CENTRAL] Arquitectura=Cluster | Método=FedAvg | Rondas=50
+2026-05-26 22:10:24 | INFO     | federated            | 
+[CENTRAL] ══ Ronda 1/50 ══
+2026-05-26 22:10:24 | INFO     | connections.server   | [SERVER] Listening on ws://0.0.0.0:8765 (esperando 5 nodo(s), max 3000s)...
+2026-05-26 22:10:24 | INFO     | websockets.server    | server listening on 0.0.0.0:8765
+2026-05-26 22:18:44 | INFO     | websockets.server    | server closing
+2026-05-26 22:18:44 | INFO     | websockets.server    | server closed

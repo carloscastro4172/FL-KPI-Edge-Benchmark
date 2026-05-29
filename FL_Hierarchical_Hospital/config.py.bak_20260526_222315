@@ -1,0 +1,83 @@
+"""
+Configuración — FL Cluster Hospital | 6 Silos (mismo dataset que Centralizado y Semi-Desc)
+Silos: 5524 / 3340 / 2724 / 2294 / 1868 filas | preprocesador global compartido
+"""
+
+# ══════════════════════════════════════════════════════════════
+#  AGREGACIÓN
+# ══════════════════════════════════════════════════════════════
+AGGREGATION_METHOD = 'FedAvg'
+FEDPROX_MU   = 0.01             # coeficiente proximal para FedProx
+FEDNOVA_RHO  = 0.0              # momentum para FedNova
+
+# ══════════════════════════════════════════════════════════════
+#  ENTRENAMIENTO
+# ══════════════════════════════════════════════════════════════
+ROUNDS      = 50  # igual que centralizado y semi-desc                # máximo de rondas FL (MAX_ROUNDS)
+EPOCHS      = 3   # igual que centralizado y semi-desc                 # épocas locales por ronda
+LEARNING_RATE = 1e-2
+IN_FEATURES = 104               # features tras preprocessor_global.joblib
+H_ROUNDS    = 1                 # rondas jerárquicas (1 = flat comparison)
+
+# ══════════════════════════════════════════════════════════════
+#  EARLY STOPPING
+# ══════════════════════════════════════════════════════════════
+EARLY_STOPPING_PATIENCE    = 3   # igual que centralizado y semi-desc    # rondas sin mejora antes de parar
+MIN_RECALL_IMPROVEMENT     = 0.001
+
+# ══════════════════════════════════════════════════════════════
+#  RUTAS
+# ══════════════════════════════════════════════════════════════
+NODES_JSON            = "nodes.json"
+METRICS_CSV           = "logs/metrics.csv"
+RECEIVED_FILES_PATH   = "received_files"
+CENTRAL_PATH          = "CENTRAL"
+MODEL_PATH            = "models/model.pt"
+PREPROCESSOR_PATH     = "/home/carlos/Documents/INVESTIGACIÓN/JERARQUICO/MODEL/centralized_6silos_metrics/centralized_7silos/artifacts/preprocessor_global.joblib"
+DATA_PATH             = "/home/carlos/Documents/INVESTIGACIÓN/JERARQUICO/MODEL/centralized_6silos_metrics/centralized_7silos/data/silos/silo_1.csv"   # override en run_worker.sh
+
+# ══════════════════════════════════════════════════════════════
+#  MODELO
+# ══════════════════════════════════════════════════════════════
+SEED           = 42
+DROPOUT_PROB   = 0.3
+MLP_HIDDEN1    = 120
+MLP_HIDDEN2    = 84
+MLPLRG_HIDDEN1 = 256
+MLPLRG_HIDDEN2 = 128
+MLPLRG_HIDDEN3 = 64
+
+# ══════════════════════════════════════════════════════════════
+#  DATOS
+# ══════════════════════════════════════════════════════════════
+TEST_SIZE    = 0.2
+BATCH_SIZE   = 16  # igual que centralizado y semi-desc
+LABEL_COLUMN = "is_premature_ncd"
+DROP_COLUMNS = ["hospital_cliente", "ncd_group"]
+RANDOM_STATE = 42
+
+# ══════════════════════════════════════════════════════════════
+#  COMUNICACIÓN
+# ══════════════════════════════════════════════════════════════
+LISTENER_DURATION          = 20
+RECEIVED_MODEL_FILENAME    = "received_model.pt"
+ACK_IDENTIFIED             = "Identified"
+ACK_REGISTERED             = "Registered"
+ACK_FILE_SUCCESS           = "File received successfully"
+ACK_MESSAGE_SUCCESS        = "Message received"
+
+# ══════════════════════════════════════════════════════════════
+#  TIMEOUTS
+# ══════════════════════════════════════════════════════════════
+SLEEP_INTERVAL       = 1
+POST_ROUND_DELAY     = 2
+NODES_LISTENER_DELAY = 300
+ROUND_TIMEOUT        = 120     # timeout por ronda para straggler
+
+# ══════════════════════════════════════════════════════════════
+#  ENERGÍA (modelo: Ecomp = 2·α·c·D·f², Ecomm = p·Tcomm)
+# ══════════════════════════════════════════════════════════════
+ENERGY_ALPHA     = 2e-28   # capacitancia efectiva (F/Hz)
+ENERGY_C_CYCLES  = 20      # ciclos por bit de cómputo
+ENERGY_P_TX      = 0.5     # potencia de transmisión (W)
+NUM_SILOS        = 5       # nodos worker para overhead M·(N-1)

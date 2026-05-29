@@ -1,0 +1,543 @@
+sexo,edad_anos,etnia,sabe_leer,est_civil,niv_inst,prov_res,prov_fall,cant_fall,area_res,area_fall,lugar_ocur,mor_viol,lug_viol,autopsia,residente,anio_fall,mes_fall,dia_fall,ncd_group,is_premature_ncd,hospital_cliente
+Mujer,43.0,Mestizo (a),Si,Soltero (a),Educación Básica,Tungurahua,Tungurahua,Ambato,Urbano,Rural,"Hospital, clínica o consultorio privado",,,,No residente,2024,Junio,16,Cancer,1.0,Hospital_4
+Hombre,64.0,Mestizo (a),Si,Soltero (a),Superior universitario,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,19,Cancer,1.0,Hospital_4
+Hombre,51.0,Mestizo (a),Si,Soltero (a),Ninguno,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,14,Cardiovascular,1.0,Hospital_4
+Mujer,65.0,Mestizo (a),Si,Casado (a),Primaria,Pichincha,Pichincha,Rumiñahui,Rural,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Septiembre,1,Cardiovascular,1.0,Hospital_4
+Hombre,52.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Julio,13,Cancer,1.0,Hospital_4
+Mujer,55.0,Mestizo (a),Si,Casado (a),Superior universitario,Pichincha,Pichincha,Puerto Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,2,Cancer,1.0,Hospital_4
+Mujer,33.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Agosto,1,Cardiovascular,1.0,Hospital_4
+Mujer,54.0,Mestizo (a),Si,Viudo (a),Primaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,8,Cancer,1.0,Hospital_4
+Hombre,63.0,Mestizo (a),Si,Viudo (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos de la Junta de Beneficencia,,,,Residente,2024,Marzo,29,Cancer,1.0,Hospital_4
+Mujer,30.0,Mestizo (a),Si,Divorciado (a),Secundaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,4,Cardiovascular,1.0,Hospital_4
+Hombre,66.0,Mestizo (a),Si,Soltero (a),Primaria,Los Ríos,Los Ríos,Babahoyo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,29,Cardiovascular,1.0,Hospital_4
+Mujer,60.0,Mestizo (a),Si,Casado (a),Primaria,Carchi,Carchi,Tulcán,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,8,Cancer,1.0,Hospital_4
+Hombre,69.0,Mestizo (a),Si,Casado (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Diciembre,19,Cancer,1.0,Hospital_4
+Hombre,67.0,Afroecuatoriano (a) /Afrodescendiente,Si,Soltero (a),Ninguno,Santo Domingo de los Tsáchilas,Pichincha,Quito,Urbano,Rural,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,25,Cancer,1.0,Hospital_4
+Hombre,69.0,Mestizo (a),Si,Casado (a),Primaria,Loja,Loja,Loja,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,14,Cardiovascular,1.0,Hospital_4
+Hombre,66.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Diciembre,3,Cancer,1.0,Hospital_4
+Mujer,53.0,Mestizo (a),,Casado (a),,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,7,Cancer,1.0,Hospital_4
+Mujer,63.0,Mestizo (a),Si,Soltero (a),Primaria,Cañar,Azuay,Cuenca,Rural,Urbano,Establecimientos del IESS,,,No,No residente,2024,Julio,25,Cancer,1.0,Hospital_4
+Hombre,45.0,Mestizo (a),Si,Casado (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Abril,12,Cancer,1.0,Hospital_4
+Hombre,56.0,Afroecuatoriano (a) /Afrodescendiente,Si,Soltero (a),Primaria,Esmeraldas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,Si,No residente,2024,Enero,6,Cancer,1.0,Hospital_4
+Mujer,56.0,Mestizo (a),,Casado (a),Primaria,Los Ríos,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,17,Cardiovascular,1.0,Hospital_4
+Mujer,67.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Manta,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Septiembre,25,Cardiovascular,1.0,Hospital_4
+Mujer,50.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,23,Cardiovascular,1.0,Hospital_4
+Mujer,57.0,Mestizo (a),Si,Casado (a),Primaria,Chimborazo,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,15,Cancer,1.0,Hospital_4
+Hombre,45.0,Mestizo (a),Si,Soltero (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,24,Diabetes,1.0,Hospital_4
+Mujer,47.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,12,Cancer,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),Si,Casado (a),,Guayas,Guayas,Durán,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,29,Cardiovascular,1.0,Hospital_4
+Mujer,65.0,Mestizo (a),Si,Casado (a),Primaria,Tungurahua,Tungurahua,Ambato,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,12,Cardiovascular,1.0,Hospital_4
+Hombre,69.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Manta,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Febrero,3,Diabetes,1.0,Hospital_4
+Mujer,41.0,Mestizo (a),Si,Soltero (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Mayo,13,Cancer,1.0,Hospital_4
+Hombre,58.0,Mestizo (a),Si,Casado (a),Secundaria,Loja,Loja,Loja,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,1,Cancer,1.0,Hospital_4
+Mujer,68.0,Afroecuatoriano (a) /Afrodescendiente,Si,Soltero (a),Secundaria,Esmeraldas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Julio,15,Cardiovascular,1.0,Hospital_4
+Mujer,48.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,17,Cardiovascular,1.0,Hospital_4
+Hombre,63.0,Mestizo (a),Si,Viudo (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,28,Diabetes,1.0,Hospital_4
+Mujer,47.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Rural,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Enero,30,Cancer,1.0,Hospital_4
+Hombre,49.0,Mestizo (a),Si,Soltero (a),Educación Básica,Esmeraldas,Esmeraldas,Esmeraldas,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,6,Cancer,1.0,Hospital_4
+Mujer,62.0,,Si,Casado (a),Educación Media / Bachillerato,Guayas,Guayas,Durán,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Julio,1,Chronic_Respiratory,1.0,Hospital_4
+Hombre,43.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Guayas,Guayaquil,Urbano,Urbano,Establecimientos de la Junta de Beneficencia,,,,No residente,2024,Septiembre,29,Cardiovascular,1.0,Hospital_4
+Mujer,56.0,Indígena,No,Casado (a),Ninguno,Imbabura,Imbabura,Ibarra,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,5,Cancer,1.0,Hospital_4
+Mujer,55.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Milagro,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,28,Cardiovascular,1.0,Hospital_4
+Hombre,48.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Tungurahua,Tungurahua,Ambato,Rural,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Enero,20,Cancer,1.0,Hospital_4
+Mujer,45.0,Mestizo (a),,,,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,Si,Residente,2024,Octubre,4,Cardiovascular,1.0,Hospital_4
+Hombre,45.0,Mestizo (a),Si,Soltero (a),Superior universitario,Manabí,Manabí,Manta,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Abril,19,Cancer,1.0,Hospital_4
+Mujer,63.0,Mestizo (a),Si,Soltero (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos de la Junta de Beneficencia,,,,Residente,2024,Mayo,12,Cancer,1.0,Hospital_4
+Mujer,67.0,Afroecuatoriano (a) /Afrodescendiente,Si,Soltero (a),Educación Básica,Esmeraldas,Esmeraldas,Esmeraldas,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,16,Diabetes,1.0,Hospital_4
+Hombre,66.0,Mestizo (a),Si,Divorciado (a),Superior universitario,El Oro,El Oro,Machala,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Abril,13,Diabetes,1.0,Hospital_4
+Mujer,54.0,Mestizo (a),Si,Divorciado (a),Superior universitario,Sucumbíos,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Agosto,19,Cancer,1.0,Hospital_4
+Mujer,69.0,Mestizo (a),Si,Soltero (a),Superior universitario,Pichincha,Pichincha,Quito,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Abril,21,Cardiovascular,1.0,Hospital_4
+Hombre,63.0,Mestizo (a),Si,Casado (a),Primaria,Tungurahua,Tungurahua,Ambato,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,29,Diabetes,1.0,Hospital_4
+Hombre,63.0,Mestizo (a),Si,Soltero (a),Educación Básica,Guayas,Guayas,Guayaquil,Rural,Urbano,Establecimientos de la Junta de Beneficencia,,,,No residente,2024,Marzo,18,Diabetes,1.0,Hospital_4
+Mujer,67.0,Mestizo (a),Si,Casado (a),Primaria,Chimborazo,Chimborazo,Riobamba,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,22,Cardiovascular,1.0,Hospital_4
+Mujer,69.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,28,Cardiovascular,1.0,Hospital_4
+Hombre,68.0,Montubio (a),,Casado (a),,Los Ríos,Los Ríos,Babahoyo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Julio,12,Cardiovascular,1.0,Hospital_4
+Mujer,41.0,Mestizo (a),Si,Soltero (a),,Los Ríos,Guayas,Guayaquil,Urbano,Urbano,Establecimientos de la Junta de Beneficencia,,,,No residente,2024,Noviembre,16,Cancer,1.0,Hospital_4
+Hombre,33.0,Indígena,Si,Soltero (a),Educación Media / Bachillerato,Napo,Napo,Tena,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,14,Cardiovascular,1.0,Hospital_4
+Hombre,37.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Los Ríos,Los Ríos,Babahoyo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,25,Cardiovascular,1.0,Hospital_4
+Mujer,63.0,Indígena,Si,Divorciado (a),Primaria,Imbabura,Imbabura,Ibarra,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Abril,14,Cancer,1.0,Hospital_4
+Hombre,41.0,Mestizo (a),Si,Divorciado (a),Primaria,Manabí,Manabí,Manta,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,4,Cardiovascular,1.0,Hospital_4
+Mujer,68.0,Mestizo (a),Si,Soltero (a),Educación Básica,Los Ríos,Los Ríos,Vinces,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,31,Cancer,1.0,Hospital_4
+Mujer,61.0,Mestizo (a),Si,Divorciado (a),Secundaria,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Octubre,10,Cancer,1.0,Hospital_4
+Mujer,60.0,Mestizo (a),Si,Viudo (a),Primaria,Loja,Azuay,Cuenca,Rural,Urbano,Establecimientos del IESS,,,No,No residente,2024,Enero,31,Cardiovascular,1.0,Hospital_4
+Mujer,63.0,Mestizo (a),Si,Soltero (a),Educación Básica,Los Ríos,Los Ríos,Babahoyo,Rural,Urbano,Establecimientos del IESS,,,No,No residente,2024,Agosto,14,Diabetes,1.0,Hospital_4
+Hombre,62.0,Mestizo (a),Si,Soltero (a),Superior no universitario,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Noviembre,6,Diabetes,1.0,Hospital_4
+Mujer,37.0,Mestizo (a),No,Soltero (a),Ninguno,Los Ríos,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,14,Cancer,1.0,Hospital_4
+Hombre,43.0,Mestizo (a),Si,Soltero (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,9,Cardiovascular,1.0,Hospital_4
+Hombre,64.0,Mestizo (a),Si,Casado (a),Secundaria,Guayas,Guayas,Daule,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,10,Cardiovascular,1.0,Hospital_4
+Mujer,65.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Febrero,26,Cancer,1.0,Hospital_4
+Mujer,68.0,Mestizo (a),Si,Soltero (a),Superior universitario,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos de la Junta de Beneficencia,,,No,Residente,2024,Diciembre,13,Cancer,1.0,Hospital_4
+Hombre,37.0,Mestizo (a),Si,Soltero (a),Superior universitario,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,18,Cardiovascular,1.0,Hospital_4
+Mujer,68.0,Mestizo (a),Si,Divorciado (a),Primaria,Carchi,Pichincha,Quito,Rural,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Agosto,22,Diabetes,1.0,Hospital_4
+Hombre,67.0,Mestizo (a),Si,Casado (a),Primaria,Esmeraldas,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Julio,20,Cancer,1.0,Hospital_4
+Hombre,63.0,Mestizo (a),Si,Casado (a),Superior universitario,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Febrero,6,Cancer,1.0,Hospital_4
+Mujer,58.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,26,Cardiovascular,1.0,Hospital_4
+Hombre,68.0,,Si,,Secundaria,Los Ríos,Los Ríos,Quevedo,Urbano,Urbano,Establecimientos del IESS,,,,Residente,2024,Enero,6,Cancer,1.0,Hospital_4
+Mujer,65.0,Mestizo (a),Si,Soltero (a),Superior universitario,Pichincha,Pichincha,Quito,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Enero,8,Cancer,1.0,Hospital_4
+Hombre,68.0,,Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Septiembre,6,Cardiovascular,1.0,Hospital_4
+Hombre,61.0,Mestizo (a),Si,Casado (a),,Pichincha,Pichincha,Quito,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Junio,30,Cancer,1.0,Hospital_4
+Hombre,65.0,Blanco (a),Si,Divorciado (a),Superior universitario,Azuay,Azuay,Girón,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,24,Diabetes,1.0,Hospital_4
+Hombre,51.0,Mestizo (a),Si,Casado (a),Secundaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,11,Cancer,1.0,Hospital_4
+Mujer,47.0,Mestizo (a),Si,Soltero (a),Secundaria,Cañar,Azuay,Cuenca,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Mayo,16,Cancer,1.0,Hospital_4
+Mujer,51.0,Mestizo (a),Si,Soltero (a),Primaria,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Diciembre,29,Cardiovascular,1.0,Hospital_4
+Hombre,66.0,Mestizo (a),Si,Casado (a),Superior universitario,Pichincha,Pichincha,Quito,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Agosto,14,Cardiovascular,1.0,Hospital_4
+Mujer,36.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos de la Junta de Beneficencia,,,No,Residente,2024,Enero,30,Cardiovascular,1.0,Hospital_4
+Hombre,34.0,Mestizo (a),Si,Casado (a),Primaria,Los Ríos,Cotopaxi,Latacunga,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,12,Cancer,1.0,Hospital_4
+Mujer,66.0,Mestizo (a),Si,Viudo (a),Primaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Abril,12,Cardiovascular,1.0,Hospital_4
+Mujer,60.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Milagro,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Septiembre,8,Cancer,1.0,Hospital_4
+Hombre,58.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,19,Cardiovascular,1.0,Hospital_4
+Mujer,68.0,Mestizo (a),Si,Soltero (a),Superior universitario,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Marzo,17,Cardiovascular,1.0,Hospital_4
+Mujer,35.0,Mestizo (a),,Soltero (a),,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,5,Cardiovascular,1.0,Hospital_4
+Hombre,61.0,Afroecuatoriano (a) /Afrodescendiente,Si,Casado (a),Secundaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,20,Cardiovascular,1.0,Hospital_4
+Hombre,40.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Febrero,16,Diabetes,1.0,Hospital_4
+Hombre,69.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Julio,18,Cancer,1.0,Hospital_4
+Mujer,65.0,Mestizo (a),Si,Soltero (a),Centro de alfabetización,Manabí,Manabí,Manta,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,7,Chronic_Respiratory,1.0,Hospital_4
+Hombre,53.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Pichincha,Pichincha,Quito,Urbano,Urbano,Otros establecimientos públicos,,,No,Residente,2024,Junio,19,Cancer,1.0,Hospital_4
+Hombre,62.0,Mestizo (a),Si,Casado (a),Superior universitario,Manabí,Manabí,Chone,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Noviembre,25,Cancer,1.0,Hospital_4
+Hombre,52.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Febrero,4,Cancer,1.0,Hospital_4
+Hombre,58.0,Mestizo (a),Si,Viudo (a),Educación Básica,Chimborazo,Chimborazo,Riobamba,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,21,Cardiovascular,1.0,Hospital_4
+Mujer,67.0,Mestizo (a),No,Divorciado (a),Ninguno,Azuay,Azuay,Cuenca,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,19,Cancer,1.0,Hospital_4
+Hombre,61.0,Mestizo (a),Si,Casado (a),Primaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,29,Cancer,1.0,Hospital_4
+Hombre,54.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,7,Cardiovascular,1.0,Hospital_4
+Mujer,65.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Septiembre,25,Cardiovascular,1.0,Hospital_4
+Hombre,57.0,Indígena,No,Casado (a),Ninguno,Bolívar,Bolívar,Guaranda,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Octubre,17,Diabetes,1.0,Hospital_4
+Mujer,64.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Diciembre,19,Cancer,1.0,Hospital_4
+Hombre,48.0,Mestizo (a),Si,Divorciado (a),Superior universitario,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,7,Cardiovascular,1.0,Hospital_4
+Hombre,63.0,Mestizo (a),Si,Casado (a),Primaria,Cañar,Cañar,Azogues,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,3,Cancer,1.0,Hospital_4
+Mujer,65.0,Mestizo (a),Si,Soltero (a),Educación Básica,Guayas,Guayas,Milagro,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Mayo,2,Cancer,1.0,Hospital_4
+Mujer,53.0,Indígena,No,Casado (a),Ninguno,Imbabura,Imbabura,Otavalo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,7,Cardiovascular,1.0,Hospital_4
+Mujer,63.0,Mestizo (a),Si,Casado (a),Educación Básica,Santo Domingo de los Tsáchilas,Manabí,Portoviejo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Abril,24,Cancer,1.0,Hospital_4
+Hombre,57.0,Mestizo (a),Si,Casado (a),Centro de alfabetización,Manabí,Manabí,Chone,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,23,Cardiovascular,1.0,Hospital_4
+Mujer,56.0,Mestizo (a),Si,Soltero (a),Superior universitario,Tungurahua,Tungurahua,Ambato,Rural,Urbano,Establecimientos del IESS,,,No,No residente,2024,Abril,25,Diabetes,1.0,Hospital_4
+Mujer,36.0,Afroecuatoriano (a) /Afrodescendiente,Si,Casado (a),Primaria,Carchi,Pichincha,Quito,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,2,Cancer,1.0,Hospital_4
+Mujer,61.0,Mestizo (a),Si,Soltero (a),Superior universitario,Loja,Loja,Loja,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Junio,29,Cancer,1.0,Hospital_4
+Hombre,69.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,2,Cardiovascular,1.0,Hospital_4
+Hombre,64.0,Mestizo (a),Si,Casado (a),Primaria,El Oro,El Oro,Machala,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,6,Diabetes,1.0,Hospital_4
+Hombre,58.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Pichincha,Pichincha,Quito,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Mayo,29,Cancer,1.0,Hospital_4
+Mujer,59.0,Mestizo (a),Si,Soltero (a),Primaria,Los Ríos,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,14,Cardiovascular,1.0,Hospital_4
+Mujer,64.0,Mestizo (a),Si,Divorciado (a),Superior universitario,Pichincha,Pichincha,Quito,Urbano,Rural,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Agosto,15,Cardiovascular,1.0,Hospital_4
+Hombre,59.0,Mestizo (a),Si,Casado (a),,Santa Elena,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,28,Cancer,1.0,Hospital_4
+Mujer,63.0,Mestizo (a),No,Soltero (a),Ninguno,Los Ríos,Los Ríos,Urdaneta,Urbano,Rural,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,27,Cardiovascular,1.0,Hospital_4
+Hombre,80.0,Mestizo (a),Si,Viudo (a),Primaria,Tungurahua,Tungurahua,Ambato,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,1,Cancer,0.0,Hospital_4
+Mujer,59.0,Mestizo (a),Si,Divorciado (a),Superior universitario,Azuay,Azuay,Cuenca,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Abril,2,Cancer,1.0,Hospital_4
+Hombre,61.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,Guayas,Durán,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Septiembre,28,Cardiovascular,1.0,Hospital_4
+Mujer,38.0,Mestizo (a),Si,Casado (a),Secundaria,Pichincha,Pichincha,Quito,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Enero,30,Cancer,1.0,Hospital_4
+Hombre,56.0,Mestizo (a),Si,Divorciado (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Abril,19,Cancer,1.0,Hospital_4
+Hombre,56.0,,Si,Casado (a),Primaria,Los Ríos,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Febrero,1,Cardiovascular,1.0,Hospital_4
+Hombre,63.0,Mestizo (a),Si,Divorciado (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,28,Cancer,1.0,Hospital_4
+Hombre,53.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,11,Cardiovascular,1.0,Hospital_4
+Hombre,50.0,Mestizo (a),Si,Soltero (a),Secundaria,Tungurahua,Tungurahua,Ambato,Urbano,Rural,"Hospital, clínica o consultorio privado",,,,Residente,2024,Abril,9,Cancer,1.0,Hospital_4
+Mujer,69.0,Mestizo (a),Si,Casado (a),Primaria,Santo Domingo de los Tsáchilas,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,12,Cancer,1.0,Hospital_4
+Hombre,69.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Los Ríos,Quevedo,Urbano,Urbano,Establecimientos del IESS,,,,No residente,2024,Septiembre,26,Cardiovascular,1.0,Hospital_4
+Hombre,59.0,Mestizo (a),Si,Divorciado (a),Educación Media / Bachillerato,Los Ríos,Los Ríos,Quevedo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Abril,6,Diabetes,1.0,Hospital_4
+Hombre,44.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Mayo,9,Diabetes,1.0,Hospital_4
+Hombre,58.0,Mestizo (a),No,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,14,Cardiovascular,1.0,Hospital_4
+Mujer,46.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Pichincha,Pichincha,Quito,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Mayo,31,Cancer,1.0,Hospital_4
+Hombre,56.0,,,,,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Marzo,6,Cardiovascular,1.0,Hospital_4
+Mujer,66.0,Mestizo (a),No,Soltero (a),Ninguno,Los Ríos,Los Ríos,Vinces,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,27,Diabetes,1.0,Hospital_4
+Mujer,43.0,Mestizo (a),Si,Casado (a),Superior universitario,Esmeraldas,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Noviembre,19,Cancer,1.0,Hospital_4
+Mujer,44.0,Indígena,Si,Casado (a),Secundaria,Imbabura,Imbabura,Ibarra,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Junio,24,Cardiovascular,1.0,Hospital_4
+Hombre,53.0,Mestizo (a),Si,Casado (a),Superior universitario,Guayas,Azuay,Cuenca,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Octubre,14,Cardiovascular,1.0,Hospital_4
+Hombre,56.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Jipijapa,Rural,Urbano,Establecimientos del IESS,,,,Residente,2024,Septiembre,5,Cardiovascular,1.0,Hospital_4
+Mujer,49.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,13,Diabetes,1.0,Hospital_4
+Mujer,61.0,Mestizo (a),Si,Casado (a),Primaria,Loja,Azuay,Cuenca,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Mayo,25,Cardiovascular,1.0,Hospital_4
+Mujer,51.0,Mestizo (a),Si,Divorciado (a),Primaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,29,Cardiovascular,1.0,Hospital_4
+Hombre,47.0,Mestizo (a),Si,Soltero (a),Primaria,Los Ríos,Los Ríos,Babahoyo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,15,Cardiovascular,1.0,Hospital_4
+Mujer,66.0,Mestizo (a),Si,Casado (a),Primaria,Tungurahua,Tungurahua,Ambato,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,9,Cardiovascular,1.0,Hospital_4
+Mujer,39.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Rural,Urbano,Establecimientos de la Junta de Beneficencia,,,,No residente,2024,Agosto,24,Cardiovascular,1.0,Hospital_4
+Hombre,66.0,Mestizo (a),Si,Soltero (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,22,Cardiovascular,1.0,Hospital_4
+Mujer,67.0,Mestizo (a),Si,Casado (a),Secundaria,Azuay,Azuay,Cuenca,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Septiembre,20,Cancer,1.0,Hospital_4
+Hombre,67.0,Mestizo (a),Si,Divorciado (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Abril,6,Cancer,1.0,Hospital_4
+Mujer,62.0,Mestizo (a),Si,Viudo (a),Educación Básica,Santo Domingo de los Tsáchilas,Manabí,Portoviejo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Febrero,6,Cancer,1.0,Hospital_4
+Hombre,43.0,Mestizo (a),Si,Soltero (a),Primaria,Loja,Pichincha,Quito,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,31,Cancer,1.0,Hospital_4
+Hombre,41.0,Mestizo (a),Si,Casado (a),Primaria,Los Ríos,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Enero,3,Cardiovascular,1.0,Hospital_4
+Mujer,47.0,Mestizo (a),Si,Casado (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,11,Cardiovascular,1.0,Hospital_4
+Mujer,68.0,Mestizo (a),Si,Viudo (a),Educación Básica,Tungurahua,Tungurahua,Ambato,Rural,Rural,"Hospital, clínica o consultorio privado",,,,Residente,2024,Octubre,21,Diabetes,1.0,Hospital_4
+Mujer,61.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Enero,24,Cancer,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Pastaza,Pastaza,Pastaza,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Noviembre,12,Cancer,1.0,Hospital_4
+Mujer,53.0,Afroecuatoriano (a) /Afrodescendiente,Si,Casado (a),Superior universitario,Esmeraldas,Esmeraldas,Esmeraldas,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,28,Diabetes,1.0,Hospital_4
+Mujer,67.0,Mestizo (a),Si,Casado (a),Secundaria,Pichincha,Pichincha,Quito,Rural,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Agosto,23,Chronic_Respiratory,1.0,Hospital_4
+Hombre,61.0,,Si,Casado (a),Educación Básica,Los Ríos,Los Ríos,Babahoyo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Marzo,14,Cardiovascular,1.0,Hospital_4
+Mujer,41.0,Mestizo (a),Si,Casado (a),Secundaria,Chimborazo,Chimborazo,Riobamba,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Agosto,8,Cancer,1.0,Hospital_4
+Mujer,50.0,Indígena,No,Casado (a),Ninguno,Chimborazo,Guayas,Guayaquil,Urbano,Urbano,Establecimientos de la Junta de Beneficencia,,,,No residente,2024,Julio,8,Cancer,1.0,Hospital_4
+Hombre,59.0,,,Divorciado (a),,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Enero,2,Cardiovascular,1.0,Hospital_4
+Hombre,56.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,13,Cardiovascular,1.0,Hospital_4
+Hombre,69.0,Mestizo (a),Si,Casado (a),Primaria,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,4,Cardiovascular,1.0,Hospital_4
+Mujer,52.0,Mestizo (a),Si,Casado (a),Educación Básica,Pichincha,Pichincha,Quito,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,7,Cancer,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),Si,Casado (a),Primaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,26,Diabetes,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),Si,Casado (a),Superior universitario,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,,Residente,2024,Mayo,6,Cancer,1.0,Hospital_4
+Hombre,64.0,Mestizo (a),Si,Casado (a),Primaria,Tungurahua,Tungurahua,Ambato,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Mayo,9,Cancer,1.0,Hospital_4
+Hombre,59.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,,Residente,2024,Febrero,6,Cancer,1.0,Hospital_4
+Mujer,81.0,Mestizo (a),Si,Soltero (a),Primaria,Los Ríos,Los Ríos,Babahoyo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,13,Diabetes,0.0,Hospital_4
+Hombre,62.0,Mestizo (a),Si,Soltero (a),Educación Básica,Tungurahua,Tungurahua,Ambato,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,11,Cancer,1.0,Hospital_4
+Hombre,42.0,Mestizo (a),Si,Casado (a),Superior universitario,El Oro,El Oro,Machala,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Diciembre,19,Cancer,1.0,Hospital_4
+Mujer,69.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Otros establecimientos públicos,,,,Residente,2024,Mayo,6,Cancer,1.0,Hospital_4
+Hombre,57.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Manta,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,13,Cardiovascular,1.0,Hospital_4
+Hombre,35.0,Indígena,Si,Soltero (a),Secundaria,Imbabura,Imbabura,Ibarra,Rural,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Septiembre,8,Cancer,1.0,Hospital_4
+Mujer,52.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Marzo,11,Cardiovascular,1.0,Hospital_4
+Hombre,69.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Noviembre,15,Cancer,1.0,Hospital_4
+Mujer,69.0,Mestizo (a),Si,Casado (a),Primaria,Azuay,Azuay,Cuenca,Rural,Urbano,Establecimientos del IESS,,,No,Residente,2024,Diciembre,10,Cancer,1.0,Hospital_4
+Mujer,64.0,Negro (a),Si,Soltero (a),Ninguno,Esmeraldas,Esmeraldas,San Lorenzo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,22,Diabetes,1.0,Hospital_4
+Hombre,57.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,5,Diabetes,1.0,Hospital_4
+Mujer,56.0,Indígena,Si,Casado (a),Primaria,Pichincha,Pichincha,Quito,Rural,Rural,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,23,Cardiovascular,1.0,Hospital_4
+Hombre,39.0,Mestizo (a),Si,Soltero (a),Primaria,Esmeraldas,Esmeraldas,Esmeraldas,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,16,Cardiovascular,1.0,Hospital_4
+Hombre,64.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Guayaquil,Rural,Urbano,Establecimientos del IESS,,,No,No residente,2024,Mayo,3,Diabetes,1.0,Hospital_4
+Mujer,52.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Pastaza,Pastaza,Pastaza,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,14,Cancer,1.0,Hospital_4
+Hombre,34.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Pichincha,Pichincha,Quito,Rural,Urbano,Establecimientos del IESS,,,No,Residente,2024,Junio,3,Cancer,1.0,Hospital_4
+Mujer,61.0,Mestizo (a),Si,Casado (a),Educación Básica,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,17,Cardiovascular,1.0,Hospital_4
+Mujer,59.0,Mestizo (a),Si,Casado (a),Superior no universitario,Manabí,Manabí,Chone,Urbano,Urbano,Establecimientos del IESS,,,,Residente,2024,Mayo,8,Cancer,1.0,Hospital_4
+Hombre,66.0,Mestizo (a),Si,Casado (a),Superior universitario,Pichincha,Pichincha,Quito,Rural,Rural,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Enero,23,Cardiovascular,1.0,Hospital_4
+Hombre,53.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Guayas,Guayas,Durán,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,10,Cardiovascular,1.0,Hospital_4
+Mujer,46.0,Mestizo (a),Si,Unión de hecho,Educación Básica,Orellana,Orellana,Orellana,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,1,Cancer,1.0,Hospital_4
+Mujer,54.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Octubre,14,Cancer,1.0,Hospital_4
+Hombre,52.0,Mestizo (a),Si,Divorciado (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,2,Cardiovascular,1.0,Hospital_4
+Mujer,49.0,Mestizo (a),Si,Casado (a),Secundaria,Loja,Loja,Loja,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,7,Cancer,1.0,Hospital_4
+Hombre,56.0,Mestizo (a),Si,Casado (a),Primaria,Loja,Loja,Loja,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,25,Cardiovascular,1.0,Hospital_4
+Mujer,61.0,Indígena,Si,Soltero (a),Primaria,Cotopaxi,Tungurahua,Ambato,Urbano,Rural,"Hospital, clínica o consultorio privado",,,,No residente,2024,Julio,23,Cancer,1.0,Hospital_4
+Hombre,51.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Manta,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,19,Cancer,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),Si,Casado (a),Superior universitario,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,28,Cardiovascular,1.0,Hospital_4
+Mujer,65.0,Mestizo (a),Si,Casado (a),Educación Básica,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Abril,8,Diabetes,1.0,Hospital_4
+Hombre,59.0,Mestizo (a),Si,Viudo (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,16,Diabetes,1.0,Hospital_4
+Mujer,64.0,,,,,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Mayo,25,Cardiovascular,1.0,Hospital_4
+Mujer,65.0,Mestizo (a),Si,Soltero (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,6,Cardiovascular,1.0,Hospital_4
+Mujer,66.0,Montubio (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Manta,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Junio,12,Cardiovascular,1.0,Hospital_4
+Hombre,52.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos de la Junta de Beneficencia,,,No,No residente,2024,Septiembre,9,Cardiovascular,1.0,Hospital_4
+Mujer,51.0,Mestizo (a),Si,Casado (a),Primaria,Guayas,Guayas,Guayaquil,Rural,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Octubre,13,Cancer,1.0,Hospital_4
+Hombre,64.0,Blanco (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Jipijapa,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Abril,20,Cardiovascular,1.0,Hospital_4
+Hombre,65.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Julio,29,Cancer,1.0,Hospital_4
+Mujer,67.0,Mestizo (a),Si,Soltero (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,4,Cardiovascular,1.0,Hospital_4
+Mujer,51.0,Mestizo (a),No,Casado (a),Ninguno,Manabí,Manabí,Chone,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,20,Cardiovascular,1.0,Hospital_4
+Mujer,42.0,Indígena,Si,Casado (a),Primaria,Cotopaxi,Tungurahua,Ambato,Urbano,Rural,"Hospital, clínica o consultorio privado",,,,No residente,2024,Enero,19,Cancer,1.0,Hospital_4
+Hombre,66.0,Blanco (a),Si,Soltero (a),Educación Media / Bachillerato,Santa Elena,Santa Elena,Salinas,Urbano,Rural,"Hospital, clínica o consultorio privado",,,,Residente,2024,Enero,17,Cardiovascular,1.0,Hospital_4
+Mujer,57.0,Negro (a),Si,Casado (a),Secundaria,Esmeraldas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Julio,31,Cardiovascular,1.0,Hospital_4
+Hombre,52.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Bolívar,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Octubre,3,Cancer,1.0,Hospital_4
+Mujer,61.0,Mestizo (a),Si,Casado (a),Secundaria,Esmeraldas,Esmeraldas,Esmeraldas,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Febrero,15,Cardiovascular,1.0,Hospital_4
+Hombre,69.0,,,,,Guayas,Guayas,Durán,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Septiembre,16,Cardiovascular,1.0,Hospital_4
+Hombre,65.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Marzo,12,Diabetes,1.0,Hospital_4
+Mujer,46.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,24,Diabetes,1.0,Hospital_4
+Hombre,36.0,Mestizo (a),Si,Soltero (a),Secundaria,Santa Elena,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,22,Cancer,1.0,Hospital_4
+Hombre,63.0,Mestizo (a),Si,Soltero (a),Secundaria,Esmeraldas,Esmeraldas,Quininde,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,12,Cardiovascular,1.0,Hospital_4
+Hombre,62.0,Mestizo (a),Si,Viudo (a),Superior universitario,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,,Residente,2024,Febrero,11,Cardiovascular,1.0,Hospital_4
+Mujer,67.0,Mestizo (a),Si,Casado (a),Secundaria,Cotopaxi,Cotopaxi,Latacunga,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,3,Cardiovascular,1.0,Hospital_4
+Mujer,55.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,17,Cardiovascular,1.0,Hospital_4
+Mujer,61.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Noviembre,20,Cancer,1.0,Hospital_4
+Mujer,65.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Imbabura,Imbabura,Ibarra,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Diciembre,31,Cardiovascular,1.0,Hospital_4
+Mujer,59.0,Mestizo (a),Si,Casado (a),Superior universitario,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,19,Cancer,1.0,Hospital_4
+Mujer,55.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,13,Cardiovascular,1.0,Hospital_4
+Mujer,61.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Manta,Rural,Urbano,Establecimientos del IESS,,,No,No residente,2024,Diciembre,2,Diabetes,1.0,Hospital_4
+Hombre,48.0,Mestizo (a),Si,Soltero (a),Educación Básica,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,14,Cancer,1.0,Hospital_4
+Hombre,42.0,Afroecuatoriano (a) /Afrodescendiente,Si,Casado (a),Educación Básica,Imbabura,Imbabura,Ibarra,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,19,Cancer,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Manta,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,15,Diabetes,1.0,Hospital_4
+Mujer,66.0,Mestizo (a),Si,Soltero (a),Primaria,Loja,Loja,Loja,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,10,Cardiovascular,1.0,Hospital_4
+Mujer,67.0,Mestizo (a),Si,Casado (a),Superior universitario,Bolívar,Tungurahua,Ambato,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Enero,7,Cardiovascular,1.0,Hospital_4
+Mujer,55.0,Mestizo (a),Si,Soltero (a),Primaria,Sucumbíos,Sucumbíos,Shushufindi,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,18,Cardiovascular,1.0,Hospital_4
+Mujer,50.0,Mestizo (a),Si,Casado (a),Primaria,Imbabura,Pichincha,Quito,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,2,Cancer,1.0,Hospital_4
+Hombre,66.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Los Ríos,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Diciembre,13,Cancer,1.0,Hospital_4
+Mujer,64.0,Mestizo (a),Si,Soltero (a),Educación Básica,Pichincha,Pichincha,Quito,Rural,Urbano,Establecimientos del IESS,,,No,Residente,2024,Octubre,23,Cancer,1.0,Hospital_4
+Mujer,53.0,Mestizo (a),Si,Casado (a),Primaria,Pichincha,Pichincha,Quito,Rural,Rural,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,28,Cancer,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),Si,Soltero (a),Superior no universitario,El Oro,El Oro,Machala,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Marzo,7,Cancer,1.0,Hospital_4
+Hombre,55.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Manta,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Enero,9,Diabetes,1.0,Hospital_4
+Hombre,30.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,17,Cardiovascular,1.0,Hospital_4
+Mujer,63.0,Indígena,No,Casado (a),Ninguno,Pichincha,Pichincha,Quito,Rural,Rural,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,3,Cardiovascular,1.0,Hospital_4
+Mujer,67.0,Mestizo (a),Si,Divorciado (a),Educación Media / Bachillerato,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Septiembre,28,Cancer,1.0,Hospital_4
+Hombre,54.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Azuay,Azuay,Cuenca,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,10,Cardiovascular,1.0,Hospital_4
+Mujer,62.0,Mestizo (a),Si,Casado (a),Secundaria,Tungurahua,Tungurahua,Ambato,Rural,Rural,"Hospital, clínica o consultorio privado",,,,Residente,2024,Agosto,13,Cancer,1.0,Hospital_4
+Mujer,64.0,Mestizo (a),Si,Soltero (a),Secundaria,El Oro,El Oro,Machala,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Diciembre,11,Cancer,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Chimborazo,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,28,Cancer,1.0,Hospital_4
+Hombre,47.0,Mestizo (a),Si,Soltero (a),Secundaria,Bolívar,Los Ríos,Quevedo,Rural,Urbano,Establecimientos del IESS,,,No,No residente,2024,Diciembre,24,Diabetes,1.0,Hospital_4
+Hombre,62.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,22,Diabetes,1.0,Hospital_4
+Hombre,64.0,Mestizo (a),Si,Casado (a),Educación Básica,Bolívar,Chimborazo,Riobamba,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,20,Cancer,1.0,Hospital_4
+Hombre,69.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,Guayas,El Triunfo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Abril,26,Cardiovascular,1.0,Hospital_4
+Hombre,47.0,Afroecuatoriano (a) /Afrodescendiente,Si,Casado (a),Educación Media / Bachillerato,Imbabura,Imbabura,Ibarra,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,Si,Residente,2024,Agosto,18,Cardiovascular,1.0,Hospital_4
+Mujer,51.0,Mestizo (a),Si,Soltero (a),Primaria,Tungurahua,Tungurahua,Ambato,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,18,Cancer,1.0,Hospital_4
+Mujer,66.0,Mestizo (a),Si,Casado (a),Secundaria,Los Ríos,Los Ríos,Babahoyo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Junio,10,Cardiovascular,1.0,Hospital_4
+Mujer,55.0,Mestizo (a),Si,Casado (a),Centro de alfabetización,Chimborazo,Chimborazo,Riobamba,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,22,Cancer,1.0,Hospital_4
+Mujer,68.0,Mestizo (a),Si,Casado (a),Superior universitario,Loja,Chimborazo,Chunchi,Urbano,Rural,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Agosto,10,Cancer,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),Si,Unión de hecho,Primaria,El Oro,El Oro,Machala,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Mayo,7,Cardiovascular,1.0,Hospital_4
+Mujer,55.0,Mestizo (a),Si,Casado (a),Primaria,Azuay,Azuay,Cuenca,Rural,Urbano,Establecimientos del IESS,,,No,No residente,2024,Noviembre,24,Cancer,1.0,Hospital_4
+Mujer,64.0,Mestizo (a),Si,Divorciado (a),Superior universitario,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Junio,13,Cancer,1.0,Hospital_4
+Mujer,65.0,Mestizo (a),Si,Casado (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos de la Junta de Beneficencia,,,,Residente,2024,Octubre,6,Cardiovascular,1.0,Hospital_4
+Mujer,62.0,Mestizo (a),Si,Casado (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Agosto,13,Cancer,1.0,Hospital_4
+Mujer,52.0,Mestizo (a),Si,Soltero (a),Primaria,Tungurahua,Tungurahua,Ambato,Rural,Rural,"Hospital, clínica o consultorio privado",,,,Residente,2024,Noviembre,10,Cancer,1.0,Hospital_4
+Hombre,65.0,Montubio (a),Si,Soltero (a),Educación Básica,Los Ríos,Los Ríos,Vinces,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,13,Cardiovascular,1.0,Hospital_4
+Mujer,67.0,Mestizo (a),Si,Soltero (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,25,Diabetes,1.0,Hospital_4
+Mujer,69.0,Mestizo (a),Si,Soltero (a),Primaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,26,Cardiovascular,1.0,Hospital_4
+Hombre,53.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Abril,26,Cardiovascular,1.0,Hospital_4
+Hombre,67.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Cotopaxi,Cotopaxi,Latacunga,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Junio,4,Cardiovascular,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),Si,Soltero (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Octubre,1,Cardiovascular,1.0,Hospital_4
+Hombre,55.0,Blanco (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Santo Domingo de los Tsáchilas,Santo Domingo,Rural,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Noviembre,19,Cancer,1.0,Hospital_4
+Mujer,52.0,Mestizo (a),Si,Casado (a),Secundaria,Tungurahua,Tungurahua,Ambato,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,24,Cancer,1.0,Hospital_4
+Mujer,48.0,Mestizo (a),Si,Soltero (a),Secundaria,Esmeraldas,Esmeraldas,Atacames,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,10,Cancer,1.0,Hospital_4
+Hombre,63.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,El Oro,Machala,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Febrero,15,Cancer,1.0,Hospital_4
+Mujer,58.0,Mestizo (a),Si,Casado (a),Primaria,Pichincha,Pichincha,Quito,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Abril,26,Cancer,1.0,Hospital_4
+Mujer,41.0,Mestizo (a),Si,Casado (a),Primaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Marzo,12,Cancer,1.0,Hospital_4
+Mujer,66.0,Mestizo (a),Si,Casado (a),Primaria,Tungurahua,Pichincha,Quito,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,1,Cardiovascular,1.0,Hospital_4
+Mujer,44.0,Mestizo (a),Si,Soltero (a),Primaria,Azuay,Azuay,Cuenca,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,1,Cardiovascular,1.0,Hospital_4
+Mujer,58.0,Mestizo (a),Si,Viudo (a),Primaria,Loja,Loja,Loja,Rural,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Mayo,1,Cardiovascular,1.0,Hospital_4
+Hombre,35.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Pichincha,Pichincha,Quito,Rural,Urbano,Establecimientos del IESS,,,,Residente,2024,Abril,28,Cancer,1.0,Hospital_4
+Mujer,69.0,Mestizo (a),Si,Casado (a),Primaria,El Oro,El Oro,Machala,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Noviembre,12,Cancer,1.0,Hospital_4
+Hombre,61.0,Negro (a),Si,Casado (a),Secundaria,Esmeraldas,Esmeraldas,Esmeraldas,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,14,Cancer,1.0,Hospital_4
+Mujer,48.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Pichincha,Pichincha,Quito,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Junio,4,Cancer,1.0,Hospital_4
+Mujer,63.0,Mestizo (a),Si,Soltero (a),Superior universitario,Guayas,Guayas,Milagro,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Diciembre,11,Cancer,1.0,Hospital_4
+Mujer,40.0,Mestizo (a),Si,Soltero (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,19,Cardiovascular,1.0,Hospital_4
+Hombre,69.0,Mestizo (a),Si,Soltero (a),Superior universitario,Esmeraldas,Esmeraldas,Esmeraldas,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,18,Cardiovascular,1.0,Hospital_4
+Mujer,61.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,28,Cancer,1.0,Hospital_4
+Hombre,64.0,Mestizo (a),Si,Casado (a),Superior universitario,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Enero,30,Cardiovascular,1.0,Hospital_4
+Mujer,45.0,Mestizo (a),Si,Soltero (a),Primaria,Bolívar,Bolívar,Guaranda,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Enero,7,Cancer,1.0,Hospital_4
+Mujer,67.0,Mestizo (a),Si,Casado (a),Primaria,El Oro,El Oro,Machala,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Enero,21,Cancer,1.0,Hospital_4
+Hombre,64.0,Mestizo (a),Si,Casado (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,25,Cardiovascular,1.0,Hospital_4
+Hombre,46.0,Mestizo (a),Si,Soltero (a),Educación Básica,Esmeraldas,Manabí,Portoviejo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Noviembre,20,Cancer,1.0,Hospital_4
+Hombre,43.0,Mestizo (a),Si,Divorciado (a),Secundaria,Pichincha,Pichincha,Quito,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,21,Cancer,1.0,Hospital_4
+Mujer,68.0,Mestizo (a),Si,Viudo (a),Centro de alfabetización,Los Ríos,Los Ríos,Babahoyo,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Mayo,21,Cardiovascular,1.0,Hospital_4
+Mujer,43.0,Mestizo (a),,Casado (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Octubre,5,Cancer,1.0,Hospital_4
+Hombre,67.0,Mestizo (a),Si,Casado (a),Primaria,El Oro,El Oro,Machala,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Junio,25,Cardiovascular,1.0,Hospital_4
+Hombre,53.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,17,Cardiovascular,1.0,Hospital_4
+Hombre,67.0,Mestizo (a),Si,Casado (a),Superior universitario,Los Ríos,Guayas,Guayaquil,Rural,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Febrero,21,Cancer,1.0,Hospital_4
+Hombre,67.0,Mestizo (a),Si,Casado (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,26,Cancer,1.0,Hospital_4
+Hombre,49.0,Mestizo (a),Si,Soltero (a),Primaria,Tungurahua,Tungurahua,Ambato,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,20,Cardiovascular,1.0,Hospital_4
+Hombre,61.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Mayo,10,Cancer,1.0,Hospital_4
+Hombre,63.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Esmeraldas,Pichincha,Quito,Rural,Urbano,Establecimientos del IESS,,,No,No residente,2024,Diciembre,25,Cancer,1.0,Hospital_4
+Hombre,31.0,Mestizo (a),Si,Casado (a),Secundaria,Sucumbíos,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,,No residente,2024,Mayo,12,Cancer,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos de la Junta de Beneficencia,,,,No residente,2024,Abril,10,Cardiovascular,1.0,Hospital_4
+Mujer,64.0,Mestizo (a),Si,Soltero (a),Educación Básica,El Oro,El Oro,Machala,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Junio,10,Cancer,1.0,Hospital_4
+Mujer,64.0,Mestizo (a),Si,Soltero (a),Primaria,Tungurahua,Tungurahua,Ambato,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,17,Cardiovascular,1.0,Hospital_4
+Mujer,63.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Jipijapa,Rural,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Junio,4,Diabetes,1.0,Hospital_4
+Hombre,64.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Octubre,9,Cancer,1.0,Hospital_4
+Hombre,41.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,26,Cardiovascular,1.0,Hospital_4
+Hombre,60.0,Mestizo (a),Si,Viudo (a),Primaria,Santa Elena,Santa Elena,Santa Elena,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,23,Cancer,1.0,Hospital_4
+Mujer,69.0,Mestizo (a),Si,Divorciado (a),Superior universitario,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,9,Cancer,1.0,Hospital_4
+Mujer,64.0,Mestizo (a),Si,Casado (a),Primaria,Pichincha,Pichincha,Quito,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Octubre,25,Cancer,1.0,Hospital_4
+Mujer,50.0,Indígena,Si,Casado (a),Secundaria,Morona Santiago,Morona Santiago,Gualaquiza,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,27,Diabetes,1.0,Hospital_4
+Hombre,53.0,Mestizo (a),Si,Soltero (a),Educación Básica,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,13,Cardiovascular,1.0,Hospital_4
+Mujer,67.0,Mestizo (a),Si,Soltero (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,2,Diabetes,1.0,Hospital_4
+Mujer,49.0,Mestizo (a),Si,Unión Libre,Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Octubre,1,Cardiovascular,1.0,Hospital_4
+Mujer,66.0,Mestizo (a),Si,Soltero (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,10,Cardiovascular,1.0,Hospital_4
+Hombre,75.0,Mestizo (a),,Soltero (a),Ninguno,Manabí,Manabí,Sucre,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,26,No_NCD,0.0,Hospital_4
+Mujer,62.0,Mestizo (a),Si,Casado (a),Primaria,Cañar,Cañar,La Troncal,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,27,Cardiovascular,1.0,Hospital_4
+Mujer,65.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Guayas,Guayas,Durán,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Noviembre,10,Cardiovascular,1.0,Hospital_4
+Hombre,64.0,Mestizo (a),Si,Soltero (a),Secundaria,Los Ríos,Los Ríos,Quevedo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,19,Cardiovascular,1.0,Hospital_4
+Mujer,64.0,Mestizo (a),Si,Soltero (a),Primaria,Los Ríos,Los Ríos,Babahoyo,Rural,Urbano,Establecimientos del IESS,,,No,No residente,2024,Agosto,2,Cancer,1.0,Hospital_4
+Mujer,61.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Manta,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,5,Cardiovascular,1.0,Hospital_4
+Hombre,61.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Manta,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Mayo,31,Cardiovascular,1.0,Hospital_4
+Hombre,67.0,Mestizo (a),Si,Casado (a),Superior universitario,Pichincha,Pichincha,Quito,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Enero,25,Cardiovascular,1.0,Hospital_4
+Hombre,61.0,Mestizo (a),Si,Divorciado (a),Secundaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,21,Cardiovascular,1.0,Hospital_4
+Hombre,67.0,Mestizo (a),,Viudo (a),,Santa Elena,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,15,Cancer,1.0,Hospital_4
+Hombre,52.0,Mestizo (a),Si,Soltero (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Julio,6,Cardiovascular,1.0,Hospital_4
+Hombre,66.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Esmeraldas,Esmeraldas,Esmeraldas,Rural,Urbano,Establecimientos del IESS,,,No,No residente,2024,Diciembre,21,Cardiovascular,1.0,Hospital_4
+Hombre,65.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,28,Diabetes,1.0,Hospital_4
+Hombre,53.0,Mestizo (a),Si,Divorciado (a),Superior universitario,Pichincha,Pichincha,Pedro Vicente Maldonado,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Mayo,9,Cardiovascular,1.0,Hospital_4
+Hombre,69.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,16,Cancer,1.0,Hospital_4
+Hombre,69.0,Mestizo (a),Si,Casado (a),Primaria,El Oro,El Oro,Machala,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,10,Cardiovascular,1.0,Hospital_4
+Mujer,55.0,,,Casado (a),,Pichincha,Pichincha,Quito,Rural,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Marzo,18,Cancer,1.0,Hospital_4
+Hombre,66.0,Mestizo (a),Si,Casado (a),Superior universitario,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Junio,8,Cancer,1.0,Hospital_4
+Mujer,57.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,30,Cancer,1.0,Hospital_4
+Mujer,59.0,Mestizo (a),Si,Casado (a),Superior universitario,Pichincha,Pichincha,Quito,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Agosto,16,Cancer,1.0,Hospital_4
+Mujer,64.0,Mestizo (a),Si,Soltero (a),Educación Básica,Los Ríos,Los Ríos,Buena Fé,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,16,Cardiovascular,1.0,Hospital_4
+Hombre,54.0,Montubio (a),Si,Soltero (a),Primaria,Guayas,Guayas,Salitre,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,29,Cardiovascular,1.0,Hospital_4
+Mujer,65.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,16,Diabetes,1.0,Hospital_4
+Mujer,60.0,Afroecuatoriano (a) /Afrodescendiente,Si,Casado (a),Primaria,Guayas,Guayas,Milagro,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Noviembre,4,Cardiovascular,1.0,Hospital_4
+Hombre,61.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Noviembre,7,Chronic_Respiratory,1.0,Hospital_4
+Mujer,60.0,Mestizo (a),Si,Casado (a),Superior no universitario,Pichincha,Pichincha,Quito,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Enero,21,Cancer,1.0,Hospital_4
+Hombre,31.0,Mestizo (a),Si,Unión Libre,Educación Media / Bachillerato,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,29,Cancer,1.0,Hospital_4
+Hombre,60.0,Indígena,Si,Soltero (a),Educación Básica,Chimborazo,Chimborazo,Riobamba,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,26,Cancer,1.0,Hospital_4
+Mujer,66.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,27,Cardiovascular,1.0,Hospital_4
+Hombre,62.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,29,Cardiovascular,1.0,Hospital_4
+Hombre,66.0,Mestizo (a),Si,Casado (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Abril,14,Cardiovascular,1.0,Hospital_4
+Mujer,64.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Manta,Rural,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Septiembre,2,Cancer,1.0,Hospital_4
+Mujer,68.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,15,Cardiovascular,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),Si,Casado (a),Secundaria,El Oro,El Oro,Huaquillas,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,4,Cancer,1.0,Hospital_4
+Hombre,54.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Cañar,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,5,Cardiovascular,1.0,Hospital_4
+Mujer,60.0,Mestizo (a),Si,Casado (a),Secundaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Octubre,12,Cardiovascular,1.0,Hospital_4
+Hombre,41.0,Mestizo (a),Si,Casado (a),Superior universitario,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Agosto,7,Cancer,1.0,Hospital_4
+Hombre,38.0,Mestizo (a),Si,Soltero (a),Superior no universitario,El Oro,El Oro,Machala,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Marzo,19,Cancer,1.0,Hospital_4
+Hombre,68.0,Blanco (a),Si,,Superior universitario,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Octubre,12,Cancer,1.0,Hospital_4
+Hombre,38.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Los Ríos,Los Ríos,Quevedo,Urbano,Urbano,Establecimientos del IESS,,,,Residente,2024,Diciembre,24,Cardiovascular,1.0,Hospital_4
+Hombre,60.0,Mestizo (a),Si,Soltero (a),Centro de alfabetización,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,20,Cardiovascular,1.0,Hospital_4
+Hombre,61.0,Negro (a),Si,Soltero (a),Secundaria,Los Ríos,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,17,Cancer,1.0,Hospital_4
+Mujer,62.0,Mestizo (a),Si,Unión de hecho,Secundaria,Esmeraldas,Esmeraldas,Esmeraldas,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Agosto,2,Cardiovascular,1.0,Hospital_4
+Mujer,61.0,Mestizo (a),Si,Divorciado (a),Secundaria,El Oro,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Octubre,24,Cancer,1.0,Hospital_4
+Mujer,49.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Octubre,10,Cancer,1.0,Hospital_4
+Mujer,60.0,Mestizo (a),Si,Soltero (a),Superior universitario,Azuay,Azuay,Cuenca,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Diciembre,18,Diabetes,1.0,Hospital_4
+Mujer,45.0,Mestizo (a),Si,Soltero (a),Educación Básica,El Oro,El Oro,Machala,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Febrero,23,Cardiovascular,1.0,Hospital_4
+Hombre,59.0,Mestizo (a),Si,Casado (a),Secundaria,Cotopaxi,Manabí,Manta,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Mayo,29,Diabetes,1.0,Hospital_4
+Mujer,54.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Enero,31,Cancer,1.0,Hospital_4
+Hombre,45.0,Mestizo (a),Si,Soltero (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,12,Cardiovascular,1.0,Hospital_4
+Mujer,65.0,Mestizo (a),Si,Soltero (a),Primaria,El Oro,El Oro,Machala,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Febrero,19,Cardiovascular,1.0,Hospital_4
+Hombre,58.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Manta,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Septiembre,16,Cardiovascular,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),Si,Casado (a),Superior universitario,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Julio,12,Cancer,1.0,Hospital_4
+Hombre,65.0,Mulato  (a),,Casado (a),,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,Si,No residente,2024,Junio,30,Cancer,1.0,Hospital_4
+Hombre,56.0,Mestizo (a),Si,Soltero (a),Secundaria,Santa Elena,El Oro,Machala,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Abril,30,Cardiovascular,1.0,Hospital_4
+Mujer,42.0,Mestizo (a),Si,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del IESS,,,Si,Residente,2024,Enero,16,Cardiovascular,1.0,Hospital_4
+Hombre,49.0,Mestizo (a),Si,Soltero (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos de la Junta de Beneficencia,,,,Residente,2024,Septiembre,1,Cardiovascular,1.0,Hospital_4
+Mujer,69.0,Mestizo (a),Si,Casado (a),Primaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Febrero,12,Cardiovascular,1.0,Hospital_4
+Hombre,64.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,17,Cardiovascular,1.0,Hospital_4
+Mujer,32.0,Afroecuatoriano (a) /Afrodescendiente,Si,Soltero (a),Educación Básica,Guayas,Guayas,Durán,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Junio,22,Cardiovascular,1.0,Hospital_4
+Mujer,63.0,Mestizo (a),Si,Divorciado (a),Superior universitario,Pichincha,Pichincha,Quito,Rural,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Agosto,4,Cancer,1.0,Hospital_4
+Mujer,62.0,Mestizo (a),Si,Soltero (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Agosto,8,Cancer,1.0,Hospital_4
+Mujer,62.0,,,Viudo (a),,Manabí,Manabí,Puerto López,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,Residente,2024,Septiembre,28,No_NCD,0.0,Hospital_4
+Mujer,39.0,Mestizo (a),Si,Soltero (a),Secundaria,Cotopaxi,Cotopaxi,Latacunga,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,Si,Residente,2024,Septiembre,15,Cardiovascular,1.0,Hospital_4
+Mujer,67.0,Mestizo (a),Si,Casado (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Mayo,26,Cancer,1.0,Hospital_4
+Hombre,53.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Manta,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Junio,10,Diabetes,1.0,Hospital_4
+Hombre,58.0,Mestizo (a),Si,Soltero (a),Primaria,El Oro,El Oro,Pasaje,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,30,Cardiovascular,1.0,Hospital_4
+Hombre,59.0,Mestizo (a),Si,Divorciado (a),Secundaria,Tungurahua,Tungurahua,Ambato,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,12,Cardiovascular,1.0,Hospital_4
+Hombre,59.0,Mestizo (a),Si,Casado (a),Primaria,Chimborazo,Chimborazo,Riobamba,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,1,Cardiovascular,1.0,Hospital_4
+Hombre,66.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,Manabí,Portoviejo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Octubre,24,Cancer,1.0,Hospital_4
+Mujer,57.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,El Carmen,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Noviembre,27,Diabetes,1.0,Hospital_4
+Hombre,44.0,Mestizo (a),Si,Casado (a),Superior universitario,Loja,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Noviembre,8,Cancer,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Pichincha,Pichincha,Quito,Rural,Urbano,Establecimientos del IESS,,,,Residente,2024,Febrero,17,Cancer,1.0,Hospital_4
+Mujer,55.0,Mestizo (a),Si,Soltero (a),Secundaria,Guayas,Guayas,Guayaquil,Rural,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Diciembre,2,Cancer,1.0,Hospital_4
+Hombre,48.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Manta,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Junio,5,Cardiovascular,1.0,Hospital_4
+Mujer,69.0,Mestizo (a),No,Soltero (a),Ninguno,El Oro,El Oro,Santa Rosa,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,27,Diabetes,1.0,Hospital_4
+Hombre,50.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,El Carmen,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Julio,2,Cardiovascular,1.0,Hospital_4
+Mujer,64.0,Mestizo (a),Si,Casado (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Diciembre,9,Cancer,1.0,Hospital_4
+Hombre,65.0,Mestizo (a),Si,Casado (a),Primaria,Imbabura,Imbabura,Ibarra,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,25,Cardiovascular,1.0,Hospital_4
+Mujer,67.0,Mestizo (a),Si,Soltero (a),Educación Básica,Los Ríos,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Enero,10,Cardiovascular,1.0,Hospital_4
+Mujer,62.0,Mestizo (a),Si,Viudo (a),Primaria,Imbabura,Esmeraldas,Quininde,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,17,Diabetes,1.0,Hospital_4
+Hombre,45.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,26,Cardiovascular,1.0,Hospital_4
+Hombre,53.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,23,Chronic_Respiratory,1.0,Hospital_4
+Hombre,67.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,El Carmen,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Julio,25,Cardiovascular,1.0,Hospital_4
+Hombre,45.0,Mestizo (a),Si,Soltero (a),Secundaria,Guayas,Los Ríos,Babahoyo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,12,Cancer,1.0,Hospital_4
+Hombre,63.0,Mestizo (a),Si,Soltero (a),Primaria,El Oro,El Oro,Machala,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,23,Cardiovascular,1.0,Hospital_4
+Mujer,61.0,Mestizo (a),Si,Casado (a),Superior universitario,Pichincha,Pichincha,Quito,Rural,Urbano,Establecimientos del IESS,,,No,Residente,2024,Junio,8,Cancer,1.0,Hospital_4
+Hombre,45.0,Mestizo (a),Si,Soltero (a),Superior no universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Abril,18,Cancer,1.0,Hospital_4
+Hombre,54.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Tungurahua,Tungurahua,Ambato,Urbano,Rural,"Hospital, clínica o consultorio privado",,,,Residente,2024,Octubre,1,Cancer,1.0,Hospital_4
+Mujer,66.0,Mestizo (a),Si,Viudo (a),,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,3,Cancer,1.0,Hospital_4
+Mujer,62.0,Mestizo (a),Si,Casado (a),Superior universitario,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Noviembre,21,Cancer,1.0,Hospital_4
+Mujer,45.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Julio,29,Cancer,1.0,Hospital_4
+Hombre,65.0,Indígena,Si,Casado (a),Educación Básica,Tungurahua,Tungurahua,Ambato,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,23,Cancer,1.0,Hospital_4
+Hombre,63.0,Mestizo (a),Si,Casado (a),Secundaria,Los Ríos,Los Ríos,Quevedo,Urbano,Urbano,Establecimientos del IESS,,,,No residente,2024,Marzo,12,Cardiovascular,1.0,Hospital_4
+Mujer,66.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Sucre,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,6,Cardiovascular,1.0,Hospital_4
+Mujer,42.0,Mestizo (a),Si,Casado (a),Superior universitario,Tungurahua,Cotopaxi,Latacunga,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Febrero,21,Cancer,1.0,Hospital_4
+Mujer,48.0,Afroecuatoriano (a) /Afrodescendiente,Si,Casado (a),Primaria,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Octubre,12,Cancer,1.0,Hospital_4
+Hombre,69.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos de la Junta de Beneficencia,,,,Residente,2024,Junio,2,Cardiovascular,1.0,Hospital_4
+Mujer,53.0,Mestizo (a),Si,Casado (a),Ninguno,Guayas,Guayas,Milagro,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Julio,26,Diabetes,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),Si,Casado (a),Primaria,Pichincha,Pichincha,Quito,Rural,Urbano,Establecimientos del IESS,,,,Residente,2024,Abril,28,Cancer,1.0,Hospital_4
+Hombre,64.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Pichincha,Pichincha,Quito,Urbano,Rural,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,14,Cancer,1.0,Hospital_4
+Mujer,53.0,Mestizo (a),No,Unión Libre,Centro de alfabetización,Los Ríos,Los Ríos,Babahoyo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Abril,2,Diabetes,1.0,Hospital_4
+Hombre,60.0,Mestizo (a),Si,Soltero (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Otros establecimientos públicos,,,,Residente,2024,Julio,17,Cancer,1.0,Hospital_4
+Hombre,61.0,Mestizo (a),Si,Soltero (a),Primaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Noviembre,22,Cancer,1.0,Hospital_4
+Hombre,48.0,Mestizo (a),Si,Divorciado (a),Primaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Abril,27,Cancer,1.0,Hospital_4
+Mujer,38.0,Mestizo (a),Si,Casado (a),Superior no universitario,Tungurahua,Tungurahua,Ambato,Urbano,Rural,"Hospital, clínica o consultorio privado",,,,Residente,2024,Abril,15,Cancer,1.0,Hospital_4
+Hombre,55.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Manta,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Marzo,13,Cardiovascular,1.0,Hospital_4
+Mujer,64.0,Mestizo (a),Si,Casado (a),Primaria,Cañar,Azuay,Cuenca,Rural,Urbano,Establecimientos del IESS,,,No,No residente,2024,Junio,4,Cardiovascular,1.0,Hospital_4
+Mujer,65.0,Mestizo (a),No,Casado (a),Ninguno,Bolívar,Los Ríos,Babahoyo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Noviembre,27,Cardiovascular,1.0,Hospital_4
+Mujer,49.0,Mestizo (a),Si,Casado (a),Primaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,15,Cancer,1.0,Hospital_4
+Hombre,45.0,Afroecuatoriano (a) /Afrodescendiente,Si,Casado (a),Educación Media / Bachillerato,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Junio,22,Cardiovascular,1.0,Hospital_4
+Hombre,62.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,27,Cardiovascular,1.0,Hospital_4
+Mujer,48.0,Mestizo (a),Si,Divorciado (a),Primaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,11,Chronic_Respiratory,1.0,Hospital_4
+Mujer,36.0,Mestizo (a),Si,Soltero (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Julio,5,Cancer,1.0,Hospital_4
+Mujer,35.0,Indígena,Si,Casado (a),Primaria,Cotopaxi,Cotopaxi,Latacunga,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,12,Cardiovascular,1.0,Hospital_4
+Hombre,57.0,Mestizo (a),Si,Soltero (a),Primaria,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,Si,Residente,2024,Mayo,30,Chronic_Respiratory,1.0,Hospital_4
+Hombre,57.0,Mestizo (a),Si,Casado (a),Educación Básica,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,22,Cardiovascular,1.0,Hospital_4
+Hombre,46.0,Mestizo (a),Si,Casado (a),Secundaria,Los Ríos,Los Ríos,Buena Fé,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,2,Cardiovascular,1.0,Hospital_4
+Mujer,61.0,Mestizo (a),Si,Casado (a),Primaria,Santa Elena,Santa Elena,La Libertad,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,22,Cancer,1.0,Hospital_4
+Mujer,62.0,Indígena,Si,Divorciado (a),Ninguno,Tungurahua,Tungurahua,Ambato,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,7,Cancer,1.0,Hospital_4
+Mujer,62.0,Mestizo (a),Si,Viudo (a),Primaria,Los Ríos,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Agosto,18,Cardiovascular,1.0,Hospital_4
+Mujer,48.0,Mestizo (a),Si,Casado (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,9,Cardiovascular,1.0,Hospital_4
+Mujer,54.0,Mestizo (a),Si,Soltero (a),Primaria,Esmeraldas,Esmeraldas,Esmeraldas,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,10,Cardiovascular,1.0,Hospital_4
+Mujer,32.0,Mestizo (a),Si,Soltero (a),Superior universitario,Pichincha,Pichincha,Quito,Rural,Rural,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Abril,15,Cardiovascular,1.0,Hospital_4
+Mujer,56.0,Montubio (a),Si,Unión de hecho,Primaria,Esmeraldas,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,,No residente,2024,Diciembre,16,Cardiovascular,1.0,Hospital_4
+Mujer,57.0,Mestizo (a),Si,Soltero (a),Primaria,Los Ríos,Los Ríos,Quevedo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Mayo,23,Cancer,1.0,Hospital_4
+Mujer,50.0,Mulato  (a),Si,Casado (a),Superior universitario,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Diciembre,8,Cancer,1.0,Hospital_4
+Hombre,47.0,Mestizo (a),Si,Casado (a),Superior universitario,Tungurahua,Tungurahua,Ambato,Urbano,Rural,"Hospital, clínica o consultorio privado",,,,Residente,2024,Septiembre,27,Cancer,1.0,Hospital_4
+Mujer,31.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Pichincha,Pichincha,Quito,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Agosto,31,Cancer,1.0,Hospital_4
+Mujer,61.0,Mestizo (a),Si,Soltero (a),Primaria,Esmeraldas,Esmeraldas,Esmeraldas,Rural,Urbano,Establecimientos del IESS,,,No,No residente,2024,Diciembre,8,Diabetes,1.0,Hospital_4
+Hombre,67.0,Mestizo (a),Si,Casado (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,12,Cardiovascular,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,24,Cardiovascular,1.0,Hospital_4
+Hombre,52.0,Mestizo (a),Si,Soltero (a),Superior no universitario,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Octubre,30,Cancer,1.0,Hospital_4
+Mujer,60.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,El Oro,El Oro,Machala,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Mayo,20,Cardiovascular,1.0,Hospital_4
+Mujer,40.0,Mestizo (a),Si,Unión Libre,Educación Básica,Esmeraldas,Esmeraldas,Esmeraldas,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Marzo,3,Cancer,1.0,Hospital_4
+Hombre,59.0,Mestizo (a),,Casado (a),Educación Básica,Guayas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,26,Cardiovascular,1.0,Hospital_4
+Hombre,66.0,Mestizo (a),Si,Soltero (a),Secundaria,Pichincha,Pichincha,Quito,Rural,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Diciembre,10,Cancer,1.0,Hospital_4
+Hombre,56.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Agosto,7,Cancer,1.0,Hospital_4
+Mujer,51.0,Mestizo (a),Si,Divorciado (a),Secundaria,Bolívar,Bolívar,Guaranda,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,22,Cardiovascular,1.0,Hospital_4
+Mujer,61.0,Mestizo (a),Si,Soltero (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos de la Junta de Beneficencia,,,No,No residente,2024,Febrero,4,Cancer,1.0,Hospital_4
+Hombre,69.0,Mestizo (a),Si,Divorciado (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Febrero,1,Cancer,1.0,Hospital_4
+Hombre,55.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Morona Santiago,Azuay,Cuenca,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,26,Cancer,1.0,Hospital_4
+Hombre,64.0,,Si,Casado (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Diciembre,16,Cardiovascular,1.0,Hospital_4
+Hombre,53.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,16,Diabetes,1.0,Hospital_4
+Mujer,38.0,Mestizo (a),Si,Casado (a),Secundaria,El Oro,El Oro,Machala,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Octubre,7,Cancer,1.0,Hospital_4
+Hombre,55.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Diciembre,1,Cancer,1.0,Hospital_4
+Hombre,46.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Febrero,25,Cardiovascular,1.0,Hospital_4
+Mujer,56.0,Mestizo (a),Si,Viudo (a),Educación Media / Bachillerato,Santo Domingo de los Tsáchilas,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,26,Cancer,1.0,Hospital_4
+Hombre,65.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,Guayas,Durán,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Febrero,19,Cardiovascular,1.0,Hospital_4
+Mujer,52.0,Mestizo (a),Si,Casado (a),Superior no universitario,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Octubre,13,Cancer,1.0,Hospital_4
+Hombre,47.0,Mestizo (a),Si,Casado (a),Superior universitario,Santa Elena,Santa Elena,La Libertad,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Diciembre,3,Cardiovascular,1.0,Hospital_4
+Hombre,67.0,Mestizo (a),Si,Soltero (a),Educación Básica,Guayas,Guayas,Guayaquil,Rural,Urbano,Establecimientos de la Junta de Beneficencia,,,No,No residente,2024,Noviembre,27,Cardiovascular,1.0,Hospital_4
+Hombre,60.0,Mestizo (a),Si,Casado (a),Primaria,Carchi,Imbabura,Ibarra,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,6,Cardiovascular,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),No,Soltero (a),Ninguno,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,8,Cardiovascular,1.0,Hospital_4
+Hombre,63.0,Mestizo (a),Si,Casado (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Octubre,4,Cardiovascular,1.0,Hospital_4
+Mujer,36.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,4,Cancer,1.0,Hospital_4
+Mujer,55.0,Mestizo (a),Si,Divorciado (a),Superior universitario,El Oro,El Oro,Machala,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Junio,21,Cancer,1.0,Hospital_4
+Hombre,65.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,El Carmen,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Mayo,24,Cardiovascular,1.0,Hospital_4
+Hombre,43.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Septiembre,8,Diabetes,1.0,Hospital_4
+Hombre,38.0,Mestizo (a),Si,Soltero (a),Superior universitario,Morona Santiago,Morona Santiago,Gualaquiza,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,1,Cancer,1.0,Hospital_4
+Mujer,68.0,Mestizo (a),Si,Casado (a),Ninguno,Orellana,Sucumbíos,Lago Agrio,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,28,Cardiovascular,1.0,Hospital_4
+Hombre,65.0,Mestizo (a),Si,Casado (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,27,Cardiovascular,1.0,Hospital_4
+Mujer,49.0,Mestizo (a),Si,Casado (a),Superior universitario,Chimborazo,Chimborazo,Riobamba,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,4,Cancer,1.0,Hospital_4
+Hombre,66.0,Mestizo (a),Si,Divorciado (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,7,Cancer,1.0,Hospital_4
+Hombre,33.0,Mestizo (a),Si,Soltero (a),Secundaria,Loja,Loja,Loja,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,9,Cardiovascular,1.0,Hospital_4
+Hombre,66.0,,,Soltero (a),,Los Ríos,Los Ríos,Babahoyo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,23,Cardiovascular,1.0,Hospital_4
+Mujer,50.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Septiembre,24,Cardiovascular,1.0,Hospital_4
+Hombre,44.0,Negro (a),Si,Casado (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,20,Cardiovascular,1.0,Hospital_4
+Hombre,62.0,Mestizo (a),No,Casado (a),Ninguno,Loja,Loja,Loja,Urbano,Urbano,Establecimientos del IESS,,,,Residente,2024,Abril,24,Cardiovascular,1.0,Hospital_4
+Mujer,49.0,Afroecuatoriano (a) /Afrodescendiente,Si,Casado (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,8,Cardiovascular,1.0,Hospital_4
+Hombre,68.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,5,Cardiovascular,1.0,Hospital_4
+Mujer,67.0,Blanco (a),Si,Soltero (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Marzo,10,Cardiovascular,1.0,Hospital_4
+Mujer,31.0,Mestizo (a),Si,Casado (a),Secundaria,Pichincha,Pichincha,Quito,Rural,Rural,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,5,Diabetes,1.0,Hospital_4
+Mujer,60.0,Mestizo (a),Si,Soltero (a),Primaria,Orellana,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,22,Cardiovascular,1.0,Hospital_4
+Hombre,38.0,Mestizo (a),Si,Unión Libre,Educación Básica,Manabí,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Abril,18,Diabetes,1.0,Hospital_4
+Hombre,58.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Los Ríos,Los Ríos,Palenque,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,12,Cardiovascular,1.0,Hospital_4
+Hombre,39.0,,,Divorciado (a),,Cañar,Cañar,La Troncal,Urbano,Urbano,Establecimientos del IESS,,,,Residente,2024,Marzo,5,Cancer,1.0,Hospital_4
+Hombre,67.0,Mestizo (a),,Soltero (a),,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,9,Cardiovascular,1.0,Hospital_4
+Mujer,66.0,Afroecuatoriano (a) /Afrodescendiente,Si,Soltero (a),Primaria,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,4,Diabetes,1.0,Hospital_4
+Hombre,63.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,15,Cancer,1.0,Hospital_4
+Hombre,51.0,Mestizo (a),Si,Casado (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Enero,7,Cardiovascular,1.0,Hospital_4
+Mujer,45.0,Mestizo (a),Si,Soltero (a),Secundaria,Pichincha,Pichincha,Quito,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,14,Cancer,1.0,Hospital_4
+Hombre,51.0,Mestizo (a),Si,Divorciado (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,25,Cardiovascular,1.0,Hospital_4
+Hombre,60.0,Mestizo (a),Si,Divorciado (a),Educación Media / Bachillerato,Los Ríos,Los Ríos,Quevedo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,26,Cardiovascular,1.0,Hospital_4
+Hombre,60.0,Mestizo (a),Si,Casado (a),Primaria,Sucumbíos,Sucumbíos,Shushufindi,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Abril,22,Cancer,1.0,Hospital_4
+Hombre,52.0,Mestizo (a),Si,Soltero (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,11,Cardiovascular,1.0,Hospital_4
+Hombre,69.0,Mestizo (a),Si,Soltero (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,25,Cardiovascular,1.0,Hospital_4
+Mujer,66.0,Mestizo (a),Si,Casado (a),Primaria,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,8,Cardiovascular,1.0,Hospital_4
+Hombre,62.0,Mestizo (a),Si,Soltero (a),Educación Básica,Los Ríos,Los Ríos,Buena Fé,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,2,Cardiovascular,1.0,Hospital_4
+Hombre,58.0,,,,,Guayas,Guayas,Guayaquil,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Enero,26,Cardiovascular,1.0,Hospital_4
+Hombre,62.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,No residente,2024,Marzo,7,Cardiovascular,1.0,Hospital_4
+Hombre,59.0,Mestizo (a),Si,Soltero (a),Primaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,24,Cardiovascular,1.0,Hospital_4
+Mujer,66.0,Mestizo (a),Si,Casado (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,22,Diabetes,1.0,Hospital_4
+Mujer,69.0,Mestizo (a),Si,Soltero (a),Educación Básica,Los Ríos,Los Ríos,Quevedo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Diciembre,2,Cardiovascular,1.0,Hospital_4
+Hombre,55.0,Mestizo (a),Si,Soltero (a),Secundaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,22,Cancer,1.0,Hospital_4
+Mujer,43.0,Mestizo (a),Si,Casado (a),Primaria,Pichincha,Pichincha,Quito,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Junio,25,Diabetes,1.0,Hospital_4
+Mujer,65.0,Mestizo (a),,Soltero (a),Ninguno,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,16,Diabetes,1.0,Hospital_4
+Mujer,68.0,Mestizo (a),Si,Viudo (a),Educación Media / Bachillerato,Santa Elena,Santa Elena,La Libertad,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,1,Diabetes,1.0,Hospital_4
+Hombre,58.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Enero,27,Cancer,1.0,Hospital_4
+Mujer,49.0,Mestizo (a),Si,Divorciado (a),Centro de alfabetización,Azuay,Azuay,Cuenca,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,22,Cancer,1.0,Hospital_4
+Hombre,61.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,30,Cancer,1.0,Hospital_4
+Hombre,60.0,Mestizo (a),Si,Casado (a),Educación Básica,Tungurahua,Tungurahua,Ambato,Urbano,Rural,"Hospital, clínica o consultorio privado",,,,Residente,2024,Mayo,7,Cancer,1.0,Hospital_4
+Mujer,63.0,Mestizo (a),Si,Divorciado (a),Educación Media / Bachillerato,El Oro,El Oro,Machala,Urbano,Urbano,Establecimientos del IESS,,,No,No residente,2024,Octubre,27,Diabetes,1.0,Hospital_4
+Hombre,30.0,Mestizo (a),Si,Soltero (a),Primaria,El Oro,El Oro,Machala,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Octubre,12,Diabetes,1.0,Hospital_4
+Mujer,54.0,Otra,Si,Soltero (a),Educación Media / Bachillerato,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,26,Cancer,1.0,Hospital_4
+Mujer,63.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Febrero,16,Cancer,1.0,Hospital_4
+Mujer,60.0,Mestizo (a),No,Viudo (a),Ninguno,Tungurahua,Pichincha,Quito,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,28,Cardiovascular,1.0,Hospital_4
+Hombre,59.0,Mestizo (a),Si,Soltero (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,7,Cancer,1.0,Hospital_4
+Hombre,66.0,Negro (a),Si,Soltero (a),Primaria,Esmeraldas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,1,Cancer,1.0,Hospital_4
+Mujer,39.0,Mestizo (a),Si,Soltero (a),Secundaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,28,Cancer,1.0,Hospital_4
+Mujer,34.0,Mestizo (a),Si,Soltero (a),Secundaria,El Oro,El Oro,Machala,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Octubre,3,Cancer,1.0,Hospital_4
+Hombre,64.0,Mestizo (a),Si,Divorciado (a),Superior universitario,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Septiembre,11,Cancer,1.0,Hospital_4
+Hombre,66.0,Mestizo (a),Si,Casado (a),Secundaria,Azuay,Azuay,Cuenca,Urbano,Urbano,Establecimientos del IESS,,,No,Residente,2024,Diciembre,5,Cardiovascular,1.0,Hospital_4
+Mujer,64.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Noviembre,22,Cardiovascular,1.0,Hospital_4
+Mujer,33.0,Mestizo (a),Si,Divorciado (a),Primaria,Zamora Chinchipe,Azuay,Cuenca,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,No residente,2024,Noviembre,28,Cancer,1.0,Hospital_4
+Hombre,61.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Bolívar,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Enero,4,Cardiovascular,1.0,Hospital_4
+Hombre,44.0,Mestizo (a),Si,Soltero (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,12,Cancer,1.0,Hospital_4
+Hombre,56.0,Mestizo (a),Si,Casado (a),Primaria,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,28,Cardiovascular,1.0,Hospital_4
+Mujer,62.0,Mestizo (a),Si,Soltero (a),Primaria,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,4,Chronic_Respiratory,1.0,Hospital_4
+Mujer,35.0,Montubio (a),Si,Soltero (a),Educación Básica,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,27,Cardiovascular,1.0,Hospital_4
+Mujer,64.0,Mestizo (a),Si,Casado (a),Primaria,Cotopaxi,Cotopaxi,Latacunga,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,13,Cancer,1.0,Hospital_4
+Mujer,67.0,Mestizo (a),No,Soltero (a),Ninguno,Azuay,Azuay,Cuenca,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,1,Diabetes,1.0,Hospital_4
+Mujer,46.0,Mestizo (a),Si,Casado (a),Secundaria,Pastaza,Tungurahua,Ambato,Urbano,Rural,"Hospital, clínica o consultorio privado",,,,No residente,2024,Junio,13,Cancer,1.0,Hospital_4
+Mujer,47.0,Mestizo (a),Si,Divorciado (a),Educación Media / Bachillerato,El Oro,El Oro,Machala,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,No,Residente,2024,Agosto,11,Cancer,1.0,Hospital_4
+Hombre,30.0,Mestizo (a),Si,Soltero (a),Secundaria,Pichincha,Pichincha,Quito,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,28,Cancer,1.0,Hospital_4
+Mujer,58.0,Mestizo (a),Si,Soltero (a),Primaria,Guayas,Guayas,Guayaquil,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,20,Cancer,1.0,Hospital_4
+Mujer,37.0,Mestizo (a),Si,Soltero (a),Educación Básica,Santo Domingo de los Tsáchilas,Santo Domingo de los Tsáchilas,Santo Domingo,Urbano,Urbano,"Hospital, clínica o consultorio privado",,,,Residente,2024,Junio,9,Diabetes,1.0,Hospital_4
+Mujer,36.0,Mestizo (a),Si,Soltero (a),Primaria,Azuay,Azuay,Paute,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,4,Cancer,1.0,Hospital_4
+Hombre,66.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,14,Chronic_Respiratory,1.0,Hospital_4

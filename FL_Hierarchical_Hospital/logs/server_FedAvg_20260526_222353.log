@@ -1,0 +1,413 @@
+2026-05-26 22:24:01 | INFO     | __main__             | [CENTRAL] Iniciando | Método=FedAvg
+2026-05-26 22:24:01 | INFO     | __main__             | [MODEL] Features inferidas desde preprocessor: 105 | /home/nodea/fl_cluster_hospital/data/preprocessor_global.joblib
+2026-05-26 22:24:01 | INFO     | __main__             | [MODEL] Creando modelo inicial con in_features=105
+2026-05-26 22:24:01 | INFO     | __main__             | [CENTRAL] Modelo inicial creado correctamente
+2026-05-26 22:24:01 | INFO     | __main__             | [HIER] Raíz. Esperando hijos...
+2026-05-26 22:24:01 | INFO     | connections.server   | [TEMP SERVER] Iniciando en ws://0.0.0.0:8765...
+2026-05-26 22:24:01 | INFO     | connections.server   | [TEMP SERVER] El servidor cerrará si pasan 40s sin nuevos nodos.
+2026-05-26 22:24:01 | INFO     | websockets.server    | server listening on 0.0.0.0:8765
+2026-05-26 22:24:01 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:24:04 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:24:05 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:24:09 | INFO     | websockets.server    | connection open
+2026-05-26 22:24:09 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.152:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:24:11 | INFO     | websockets.server    | connection open
+2026-05-26 22:24:11 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.144:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:24:13 | INFO     | websockets.server    | connection open
+2026-05-26 22:24:13 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.150:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:24:14 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:24:16 | ERROR    | websockets.server    | opening handshake failed
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/home/nodea/fl_cluster_hospital/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-26 22:24:21 | INFO     | websockets.server    | connection open
+2026-05-26 22:24:21 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.148:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:24:23 | INFO     | websockets.server    | connection open
+2026-05-26 22:24:23 | INFO     | connections.server   | [TEMP SERVER] Nodo registrado: 172.23.209.153:8765. Temporizador reiniciado (+40s).
+2026-05-26 22:25:04 | INFO     | connections.server   | [TEMP SERVER] Se alcanzó el límite de 40s de inactividad total. Cerrando...
+2026-05-26 22:25:04 | INFO     | websockets.server    | server closing
+2026-05-26 22:25:04 | INFO     | websockets.server    | server closed
+2026-05-26 22:25:04 | INFO     | connections.server   | [TEMP SERVER] Servidor temporal cerrado exitosamente.
+2026-05-26 22:25:04 | INFO     | __main__             | [HIER] Distribuyendo modelo a 5 hijo(s)...
+2026-05-26 22:25:04 | INFO     | connections.client   | [SERVER] Iniciando distribución de archivo models/model.pt a 5 nodo(s)...
+2026-05-26 22:25:04 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.144:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:04 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.150:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:04 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.152:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:04 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.148:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:04 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.153:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:04 | INFO     | connections.client   | [SERVER] Archivo entregado con éxito a 5/5 nodo(s).
+2026-05-26 22:25:04 | INFO     | __main__             | 
+[INFO] ip=172.23.209.149:8765 | ip_father=172.23.209.149:8765 | leaf=False | método=FedAvg
+2026-05-26 22:25:04 | INFO     | __main__             | 
+============================================================
+[HIER] Ronda jerárquica 0
+============================================================
+2026-05-26 22:25:04 | INFO     | utils                | [CENTRAL] Nodos guardados: {'Nodo_1': '172.23.209.152:8765', 'Nodo_2': '172.23.209.144:8765', 'Nodo_3': '172.23.209.150:8765', 'Nodo_4': '172.23.209.148:8765', 'Nodo_5': '172.23.209.153:8765', 'n_nodes': 5}
+2026-05-26 22:25:04 | INFO     | federated            | [CENTRAL] Arquitectura=Cluster | Método=FedAvg | Rondas=50
+2026-05-26 22:25:04 | INFO     | federated            | 
+[CENTRAL] ══ Ronda 1/50 ══
+2026-05-26 22:25:04 | INFO     | connections.server   | [SERVER] Listening on ws://0.0.0.0:8765 (esperando 5 nodo(s), max 3000s)...
+2026-05-26 22:25:04 | INFO     | websockets.server    | server listening on 0.0.0.0:8765
+2026-05-26 22:25:09 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:09 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:09 | INFO     | utils                | [FILE SAVED] received_files/round_1/Nodo_2_model.pt
+2026-05-26 22:25:09 | INFO     | utils                | [FILE SAVED] received_files/round_1/Nodo_3_model.pt
+2026-05-26 22:25:09 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:09 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:09 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:09 | INFO     | connections.server   | [SERVER] [Nodo_2] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.09145903587341309, "loss": 4.1710702996504934e-05, "cpu_percent_before": 2.6, "cpu_percent_after": 2.4, "ram_mb_before": 580.32, "ram_mb_after": 657.8, "temperature_c": 42.84, "cpu_freq_mhz": 1500.0, "open_sockets": 14, "ecomp_j": 0.00229824, "ecomm_j": 0.0, "etotal_j": 0.00229824, "cumulative_etotal_j": 0.002298, "n_train_samples": 38, "fednova_tau": 9, "nova_grad_available": false, "comm_overhead_bytes": 0, "latency_model_download_s": 0.0, "h_ronda": 0, "latency_model_upload_s": 0.12, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93120, "net_bandwidth_tx_kbps": 6199.33, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 6583.73, "net_transmission_time_s": 0.12}
+2026-05-26 22:25:09 | INFO     | connections.server   | [SERVER] [Nodo_2] completado (1/5) - Red: TX=1132B, RX=714B, BW=2182.58kbps
+2026-05-26 22:25:09 | INFO     | connections.server   | [SERVER] [Nodo_3] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.058564186096191406, "loss": 0.013010950051248074, "cpu_percent_before": 2.6, "cpu_percent_after": 5.0, "ram_mb_before": 583.44, "ram_mb_after": 680.5, "temperature_c": 44.3, "cpu_freq_mhz": 1500.0, "open_sockets": 14, "ecomp_j": 0.001512, "ecomm_j": 0.0, "etotal_j": 0.001512, "cumulative_etotal_j": 0.001512, "n_train_samples": 25, "fednova_tau": 6, "nova_grad_available": false, "comm_overhead_bytes": 0, "latency_model_download_s": 0.0, "h_ronda": 0, "latency_model_upload_s": 0.238, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93061, "net_bandwidth_tx_kbps": 3124.4, "net_packets_sent": 69, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 3955.48, "net_transmission_time_s": 0.238}
+2026-05-26 22:25:09 | INFO     | connections.server   | [SERVER] [Nodo_3] completado (2/5) - Red: TX=1252B, RX=635B, BW=2970.69kbps
+2026-05-26 22:25:09 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:09 | INFO     | utils                | [FILE SAVED] received_files/round_1/Nodo_5_model.pt
+2026-05-26 22:25:09 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:09 | INFO     | connections.server   | [SERVER] [Nodo_5] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.3263888359069824, "loss": 0.0, "cpu_percent_before": 2.5, "cpu_percent_after": 2.4, "ram_mb_before": 616.25, "ram_mb_after": 683.77, "temperature_c": 42.84, "cpu_freq_mhz": 1500.0, "open_sockets": 15, "ecomp_j": 0.011975040000000001, "ecomm_j": 0.0, "etotal_j": 0.011975040000000001, "cumulative_etotal_j": 0.011975, "n_train_samples": 198, "fednova_tau": 39, "nova_grad_available": false, "comm_overhead_bytes": 0, "latency_model_download_s": 0.0, "h_ronda": 0, "latency_model_upload_s": 0.101, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93347, "net_bandwidth_tx_kbps": 7394.72, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 7996.78, "net_transmission_time_s": 0.101}
+2026-05-26 22:25:09 | INFO     | connections.server   | [SERVER] [Nodo_5] completado (3/5) - Red: TX=1132B, RX=467B, BW=2186.37kbps
+2026-05-26 22:25:09 | INFO     | utils                | [FILE SAVED] received_files/round_1/Nodo_1_model.pt
+2026-05-26 22:25:09 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:09 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:09 | INFO     | connections.server   | [SERVER] [Nodo_1] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.1147470474243164, "loss": 1.4901161193847656e-07, "cpu_percent_before": 2.6, "cpu_percent_after": 0.0, "ram_mb_before": 556.3, "ram_mb_after": 625.82, "temperature_c": 49.17, "cpu_freq_mhz": 1500.0, "open_sockets": 14, "ecomp_j": 0.0038707200000000002, "ecomm_j": 0.0, "etotal_j": 0.0038707200000000002, "cumulative_etotal_j": 0.003871, "n_train_samples": 64, "fednova_tau": 12, "nova_grad_available": false, "comm_overhead_bytes": 0, "latency_model_download_s": 0.0, "h_ronda": 0, "latency_model_upload_s": 0.443, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93226, "net_bandwidth_tx_kbps": 1682.67, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 1832.5, "net_transmission_time_s": 0.443}
+2026-05-26 22:25:09 | INFO     | connections.server   | [SERVER] [Nodo_1] completado (4/5) - Red: TX=1148B, RX=480B, BW=2593.12kbps
+2026-05-26 22:25:10 | INFO     | utils                | [FILE SAVED] received_files/round_1/Nodo_4_model.pt
+2026-05-26 22:25:10 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:10 | INFO     | connections.server   | [SERVER] [Nodo_4] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.05742001533508301, "loss": 0.013010950051248074, "cpu_percent_before": 2.5, "cpu_percent_after": 2.5, "ram_mb_before": 638.71, "ram_mb_after": 707.07, "temperature_c": 43.33, "cpu_freq_mhz": 1500.0, "open_sockets": 17, "ecomp_j": 0.001512, "ecomm_j": 0.0, "etotal_j": 0.001512, "cumulative_etotal_j": 0.001512, "n_train_samples": 25, "fednova_tau": 6, "nova_grad_available": false, "comm_overhead_bytes": 0, "latency_model_download_s": 0.0, "h_ronda": 0, "latency_model_upload_s": 1.564, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93145, "net_bandwidth_tx_kbps": 476.59, "net_packets_sent": 69, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 945.65, "net_transmission_time_s": 1.564}
+2026-05-26 22:25:10 | INFO     | connections.server   | [SERVER] [Nodo_4] completado (5/5) - Red: TX=1116B, RX=471B, BW=2425.35kbps
+2026-05-26 22:25:10 | INFO     | connections.server   | [SERVER] Todos los nodos completados.
+2026-05-26 22:25:10 | INFO     | websockets.server    | server closing
+2026-05-26 22:25:10 | INFO     | websockets.server    | server closed
+2026-05-26 22:25:10 | INFO     | federated            | [CENTRAL] Ronda 1: recall=1.0000 var=0.0000 straggler=0.00s agg=0.040s
+2026-05-26 22:25:10 | INFO     | federated            | [CENTRAL] ✅ Mejora → recall=1.0000
+2026-05-26 22:25:10 | INFO     | utils                | [CENTRAL] Ronda 1 guardada → logs/metrics.csv
+2026-05-26 22:25:10 | INFO     | connections.client   | [SERVER] Iniciando distribución de mensaje a 5 nodo(s)...
+2026-05-26 22:25:10 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.152:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:10 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.150:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:10 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.148:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:10 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.144:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:10 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.153:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:10 | INFO     | connections.client   | [SERVER] Mensaje entregado con éxito a 5/5 nodo(s).
+2026-05-26 22:25:10 | INFO     | federated            | 
+[CENTRAL] ══ Ronda 2/50 ══
+2026-05-26 22:25:12 | INFO     | connections.client   | [SERVER] Iniciando distribución de archivo models/model.pt a 5 nodo(s)...
+2026-05-26 22:25:13 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.152:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:13 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.148:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:13 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.144:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:13 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.153:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:13 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.150:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:13 | INFO     | connections.client   | [SERVER] Archivo entregado con éxito a 5/5 nodo(s).
+2026-05-26 22:25:13 | INFO     | connections.server   | [SERVER] Listening on ws://0.0.0.0:8765 (esperando 5 nodo(s), max 3000s)...
+2026-05-26 22:25:13 | INFO     | websockets.server    | server listening on 0.0.0.0:8765
+2026-05-26 22:25:14 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:14 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:14 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:14 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:14 | INFO     | utils                | [FILE SAVED] received_files/round_2/Nodo_1_model.pt
+2026-05-26 22:25:14 | INFO     | utils                | [FILE SAVED] received_files/round_2/Nodo_2_model.pt
+2026-05-26 22:25:14 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:14 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:14 | INFO     | connections.server   | [SERVER] [Nodo_1] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.10628914833068848, "loss": 0.0, "cpu_percent_before": 0.0, "cpu_percent_after": 2.6, "ram_mb_before": 626.03, "ram_mb_after": 633.81, "temperature_c": 48.2, "cpu_freq_mhz": 1500.0, "open_sockets": 16, "ecomp_j": 0.0038707200000000002, "ecomm_j": 0.054, "etotal_j": 0.05787072, "cumulative_etotal_j": 0.061741, "n_train_samples": 64, "fednova_tau": 12, "nova_grad_available": false, "comm_overhead_bytes": 378356, "net_bytes_rx_model": 94589, "net_bytes_rx_system": 101491, "net_bandwidth_rx_kbps": 7521.93, "net_packets_recv": 179, "net_errors_in": 0, "net_drops_in": 0, "latency_model_download_s": 0.108, "h_ronda": 0, "latency_model_upload_s": 0.11, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93115, "net_bandwidth_tx_kbps": 6774.0, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 7177.25, "net_transmission_time_s": 0.11}
+2026-05-26 22:25:14 | INFO     | connections.server   | [SERVER] [Nodo_1] completado (1/5) - Red: TX=2098B, RX=44150B, BW=32788.04kbps
+2026-05-26 22:25:14 | INFO     | utils                | [FILE SAVED] received_files/round_2/Nodo_3_model.pt
+2026-05-26 22:25:14 | INFO     | connections.server   | [SERVER] [Nodo_2] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.07795214653015137, "loss": 0.0, "cpu_percent_before": 5.1, "cpu_percent_after": 0.0, "ram_mb_before": 653.87, "ram_mb_after": 656.42, "temperature_c": 43.82, "cpu_freq_mhz": 1500.0, "open_sockets": 16, "ecomp_j": 0.00229824, "ecomm_j": 0.103, "etotal_j": 0.10529823999999999, "cumulative_etotal_j": 0.107596, "n_train_samples": 38, "fednova_tau": 9, "nova_grad_available": false, "comm_overhead_bytes": 378356, "net_bytes_rx_model": 94589, "net_bytes_rx_system": 112929, "net_bandwidth_rx_kbps": 4385.64, "net_packets_recv": 305, "net_errors_in": 0, "net_drops_in": 0, "latency_model_download_s": 0.206, "h_ronda": 0, "latency_model_upload_s": 0.154, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93122, "net_bandwidth_tx_kbps": 4850.23, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 5684.2, "net_transmission_time_s": 0.154}
+2026-05-26 22:25:14 | INFO     | connections.server   | [SERVER] [Nodo_2] completado (2/5) - Red: TX=3932B, RX=47177B, BW=30551.25kbps
+2026-05-26 22:25:14 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:14 | INFO     | connections.server   | [SERVER] [Nodo_3] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.05444788932800293, "loss": 0.0, "cpu_percent_before": 2.6, "cpu_percent_after": 5.0, "ram_mb_before": 681.8, "ram_mb_after": 685.91, "temperature_c": 44.79, "cpu_freq_mhz": 1500.0, "open_sockets": 16, "ecomp_j": 0.001512, "ecomm_j": 0.162, "etotal_j": 0.16351200000000002, "cumulative_etotal_j": 0.165024, "n_train_samples": 25, "fednova_tau": 6, "nova_grad_available": false, "comm_overhead_bytes": 378356, "net_bytes_rx_model": 94589, "net_bytes_rx_system": 124009, "net_bandwidth_rx_kbps": 3059.32, "net_packets_recv": 432, "net_errors_in": 0, "net_drops_in": 0, "latency_model_download_s": 0.324, "h_ronda": 0, "latency_model_upload_s": 0.158, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93071, "net_bandwidth_tx_kbps": 4708.02, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 5463.11, "net_transmission_time_s": 0.158}
+2026-05-26 22:25:14 | INFO     | connections.server   | [SERVER] [Nodo_3] completado (3/5) - Red: TX=1276B, RX=570B, BW=3015.50kbps
+2026-05-26 22:25:15 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:15 | INFO     | utils                | [FILE SAVED] received_files/round_2/Nodo_5_model.pt
+2026-05-26 22:25:15 | INFO     | utils                | [FILE SAVED] received_files/round_2/Nodo_4_model.pt
+2026-05-26 22:25:15 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:15 | INFO     | connections.server   | [SERVER] [Nodo_5] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.3338503837585449, "loss": 0.0, "cpu_percent_before": 2.6, "cpu_percent_after": 10.0, "ram_mb_before": 683.8, "ram_mb_after": 689.82, "temperature_c": 43.33, "cpu_freq_mhz": 1500.0, "open_sockets": 17, "ecomp_j": 0.011975040000000001, "ecomm_j": 0.101, "etotal_j": 0.11297504000000001, "cumulative_etotal_j": 0.12495, "n_train_samples": 198, "fednova_tau": 39, "nova_grad_available": false, "comm_overhead_bytes": 378356, "net_bytes_rx_model": 94589, "net_bytes_rx_system": 112996, "net_bandwidth_rx_kbps": 4474.33, "net_packets_recv": 306, "net_errors_in": 0, "net_drops_in": 0, "latency_model_download_s": 0.202, "h_ronda": 0, "latency_model_upload_s": 0.621, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 94078, "net_bandwidth_tx_kbps": 1212.79, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 1455.72, "net_transmission_time_s": 0.621}
+2026-05-26 22:25:15 | INFO     | connections.server   | [SERVER] [Nodo_5] completado (4/5) - Red: TX=1432B, RX=896B, BW=1723.85kbps
+2026-05-26 22:25:15 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:15 | INFO     | connections.server   | [SERVER] [Nodo_4] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.04980301856994629, "loss": 0.0, "cpu_percent_before": 7.7, "cpu_percent_after": 7.3, "ram_mb_before": 706.13, "ram_mb_after": 713.66, "temperature_c": 42.84, "cpu_freq_mhz": 1500.0, "open_sockets": 19, "ecomp_j": 0.001512, "ecomm_j": 0.0685, "etotal_j": 0.070012, "cumulative_etotal_j": 0.071524, "n_train_samples": 25, "fednova_tau": 6, "nova_grad_available": false, "comm_overhead_bytes": 378356, "net_bytes_rx_model": 94589, "net_bytes_rx_system": 101491, "net_bandwidth_rx_kbps": 5939.61, "net_packets_recv": 179, "net_errors_in": 0, "net_drops_in": 0, "latency_model_download_s": 0.137, "h_ronda": 0, "latency_model_upload_s": 1.149, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93187, "net_bandwidth_tx_kbps": 649.07, "net_packets_sent": 71, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 1331.94, "net_transmission_time_s": 1.149}
+2026-05-26 22:25:15 | INFO     | connections.server   | [SERVER] [Nodo_4] completado (5/5) - Red: TX=1276B, RX=515B, BW=2972.40kbps
+2026-05-26 22:25:15 | INFO     | connections.server   | [SERVER] Todos los nodos completados.
+2026-05-26 22:25:15 | INFO     | websockets.server    | server closing
+2026-05-26 22:25:15 | INFO     | websockets.server    | server closed
+2026-05-26 22:25:15 | INFO     | federated            | [CENTRAL] Ronda 2: recall=1.0000 var=0.0000 straggler=0.00s agg=0.034s
+2026-05-26 22:25:15 | INFO     | federated            | [CENTRAL] Sin mejora: 1/3
+2026-05-26 22:25:16 | INFO     | utils                | [CENTRAL] Ronda 2 guardada → logs/metrics.csv
+2026-05-26 22:25:16 | INFO     | connections.client   | [SERVER] Iniciando distribución de mensaje a 5 nodo(s)...
+2026-05-26 22:25:16 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.148:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:16 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.152:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:16 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.150:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:16 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.144:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:16 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.153:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:16 | INFO     | connections.client   | [SERVER] Mensaje entregado con éxito a 5/5 nodo(s).
+2026-05-26 22:25:16 | INFO     | federated            | 
+[CENTRAL] ══ Ronda 3/50 ══
+2026-05-26 22:25:18 | INFO     | connections.client   | [SERVER] Iniciando distribución de archivo models/model.pt a 5 nodo(s)...
+2026-05-26 22:25:18 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.152:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:18 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.150:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:18 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.153:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:18 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.144:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:18 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.148:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:18 | INFO     | connections.client   | [SERVER] Archivo entregado con éxito a 5/5 nodo(s).
+2026-05-26 22:25:18 | INFO     | connections.server   | [SERVER] Listening on ws://0.0.0.0:8765 (esperando 5 nodo(s), max 3000s)...
+2026-05-26 22:25:18 | INFO     | websockets.server    | server listening on 0.0.0.0:8765
+2026-05-26 22:25:19 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:19 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:19 | INFO     | utils                | [FILE SAVED] received_files/round_3/Nodo_3_model.pt
+2026-05-26 22:25:19 | INFO     | utils                | [FILE SAVED] received_files/round_3/Nodo_1_model.pt
+2026-05-26 22:25:19 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:19 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:19 | INFO     | connections.server   | [SERVER] [Nodo_3] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.048706769943237305, "loss": 0.0, "cpu_percent_before": 2.6, "cpu_percent_after": 0.0, "ram_mb_before": 677.75, "ram_mb_after": 677.17, "temperature_c": 43.82, "cpu_freq_mhz": 1500.0, "open_sockets": 18, "ecomp_j": 0.001512, "ecomm_j": 0.0535, "etotal_j": 0.055012, "cumulative_etotal_j": 0.220036, "n_train_samples": 25, "fednova_tau": 6, "nova_grad_available": false, "comm_overhead_bytes": 378356, "net_bytes_rx_model": 94589, "net_bytes_rx_system": 103043, "net_bandwidth_rx_kbps": 7728.27, "net_packets_recv": 137, "net_errors_in": 0, "net_drops_in": 0, "latency_model_download_s": 0.107, "h_ronda": 0, "latency_model_upload_s": 0.099, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93091, "net_bandwidth_tx_kbps": 7502.97, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 8405.76, "net_transmission_time_s": 0.099}
+2026-05-26 22:25:20 | INFO     | connections.server   | [SERVER] [Nodo_3] completado (1/5) - Red: TX=1496B, RX=1132B, BW=1696.21kbps
+2026-05-26 22:25:20 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:20 | INFO     | connections.server   | [SERVER] [Nodo_1] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.09424924850463867, "loss": 0.0, "cpu_percent_before": 7.3, "cpu_percent_after": 7.5, "ram_mb_before": 632.16, "ram_mb_after": 632.79, "temperature_c": 46.74, "cpu_freq_mhz": 1500.0, "open_sockets": 18, "ecomp_j": 0.0038707200000000002, "ecomm_j": 0.026, "etotal_j": 0.02987072, "cumulative_etotal_j": 0.091612, "n_train_samples": 64, "fednova_tau": 12, "nova_grad_available": false, "comm_overhead_bytes": 378356, "net_bytes_rx_model": 94589, "net_bytes_rx_system": 91177, "net_bandwidth_rx_kbps": 14035.52, "net_packets_recv": 63, "net_errors_in": 0, "net_drops_in": 0, "latency_model_download_s": 0.052, "h_ronda": 0, "latency_model_upload_s": 0.112, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 94290, "net_bandwidth_tx_kbps": 6753.65, "net_packets_sent": 69, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 7679.27, "net_transmission_time_s": 0.112}
+2026-05-26 22:25:20 | INFO     | connections.server   | [SERVER] [Nodo_1] completado (2/5) - Red: TX=1622B, RX=15728B, BW=21553.85kbps
+2026-05-26 22:25:20 | INFO     | utils                | [FILE SAVED] received_files/round_3/Nodo_2_model.pt
+2026-05-26 22:25:20 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:20 | INFO     | connections.server   | [SERVER] [Nodo_2] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.06639838218688965, "loss": 0.0, "cpu_percent_before": 7.7, "cpu_percent_after": 7.3, "ram_mb_before": 653.42, "ram_mb_after": 655.46, "temperature_c": 43.82, "cpu_freq_mhz": 1500.0, "open_sockets": 18, "ecomp_j": 0.00229824, "ecomm_j": 0.0265, "etotal_j": 0.02879824, "cumulative_etotal_j": 0.136395, "n_train_samples": 38, "fednova_tau": 9, "nova_grad_available": false, "comm_overhead_bytes": 378356, "net_bytes_rx_model": 94589, "net_bytes_rx_system": 91177, "net_bandwidth_rx_kbps": 13890.04, "net_packets_recv": 63, "net_errors_in": 0, "net_drops_in": 0, "latency_model_download_s": 0.053, "h_ronda": 0, "latency_model_upload_s": 0.125, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 94282, "net_bandwidth_tx_kbps": 6036.06, "net_packets_sent": 69, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 7326.48, "net_transmission_time_s": 0.125}
+2026-05-26 22:25:20 | INFO     | connections.server   | [SERVER] [Nodo_2] completado (3/5) - Red: TX=1276B, RX=518B, BW=2685.91kbps
+2026-05-26 22:25:20 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:20 | INFO     | utils                | [FILE SAVED] received_files/round_3/Nodo_5_model.pt
+2026-05-26 22:25:20 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:20 | INFO     | connections.server   | [SERVER] [Nodo_5] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.3585374355316162, "loss": 0.0, "cpu_percent_before": 2.6, "cpu_percent_after": 2.6, "ram_mb_before": 687.82, "ram_mb_after": 694.75, "temperature_c": 42.35, "cpu_freq_mhz": 1500.0, "open_sockets": 18, "ecomp_j": 0.011975040000000001, "ecomm_j": 0.058, "etotal_j": 0.06997504, "cumulative_etotal_j": 0.194925, "n_train_samples": 198, "fednova_tau": 39, "nova_grad_available": false, "comm_overhead_bytes": 378356, "net_bytes_rx_model": 94589, "net_bytes_rx_system": 101970, "net_bandwidth_rx_kbps": 7046.65, "net_packets_recv": 136, "net_errors_in": 0, "net_drops_in": 0, "latency_model_download_s": 0.116, "h_ronda": 0, "latency_model_upload_s": 0.079, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 92896, "net_bandwidth_tx_kbps": 9381.26, "net_packets_sent": 67, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 9725.82, "net_transmission_time_s": 0.079}
+2026-05-26 22:25:20 | INFO     | connections.server   | [SERVER] [Nodo_5] completado (4/5) - Red: TX=1292B, RX=523B, BW=3259.89kbps
+2026-05-26 22:25:20 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:21 | INFO     | utils                | [FILE SAVED] received_files/round_3/Nodo_4_model.pt
+2026-05-26 22:25:21 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:21 | INFO     | connections.server   | [SERVER] [Nodo_4] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.0454258918762207, "loss": 0.0, "cpu_percent_before": 12.5, "cpu_percent_after": 2.5, "ram_mb_before": 713.73, "ram_mb_after": 713.64, "temperature_c": 41.87, "cpu_freq_mhz": 1500.0, "open_sockets": 20, "ecomp_j": 0.001512, "ecomm_j": 0.1575, "etotal_j": 0.15901200000000001, "cumulative_etotal_j": 0.230536, "n_train_samples": 25, "fednova_tau": 6, "nova_grad_available": false, "comm_overhead_bytes": 378356, "net_bytes_rx_model": 94589, "net_bytes_rx_system": 107944, "net_bandwidth_rx_kbps": 2743.08, "net_packets_recv": 189, "net_errors_in": 0, "net_drops_in": 0, "latency_model_download_s": 0.315, "h_ronda": 0, "latency_model_upload_s": 0.916, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93007, "net_bandwidth_tx_kbps": 812.11, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 1228.09, "net_transmission_time_s": 0.916}
+2026-05-26 22:25:21 | INFO     | connections.server   | [SERVER] [Nodo_4] completado (5/5) - Red: TX=1276B, RX=519B, BW=2950.00kbps
+2026-05-26 22:25:21 | INFO     | connections.server   | [SERVER] Todos los nodos completados.
+2026-05-26 22:25:21 | INFO     | websockets.server    | server closing
+2026-05-26 22:25:21 | INFO     | websockets.server    | server closed
+2026-05-26 22:25:21 | INFO     | federated            | [CENTRAL] Ronda 3: recall=1.0000 var=0.0000 straggler=0.00s agg=0.034s
+2026-05-26 22:25:21 | INFO     | federated            | [CENTRAL] Sin mejora: 2/3
+2026-05-26 22:25:21 | INFO     | utils                | [CENTRAL] Ronda 3 guardada → logs/metrics.csv
+2026-05-26 22:25:21 | INFO     | connections.client   | [SERVER] Iniciando distribución de mensaje a 5 nodo(s)...
+2026-05-26 22:25:21 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.148:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:21 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.150:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:21 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.144:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:21 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.153:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:21 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.152:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:21 | INFO     | connections.client   | [SERVER] Mensaje entregado con éxito a 5/5 nodo(s).
+2026-05-26 22:25:21 | INFO     | federated            | 
+[CENTRAL] ══ Ronda 4/50 ══
+2026-05-26 22:25:23 | INFO     | connections.client   | [SERVER] Iniciando distribución de archivo models/model.pt a 5 nodo(s)...
+2026-05-26 22:25:23 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.148:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:23 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.144:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:24 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.150:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:24 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.153:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:24 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.152:8765: ACK_FILE_SUCCESS
+2026-05-26 22:25:24 | INFO     | connections.client   | [SERVER] Archivo entregado con éxito a 5/5 nodo(s).
+2026-05-26 22:25:24 | INFO     | connections.server   | [SERVER] Listening on ws://0.0.0.0:8765 (esperando 5 nodo(s), max 3000s)...
+2026-05-26 22:25:24 | INFO     | websockets.server    | server listening on 0.0.0.0:8765
+2026-05-26 22:25:25 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:25 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:25 | INFO     | utils                | [FILE SAVED] received_files/round_4/Nodo_4_model.pt
+2026-05-26 22:25:25 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:25 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:25 | INFO     | connections.server   | [SERVER] [Nodo_4] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.05791831016540527, "loss": 0.0, "cpu_percent_before": 0.0, "cpu_percent_after": 5.0, "ram_mb_before": 712.93, "ram_mb_after": 713.08, "temperature_c": 42.35, "cpu_freq_mhz": 1500.0, "open_sockets": 22, "ecomp_j": 0.001512, "ecomm_j": 0.03, "etotal_j": 0.031512, "cumulative_etotal_j": 0.262048, "n_train_samples": 25, "fednova_tau": 6, "nova_grad_available": false, "comm_overhead_bytes": 378356, "net_bytes_rx_model": 94589, "net_bytes_rx_system": 91150, "net_bandwidth_rx_kbps": 12150.64, "net_packets_recv": 63, "net_errors_in": 0, "net_drops_in": 0, "latency_model_download_s": 0.06, "h_ronda": 0, "latency_model_upload_s": 0.082, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 92856, "net_bandwidth_tx_kbps": 9023.36, "net_packets_sent": 67, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 9296.04, "net_transmission_time_s": 0.082}
+2026-05-26 22:25:25 | INFO     | connections.server   | [SERVER] [Nodo_4] completado (1/5) - Red: TX=1870B, RX=45508B, BW=34186.53kbps
+2026-05-26 22:25:25 | INFO     | utils                | [FILE SAVED] received_files/round_4/Nodo_3_model.pt
+2026-05-26 22:25:25 | INFO     | utils                | [FILE SAVED] received_files/round_4/Nodo_2_model.pt
+2026-05-26 22:25:25 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:25 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:25 | INFO     | connections.server   | [SERVER] [Nodo_3] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.04500293731689453, "loss": 0.0, "cpu_percent_before": 2.4, "cpu_percent_after": 2.5, "ram_mb_before": 673.33, "ram_mb_after": 676.79, "temperature_c": 43.82, "cpu_freq_mhz": 1500.0, "open_sockets": 20, "ecomp_j": 0.001512, "ecomm_j": 0.0665, "etotal_j": 0.068012, "cumulative_etotal_j": 0.288048, "n_train_samples": 25, "fednova_tau": 6, "nova_grad_available": false, "comm_overhead_bytes": 378356, "net_bytes_rx_model": 94589, "net_bytes_rx_system": 105799, "net_bandwidth_rx_kbps": 6365.71, "net_packets_recv": 97, "net_errors_in": 0, "net_drops_in": 0, "latency_model_download_s": 0.133, "h_ronda": 0, "latency_model_upload_s": 0.085, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93070, "net_bandwidth_tx_kbps": 8724.73, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 8845.75, "net_transmission_time_s": 0.085}
+2026-05-26 22:25:25 | INFO     | connections.server   | [SERVER] [Nodo_3] completado (2/5) - Red: TX=1342B, RX=891B, BW=1999.01kbps
+2026-05-26 22:25:25 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:25 | INFO     | connections.server   | [SERVER] [Nodo_2] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.06622743606567383, "loss": 0.0, "cpu_percent_before": 0.0, "cpu_percent_after": 0.0, "ram_mb_before": 652.23, "ram_mb_after": 669.15, "temperature_c": 41.87, "cpu_freq_mhz": 1500.0, "open_sockets": 20, "ecomp_j": 0.00229824, "ecomm_j": 0.0565, "etotal_j": 0.05879824, "cumulative_etotal_j": 0.195193, "n_train_samples": 38, "fednova_tau": 9, "nova_grad_available": false, "comm_overhead_bytes": 378356, "net_bytes_rx_model": 94589, "net_bytes_rx_system": 106845, "net_bandwidth_rx_kbps": 7558.26, "net_packets_recv": 98, "net_errors_in": 0, "net_drops_in": 0, "latency_model_download_s": 0.113, "h_ronda": 0, "latency_model_upload_s": 0.097, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93074, "net_bandwidth_tx_kbps": 7715.34, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 7896.79, "net_transmission_time_s": 0.097}
+2026-05-26 22:25:25 | INFO     | connections.server   | [SERVER] [Nodo_2] completado (3/5) - Red: TX=2002B, RX=38065B, BW=32083.46kbps
+2026-05-26 22:25:25 | INFO     | utils                | [FILE SAVED] received_files/round_4/Nodo_1_model.pt
+2026-05-26 22:25:25 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:25 | INFO     | connections.server   | [SERVER] [Nodo_1] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.0969381332397461, "loss": 0.0, "cpu_percent_before": 5.0, "cpu_percent_after": 0.0, "ram_mb_before": 630.29, "ram_mb_after": 634.13, "temperature_c": 47.23, "cpu_freq_mhz": 1500.0, "open_sockets": 20, "ecomp_j": 0.0038707200000000002, "ecomm_j": 0.0745, "etotal_j": 0.07837071999999999, "cumulative_etotal_j": 0.169983, "n_train_samples": 64, "fednova_tau": 12, "nova_grad_available": false, "comm_overhead_bytes": 378356, "net_bytes_rx_model": 94589, "net_bytes_rx_system": 105799, "net_bandwidth_rx_kbps": 5686.97, "net_packets_recv": 97, "net_errors_in": 0, "net_drops_in": 0, "latency_model_download_s": 0.149, "h_ronda": 0, "latency_model_upload_s": 0.081, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93081, "net_bandwidth_tx_kbps": 9247.56, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 9470.2, "net_transmission_time_s": 0.081}
+2026-05-26 22:25:25 | INFO     | connections.server   | [SERVER] [Nodo_1] completado (4/5) - Red: TX=1292B, RX=520B, BW=3638.36kbps
+2026-05-26 22:25:25 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:25 | INFO     | utils                | [FILE SAVED] received_files/round_4/Nodo_5_model.pt
+2026-05-26 22:25:25 | INFO     | websockets.server    | connection open
+2026-05-26 22:25:25 | INFO     | connections.server   | [SERVER] [Nodo_5] str recibido: {"accuracy": 1.0, "precision": 1.0, "recall": 1.0, "f1_score": 1.0, "specificity": 1.0, "sensitivity": 0.0, "trainning_time": 0.3082568645477295, "loss": 0.0, "cpu_percent_before": 0.0, "cpu_percent_after": 2.5, "ram_mb_before": 691.76, "ram_mb_after": 691.55, "temperature_c": 43.82, "cpu_freq_mhz": 1500.0, "open_sockets": 20, "ecomp_j": 0.011975040000000001, "ecomm_j": 0.072, "etotal_j": 0.08397504, "cumulative_etotal_j": 0.2789, "n_train_samples": 198, "fednova_tau": 39, "nova_grad_available": false, "comm_overhead_bytes": 378356, "net_bytes_rx_model": 94589, "net_bytes_rx_system": 105799, "net_bandwidth_rx_kbps": 5888.44, "net_packets_recv": 97, "net_errors_in": 0, "net_drops_in": 0, "latency_model_download_s": 0.144, "h_ronda": 0, "latency_model_upload_s": 0.081, "net_bytes_tx_model": 94781, "net_bytes_tx_system": 93098, "net_bandwidth_tx_kbps": 9142.22, "net_packets_sent": 68, "net_errors_out": 0, "net_drops_out": 0, "net_throughput_kbps": 9899.54, "net_transmission_time_s": 0.081}
+2026-05-26 22:25:25 | INFO     | connections.server   | [SERVER] [Nodo_5] completado (5/5) - Red: TX=1292B, RX=574B, BW=2341.18kbps
+2026-05-26 22:25:25 | INFO     | connections.server   | [SERVER] Todos los nodos completados.
+2026-05-26 22:25:25 | INFO     | websockets.server    | server closing
+2026-05-26 22:25:25 | INFO     | websockets.server    | server closed
+2026-05-26 22:25:25 | INFO     | federated            | [CENTRAL] Ronda 4: recall=1.0000 var=0.0000 straggler=0.00s agg=0.021s
+2026-05-26 22:25:25 | INFO     | federated            | [CENTRAL] Sin mejora: 3/3
+2026-05-26 22:25:25 | INFO     | federated            | [CENTRAL] 🛑 EARLY STOPPING | mejor recall=1.0000 | ronda=1
+2026-05-26 22:25:25 | INFO     | utils                | [CENTRAL] Ronda 4 guardada → logs/metrics.csv
+2026-05-26 22:25:25 | INFO     | utils                | [CONVERGENCIA] ¡Convergido en ronda 4!
+2026-05-26 22:25:25 | INFO     | connections.client   | [SERVER] Iniciando distribución de mensaje a 5 nodo(s)...
+2026-05-26 22:25:26 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.150:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:26 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.144:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:26 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.153:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:26 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.152:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:26 | INFO     | connections.client   | [SERVER] Confirmación desde 172.23.209.148:8765: ACK_MESSAGE_SUCCESS
+2026-05-26 22:25:26 | INFO     | connections.client   | [SERVER] Mensaje entregado con éxito a 5/5 nodo(s).
+2026-05-26 22:25:26 | INFO     | federated            | 
+[CENTRAL] Entrenamiento completado. Best recall=1.0000
+2026-05-26 22:25:26 | INFO     | __main__             | [HIER] Proceso completado.
+[create_model] Modelo guardado: models/model.pt (105 features)

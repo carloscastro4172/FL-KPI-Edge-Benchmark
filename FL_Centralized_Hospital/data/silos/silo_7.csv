@@ -1,0 +1,882 @@
+sexo,edad_anos,etnia,sabe_leer,est_civil,niv_inst,prov_res,prov_fall,cant_fall,area_res,area_fall,lugar_ocur,mor_viol,lug_viol,autopsia,residente,anio_fall,mes_fall,dia_fall,ncd_group,is_premature_ncd,hospital_cliente
+Hombre,19.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Enero,7,No_NCD,0.0,Hospital_7
+Hombre,57.0,Mestizo (a),No,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Enero,9,Diabetes,1.0,Hospital_7
+Mujer,0.002511415525114155,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Enero,15,No_NCD,0.0,Hospital_7
+Hombre,85.0,Montubio (a),No,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Enero,19,No_NCD,0.0,Hospital_7
+Mujer,69.0,Montubio (a),Si,Soltero (a),Centro de alfabetización,Esmeraldas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Febrero,3,Cancer,1.0,Hospital_7
+Mujer,75.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Febrero,22,No_NCD,0.0,Hospital_7
+Hombre,88.0,Mestizo (a),No,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Febrero,26,No_NCD,0.0,Hospital_7
+Hombre,0.08333333333333333,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Febrero,1,No_NCD,0.0,Hospital_7
+Hombre,65.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,2,Cardiovascular,1.0,Hospital_7
+Hombre,18.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,Si,Residente,2024,Febrero,4,Cardiovascular,0.0,Hospital_7
+Hombre,57.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,Residente,2024,Febrero,5,No_NCD,0.0,Hospital_7
+Mujer,95.0,Mestizo (a),Si,Viudo (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Febrero,18,No_NCD,0.0,Hospital_7
+Mujer,57.0,Mestizo (a),Si,Casado (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Febrero,18,No_NCD,0.0,Hospital_7
+Mujer,76.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,18,No_NCD,0.0,Hospital_7
+Mujer,88.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Febrero,19,No_NCD,0.0,Hospital_7
+Mujer,87.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Febrero,16,No_NCD,0.0,Hospital_7
+Mujer,59.0,Montubio (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Febrero,25,No_NCD,0.0,Hospital_7
+Hombre,73.0,Mestizo (a),No,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,29,Cancer,0.0,Hospital_7
+Hombre,23.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Febrero,16,No_NCD,0.0,Hospital_7
+Hombre,68.0,Mestizo (a),Si,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,1,Cancer,1.0,Hospital_7
+Mujer,4.0,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Febrero,5,No_NCD,0.0,Hospital_7
+Hombre,69.0,Mestizo (a),Si,Unión Libre,Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Febrero,12,Cardiovascular,1.0,Hospital_7
+Mujer,67.0,Mestizo (a),Si,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Febrero,18,No_NCD,0.0,Hospital_7
+Hombre,44.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,No residente,2024,Febrero,6,No_NCD,0.0,Hospital_7
+Hombre,78.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,3,Cardiovascular,0.0,Hospital_7
+Hombre,44.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,No residente,2024,Febrero,27,No_NCD,0.0,Hospital_7
+Hombre,72.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Marzo,14,Cardiovascular,0.0,Hospital_7
+Mujer,0.5833333333333334,,,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Marzo,28,No_NCD,0.0,Hospital_7
+Hombre,21.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,Residente,2024,Marzo,2,No_NCD,0.0,Hospital_7
+Hombre,29.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Marzo,2,No_NCD,0.0,Hospital_7
+Mujer,36.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Marzo,2,Cardiovascular,1.0,Hospital_7
+Mujer,52.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,4,Cancer,1.0,Hospital_7
+Mujer,96.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Marzo,7,Cardiovascular,0.0,Hospital_7
+Mujer,93.0,Mestizo (a),No,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,8,No_NCD,0.0,Hospital_7
+Mujer,85.0,Mestizo (a),No,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Marzo,10,Diabetes,0.0,Hospital_7
+Hombre,41.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Vivienda,,Residente,2024,Marzo,8,No_NCD,0.0,Hospital_7
+Hombre,82.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,13,No_NCD,0.0,Hospital_7
+Hombre,52.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,24,No_NCD,0.0,Hospital_7
+Hombre,23.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Marzo,26,No_NCD,0.0,Hospital_7
+Hombre,24.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,No residente,2024,Marzo,29,No_NCD,0.0,Hospital_7
+Hombre,45.0,Mestizo (a),Si,Divorciado (a),Postgrado,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,No residente,2024,Marzo,10,No_NCD,0.0,Hospital_7
+Hombre,33.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,No residente,2024,Marzo,1,No_NCD,0.0,Hospital_7
+Mujer,88.0,Mestizo (a),No,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,2,Cancer,0.0,Hospital_7
+Hombre,25.0,Mestizo (a),,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,Residente,2024,Abril,1,No_NCD,0.0,Hospital_7
+Hombre,64.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Abril,2,No_NCD,0.0,Hospital_7
+Hombre,80.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Abril,7,Cardiovascular,0.0,Hospital_7
+Hombre,18.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Abril,6,No_NCD,0.0,Hospital_7
+Hombre,53.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,No residente,2024,Marzo,6,No_NCD,0.0,Hospital_7
+Hombre,20.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,No residente,2024,Marzo,11,No_NCD,0.0,Hospital_7
+Hombre,35.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,No residente,2024,Marzo,17,No_NCD,0.0,Hospital_7
+Hombre,0.25,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Abril,10,No_NCD,0.0,Hospital_7
+Hombre,31.0,,Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Abril,10,No_NCD,0.0,Hospital_7
+Mujer,86.0,Montubio (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,29,No_NCD,0.0,Hospital_7
+Hombre,91.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,17,Cardiovascular,0.0,Hospital_7
+Hombre,71.0,Mestizo (a),No,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Abril,21,No_NCD,0.0,Hospital_7
+Hombre,2.0,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Indeterminada,,Si,Residente,2024,Abril,22,No_NCD,0.0,Hospital_7
+Hombre,35.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Abril,23,No_NCD,0.0,Hospital_7
+Hombre,33.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Abril,26,No_NCD,0.0,Hospital_7
+Hombre,26.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Abril,21,No_NCD,0.0,Hospital_7
+Hombre,16.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,Residente,2024,Abril,28,No_NCD,0.0,Hospital_7
+Hombre,25.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,No residente,2024,Marzo,24,No_NCD,0.0,Hospital_7
+Hombre,24.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,No residente,2024,Marzo,25,No_NCD,0.0,Hospital_7
+Hombre,25.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,No residente,2024,Abril,1,No_NCD,0.0,Hospital_7
+Hombre,22.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,No residente,2024,Abril,5,No_NCD,0.0,Hospital_7
+Hombre,21.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,No residente,2024,Abril,5,No_NCD,0.0,Hospital_7
+Mujer,24.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,No residente,2024,Abril,17,No_NCD,0.0,Hospital_7
+Hombre,37.0,Mestizo (a),Si,,Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,No residente,2024,Abril,24,No_NCD,0.0,Hospital_7
+Hombre,18.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Otro,Si,Residente,2024,Abril,29,No_NCD,0.0,Hospital_7
+Mujer,31.0,Mestizo (a),Si,Soltero (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Área comercial o de servicio,Si,No residente,2024,Abril,8,No_NCD,0.0,Hospital_7
+Hombre,78.0,Montubio (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Abril,13,No_NCD,0.0,Hospital_7
+Hombre,35.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Abril,9,Diabetes,1.0,Hospital_7
+Mujer,77.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Mayo,20,No_NCD,0.0,Hospital_7
+Mujer,23.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Mayo,1,No_NCD,0.0,Hospital_7
+Hombre,27.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Mayo,2,No_NCD,0.0,Hospital_7
+Hombre,30.0,,No,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Mayo,4,No_NCD,0.0,Hospital_7
+Mujer,48.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Mayo,4,No_NCD,0.0,Hospital_7
+Hombre,16.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Área comercial o de servicio,Si,No residente,2024,Mayo,3,No_NCD,0.0,Hospital_7
+Hombre,41.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,No residente,2024,Mayo,4,No_NCD,0.0,Hospital_7
+Hombre,29.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Mayo,6,No_NCD,0.0,Hospital_7
+Hombre,15.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Mayo,7,No_NCD,0.0,Hospital_7
+Mujer,37.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Otro,Si,Residente,2024,Junio,1,No_NCD,0.0,Hospital_7
+Hombre,36.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Otro,Si,Residente,2024,Junio,1,No_NCD,0.0,Hospital_7
+Mujer,80.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,3,Chronic_Respiratory,0.0,Hospital_7
+Hombre,55.0,Mestizo (a),No,Soltero (a),Educación Básica,Guayas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,5,No_NCD,0.0,Hospital_7
+Mujer,90.0,Mestizo (a),No,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,8,Cardiovascular,0.0,Hospital_7
+Mujer,74.0,,,Unión Libre,,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,12,No_NCD,0.0,Hospital_7
+Hombre,22.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,Residente,2024,Junio,14,No_NCD,0.0,Hospital_7
+Hombre,23.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Junio,15,No_NCD,0.0,Hospital_7
+Hombre,31.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Institución residencial,Si,Residente,2024,Junio,20,No_NCD,0.0,Hospital_7
+Hombre,73.0,Mestizo (a),Si,Divorciado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,24,Cancer,0.0,Hospital_7
+Hombre,0.030136986301369864,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Mayo,31,No_NCD,0.0,Hospital_7
+Hombre,38.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Junio,20,No_NCD,0.0,Hospital_7
+Hombre,23.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Junio,20,No_NCD,0.0,Hospital_7
+Hombre,65.0,Mestizo (a),Si,Casado (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Junio,29,Cancer,1.0,Hospital_7
+Hombre,30.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,No residente,2024,Julio,14,No_NCD,0.0,Hospital_7
+Mujer,1.0,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,No residente,2024,Julio,14,No_NCD,0.0,Hospital_7
+Hombre,21.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,Residente,2024,Julio,1,No_NCD,0.0,Hospital_7
+Hombre,24.0,,,,,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,Si,Residente,2024,Febrero,26,Cardiovascular,0.0,Hospital_7
+Hombre,83.0,Mestizo (a),No,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Julio,15,No_NCD,0.0,Hospital_7
+Mujer,98.0,Mestizo (a),No,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,15,Chronic_Respiratory,0.0,Hospital_7
+Hombre,26.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,No residente,2024,Julio,27,No_NCD,0.0,Hospital_7
+Hombre,81.0,Mestizo (a),Si,Viudo (a),Secundaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Julio,21,Cancer,0.0,Hospital_7
+Hombre,60.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Julio,23,Cancer,1.0,Hospital_7
+Mujer,51.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Indeterminada,,Si,Residente,2024,Julio,24,No_NCD,0.0,Hospital_7
+Hombre,24.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Julio,30,No_NCD,0.0,Hospital_7
+Mujer,44.0,Mestizo (a),Si,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Julio,13,No_NCD,0.0,Hospital_7
+Hombre,55.0,Mestizo (a),Si,,Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Julio,5,Cardiovascular,1.0,Hospital_7
+Mujer,0.01643835616438356,,,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Junio,30,No_NCD,0.0,Hospital_7
+Hombre,34.0,Mestizo (a),,Unión Libre,Educación Básica,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,,Si,No residente,2024,Agosto,3,No_NCD,0.0,Hospital_7
+Mujer,63.0,Mestizo (a),Si,Soltero (a),Educación Básica,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Agosto,12,No_NCD,0.0,Hospital_7
+Hombre,0.0273972602739726,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Agosto,2,No_NCD,0.0,Hospital_7
+Mujer,74.0,Mestizo (a),,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,12,No_NCD,0.0,Hospital_7
+Hombre,17.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,Otros accidentes,Área agrícola,Si,Residente,2024,Agosto,13,No_NCD,0.0,Hospital_7
+Hombre,71.0,Mestizo (a),Si,Divorciado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Agosto,13,Cardiovascular,0.0,Hospital_7
+Hombre,30.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,Residente,2024,Agosto,27,No_NCD,0.0,Hospital_7
+Mujer,68.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,12,Diabetes,1.0,Hospital_7
+Hombre,50.0,Mestizo (a),Si,Casado (a),Superior no universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Agosto,26,Cancer,1.0,Hospital_7
+Hombre,73.0,Mestizo (a),Si,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Agosto,20,Cardiovascular,0.0,Hospital_7
+Hombre,0.01643835616438356,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Julio,31,No_NCD,0.0,Hospital_7
+Hombre,73.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Septiembre,8,Cardiovascular,0.0,Hospital_7
+Hombre,73.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,2,No_NCD,0.0,Hospital_7
+Hombre,69.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Septiembre,3,Cardiovascular,1.0,Hospital_7
+Hombre,72.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Septiembre,4,Cancer,0.0,Hospital_7
+Hombre,0.0273972602739726,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Septiembre,16,No_NCD,0.0,Hospital_7
+Mujer,0.03561643835616438,,,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,9,No_NCD,0.0,Hospital_7
+Hombre,63.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,24,Cancer,1.0,Hospital_7
+Hombre,35.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Pichincha,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Escuela u oficina pública,Si,No residente,2024,Noviembre,21,No_NCD,0.0,Hospital_7
+Hombre,75.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,29,No_NCD,0.0,Hospital_7
+Hombre,65.0,Mestizo (a),Si,Casado (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,10,Diabetes,1.0,Hospital_7
+Mujer,32.0,Mestizo (a),Si,Unión Libre,Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Octubre,11,No_NCD,0.0,Hospital_7
+Hombre,30.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Octubre,12,No_NCD,0.0,Hospital_7
+Hombre,23.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Octubre,12,No_NCD,0.0,Hospital_7
+Hombre,66.0,Mestizo (a),Si,Casado (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Octubre,20,Cancer,1.0,Hospital_7
+Mujer,17.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,Si,Residente,2024,Octubre,24,Cardiovascular,0.0,Hospital_7
+Hombre,24.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,Residente,2024,Octubre,28,No_NCD,0.0,Hospital_7
+Mujer,25.0,Mestizo (a),Si,,Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,Si,Residente,2024,Octubre,26,No_NCD,0.0,Hospital_7
+Mujer,67.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Suicidio,,Si,Residente,2024,Octubre,30,No_NCD,0.0,Hospital_7
+Hombre,66.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Octubre,12,No_NCD,0.0,Hospital_7
+Hombre,47.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,No residente,2024,Octubre,6,No_NCD,0.0,Hospital_7
+Hombre,0.0009132420091324201,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Octubre,19,No_NCD,0.0,Hospital_7
+Hombre,22.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,Residente,2024,Octubre,25,No_NCD,0.0,Hospital_7
+Mujer,68.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Octubre,25,No_NCD,0.0,Hospital_7
+Hombre,22.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,No residente,2024,Octubre,26,No_NCD,0.0,Hospital_7
+Mujer,58.0,Mestizo (a),Si,Divorciado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Noviembre,15,Cardiovascular,1.0,Hospital_7
+Hombre,15.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Noviembre,3,No_NCD,0.0,Hospital_7
+Hombre,52.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Octubre,31,No_NCD,0.0,Hospital_7
+Hombre,32.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Noviembre,2,No_NCD,0.0,Hospital_7
+Hombre,95.0,Mestizo (a),No,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Noviembre,7,No_NCD,0.0,Hospital_7
+Hombre,31.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Noviembre,7,No_NCD,0.0,Hospital_7
+Mujer,90.0,Mestizo (a),Si,Soltero (a),Centro de alfabetización,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Noviembre,8,Cardiovascular,0.0,Hospital_7
+Hombre,42.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Noviembre,9,No_NCD,0.0,Hospital_7
+Hombre,71.0,Mestizo (a),Si,Divorciado (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,12,Cancer,0.0,Hospital_7
+Hombre,55.0,Blanco (a),Si,Casado (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Vivienda,Si,Residente,2024,Noviembre,21,No_NCD,0.0,Hospital_7
+Mujer,84.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,23,Cardiovascular,0.0,Hospital_7
+Hombre,35.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Noviembre,22,No_NCD,0.0,Hospital_7
+Hombre,18.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,No residente,2024,Noviembre,18,No_NCD,0.0,Hospital_7
+Hombre,23.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,Residente,2024,Noviembre,11,No_NCD,0.0,Hospital_7
+Hombre,28.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Diciembre,1,No_NCD,0.0,Hospital_7
+Hombre,27.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Vivienda,Si,Residente,2024,Diciembre,3,No_NCD,0.0,Hospital_7
+Hombre,50.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Noviembre,3,No_NCD,0.0,Hospital_7
+Mujer,32.0,Mestizo (a),Si,Divorciado (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,Residente,2024,Diciembre,7,No_NCD,0.0,Hospital_7
+Hombre,32.0,Mestizo (a),Si,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,Residente,2024,Diciembre,13,No_NCD,0.0,Hospital_7
+Hombre,25.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Diciembre,22,No_NCD,0.0,Hospital_7
+Hombre,96.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,28,No_NCD,0.0,Hospital_7
+Hombre,48.0,Mestizo (a),Si,Casado (a),Educación Básica,Guayas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Diciembre,3,Diabetes,1.0,Hospital_7
+Mujer,81.0,Mestizo (a),Si,Viudo (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Diciembre,12,No_NCD,0.0,Hospital_7
+Mujer,0.021917808219178082,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,,No residente,2024,Diciembre,2,No_NCD,0.0,Hospital_7
+Mujer,59.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,No residente,2024,Diciembre,18,No_NCD,0.0,Hospital_7
+Hombre,79.0,Mestizo (a),Si,Divorciado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,,Residente,2024,Diciembre,4,Cancer,0.0,Hospital_7
+Hombre,66.0,Mestizo (a),Si,Soltero (a),Postgrado,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Accidente de transporte,Calle o carreteras,Si,Residente,2024,Diciembre,10,No_NCD,0.0,Hospital_7
+Hombre,43.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,No residente,2024,Diciembre,27,No_NCD,0.0,Hospital_7
+Mujer,16.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Homicidios,Calle o carreteras,Si,No residente,2024,Diciembre,24,No_NCD,0.0,Hospital_7
+Hombre,46.0,Mestizo (a),Si,Soltero (a),Superior universitario,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,20,Cardiovascular,1.0,Hospital_7
+Mujer,65.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,29,Cardiovascular,1.0,Hospital_7
+Hombre,0.0684931506849315,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,28,No_NCD,0.0,Hospital_7
+Hombre,14.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Guayas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,5,No_NCD,0.0,Hospital_7
+Hombre,87.0,Mestizo (a),Si,Viudo (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,29,Cardiovascular,0.0,Hospital_7
+Hombre,87.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,29,No_NCD,0.0,Hospital_7
+Hombre,77.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,4,Cancer,0.0,Hospital_7
+Hombre,56.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,27,Cardiovascular,1.0,Hospital_7
+Hombre,17.0,Otra,Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Otros accidentes,Vivienda,No,Residente,2024,Noviembre,21,No_NCD,0.0,Hospital_7
+Hombre,61.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,24,Cancer,1.0,Hospital_7
+Hombre,42.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,17,No_NCD,0.0,Hospital_7
+Mujer,46.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,14,Cancer,1.0,Hospital_7
+Hombre,85.0,Mestizo (a),No,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,30,Cardiovascular,0.0,Hospital_7
+Mujer,80.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,19,Cancer,0.0,Hospital_7
+Hombre,78.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,14,No_NCD,0.0,Hospital_7
+Mujer,75.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,14,Cardiovascular,0.0,Hospital_7
+Mujer,72.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,11,Cancer,0.0,Hospital_7
+Hombre,86.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,15,No_NCD,0.0,Hospital_7
+Hombre,34.0,Mestizo (a),Si,Soltero (a),Secundaria,Los Ríos,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,8,No_NCD,0.0,Hospital_7
+Hombre,81.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,1,Cardiovascular,0.0,Hospital_7
+Hombre,75.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,31,No_NCD,0.0,Hospital_7
+Hombre,82.0,Mestizo (a),No,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,19,No_NCD,0.0,Hospital_7
+Mujer,65.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,26,No_NCD,0.0,Hospital_7
+Mujer,0.8333333333333334,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,6,No_NCD,0.0,Hospital_7
+Hombre,78.0,Mestizo (a),,Divorciado (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,30,Cardiovascular,0.0,Hospital_7
+Mujer,91.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,28,No_NCD,0.0,Hospital_7
+Hombre,73.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,4,Cardiovascular,0.0,Hospital_7
+Mujer,79.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,22,No_NCD,0.0,Hospital_7
+Hombre,63.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,15,No_NCD,0.0,Hospital_7
+Hombre,58.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,29,No_NCD,0.0,Hospital_7
+Hombre,37.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,8,No_NCD,0.0,Hospital_7
+Mujer,30.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,22,No_NCD,0.0,Hospital_7
+Mujer,0.010958904109589041,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,22,No_NCD,0.0,Hospital_7
+Mujer,53.0,Mestizo (a),,Soltero (a),Primaria,Santo Domingo de los Tsáchilas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,1,No_NCD,0.0,Hospital_7
+Mujer,79.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,11,No_NCD,0.0,Hospital_7
+Mujer,84.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,17,Diabetes,0.0,Hospital_7
+Hombre,53.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,24,Cardiovascular,1.0,Hospital_7
+Mujer,0.08333333333333333,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,25,No_NCD,0.0,Hospital_7
+Mujer,78.0,Mestizo (a),Si,Viudo (a),Educación Básica,Santo Domingo de los Tsáchilas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,1,Cancer,0.0,Hospital_7
+Mujer,2.0,Mestizo (a),,Soltero (a),,Esmeraldas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,25,Cancer,0.0,Hospital_7
+Mujer,68.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,27,No_NCD,0.0,Hospital_7
+Hombre,44.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Otras cuasas externas,,No,No residente,2024,Octubre,7,No_NCD,0.0,Hospital_7
+Hombre,90.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,1,Cardiovascular,0.0,Hospital_7
+Mujer,86.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,11,Cardiovascular,0.0,Hospital_7
+Hombre,87.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,17,No_NCD,0.0,Hospital_7
+Hombre,75.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,7,Cardiovascular,0.0,Hospital_7
+Hombre,82.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,29,No_NCD,0.0,Hospital_7
+Hombre,66.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,22,No_NCD,0.0,Hospital_7
+Hombre,79.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,15,Cardiovascular,0.0,Hospital_7
+Mujer,67.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,8,No_NCD,0.0,Hospital_7
+Mujer,96.0,Mestizo (a),Si,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,14,No_NCD,0.0,Hospital_7
+Mujer,89.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,4,No_NCD,0.0,Hospital_7
+Hombre,89.0,Mestizo (a),,Divorciado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,6,No_NCD,0.0,Hospital_7
+Mujer,49.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,26,Diabetes,1.0,Hospital_7
+Hombre,0.16666666666666666,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,14,No_NCD,0.0,Hospital_7
+Mujer,91.0,Mestizo (a),,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,13,No_NCD,0.0,Hospital_7
+Hombre,76.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,6,No_NCD,0.0,Hospital_7
+Mujer,83.0,Mestizo (a),,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,26,Cancer,0.0,Hospital_7
+Mujer,64.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,13,No_NCD,0.0,Hospital_7
+Hombre,59.0,Mestizo (a),,Casado (a),Educación Básica,Guayas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,26,Cardiovascular,1.0,Hospital_7
+Mujer,34.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,8,No_NCD,0.0,Hospital_7
+Hombre,18.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,24,No_NCD,0.0,Hospital_7
+Hombre,72.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,3,Cardiovascular,0.0,Hospital_7
+Hombre,69.0,Mestizo (a),No,Divorciado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,25,No_NCD,0.0,Hospital_7
+Hombre,58.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,25,Chronic_Respiratory,1.0,Hospital_7
+Mujer,62.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,15,Cardiovascular,1.0,Hospital_7
+Hombre,51.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,8,No_NCD,0.0,Hospital_7
+Hombre,42.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,5,Cancer,1.0,Hospital_7
+Mujer,34.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,18,No_NCD,0.0,Hospital_7
+Hombre,71.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,18,Cardiovascular,0.0,Hospital_7
+Hombre,63.0,Mestizo (a),No,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,10,No_NCD,0.0,Hospital_7
+Hombre,77.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,19,No_NCD,0.0,Hospital_7
+Mujer,68.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,11,Cardiovascular,1.0,Hospital_7
+Hombre,46.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,31,No_NCD,0.0,Hospital_7
+Mujer,50.0,Montubio (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,30,Cancer,1.0,Hospital_7
+Hombre,22.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,7,Cardiovascular,0.0,Hospital_7
+Mujer,0.0006849315068493151,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,6,No_NCD,0.0,Hospital_7
+Mujer,0.021917808219178082,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,2,No_NCD,0.0,Hospital_7
+Hombre,72.0,Mestizo (a),Si,Divorciado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,7,Cardiovascular,0.0,Hospital_7
+Hombre,63.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,5,Cancer,1.0,Hospital_7
+Hombre,76.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,4,No_NCD,0.0,Hospital_7
+Hombre,66.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,13,Cardiovascular,1.0,Hospital_7
+Mujer,17.0,Mestizo (a),No,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,5,No_NCD,0.0,Hospital_7
+Hombre,0.0136986301369863,Montubio (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,16,No_NCD,0.0,Hospital_7
+Hombre,81.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,31,Cardiovascular,0.0,Hospital_7
+Hombre,67.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,20,Diabetes,1.0,Hospital_7
+Mujer,1.0,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,12,No_NCD,0.0,Hospital_7
+Hombre,0.019178082191780823,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,2,No_NCD,0.0,Hospital_7
+Hombre,76.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,11,No_NCD,0.0,Hospital_7
+Hombre,67.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,2,Cardiovascular,1.0,Hospital_7
+Mujer,28.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,27,Cardiovascular,0.0,Hospital_7
+Mujer,0.08333333333333333,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,1,No_NCD,0.0,Hospital_7
+Hombre,72.0,Mestizo (a),No,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Indeterminada,,No,No residente,2024,Mayo,10,No_NCD,0.0,Hospital_7
+Mujer,78.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,23,Cancer,0.0,Hospital_7
+Mujer,87.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,31,No_NCD,0.0,Hospital_7
+Hombre,40.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,10,No_NCD,0.0,Hospital_7
+Hombre,76.0,Mestizo (a),Si,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,6,Cardiovascular,0.0,Hospital_7
+Hombre,50.0,Mestizo (a),Si,Casado (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,26,Cardiovascular,1.0,Hospital_7
+Hombre,44.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,27,Cardiovascular,1.0,Hospital_7
+Mujer,89.0,Mestizo (a),Si,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,12,No_NCD,0.0,Hospital_7
+Hombre,68.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,13,No_NCD,0.0,Hospital_7
+Hombre,60.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,1,No_NCD,0.0,Hospital_7
+Mujer,0.07123287671232877,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,29,No_NCD,0.0,Hospital_7
+Hombre,0.08333333333333333,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,27,No_NCD,0.0,Hospital_7
+Mujer,71.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,20,Cardiovascular,0.0,Hospital_7
+Hombre,86.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,15,No_NCD,0.0,Hospital_7
+Hombre,90.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,3,Cancer,0.0,Hospital_7
+Mujer,83.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,22,No_NCD,0.0,Hospital_7
+Hombre,40.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,7,No_NCD,0.0,Hospital_7
+Mujer,48.0,Mestizo (a),Si,Soltero (a),Educación Básica,Guayas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,3,No_NCD,0.0,Hospital_7
+Mujer,88.0,Mestizo (a),,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,24,No_NCD,0.0,Hospital_7
+Hombre,74.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,30,Cancer,0.0,Hospital_7
+Hombre,85.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,6,Cardiovascular,0.0,Hospital_7
+Hombre,68.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Otros accidentes,,No,No residente,2024,Diciembre,1,No_NCD,0.0,Hospital_7
+Hombre,39.0,Mestizo (a),Si,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Suicidio,Vivienda,No,Residente,2024,Diciembre,21,No_NCD,0.0,Hospital_7
+Hombre,88.0,Mestizo (a),No,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,8,Chronic_Respiratory,0.0,Hospital_7
+Mujer,63.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,26,Diabetes,1.0,Hospital_7
+Hombre,61.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,30,Cardiovascular,1.0,Hospital_7
+Mujer,77.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,27,Cardiovascular,0.0,Hospital_7
+Mujer,84.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,23,No_NCD,0.0,Hospital_7
+Mujer,80.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,19,Cardiovascular,0.0,Hospital_7
+Hombre,53.0,Mestizo (a),Si,Divorciado (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,29,No_NCD,0.0,Hospital_7
+Hombre,39.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,10,Cardiovascular,1.0,Hospital_7
+Hombre,18.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,22,Cancer,0.0,Hospital_7
+Mujer,6.0,Mestizo (a),,Soltero (a),Educación Básica,Santo Domingo de los Tsáchilas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,9,No_NCD,0.0,Hospital_7
+Hombre,0.019178082191780823,Mestizo (a),,Soltero (a),,Santa Elena,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,13,No_NCD,0.0,Hospital_7
+Mujer,36.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,25,Cancer,1.0,Hospital_7
+Mujer,86.0,Mestizo (a),Si,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,23,No_NCD,0.0,Hospital_7
+Hombre,62.0,Montubio (a),Si,Casado (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,2,Cardiovascular,1.0,Hospital_7
+Hombre,72.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,4,No_NCD,0.0,Hospital_7
+Mujer,0.25,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,13,No_NCD,0.0,Hospital_7
+Hombre,85.0,Mestizo (a),No,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,22,Cancer,0.0,Hospital_7
+Hombre,71.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,30,Chronic_Respiratory,0.0,Hospital_7
+Hombre,74.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,22,No_NCD,0.0,Hospital_7
+Hombre,55.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,4,No_NCD,0.0,Hospital_7
+Hombre,50.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,23,Cancer,1.0,Hospital_7
+Mujer,50.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,Otros accidentes,,No,Residente,2024,Diciembre,18,No_NCD,0.0,Hospital_7
+Hombre,44.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,4,No_NCD,0.0,Hospital_7
+Hombre,45.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,26,Cardiovascular,1.0,Hospital_7
+Mujer,100.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,22,No_NCD,0.0,Hospital_7
+Hombre,49.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,7,No_NCD,0.0,Hospital_7
+Hombre,56.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,6,No_NCD,0.0,Hospital_7
+Mujer,55.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,16,No_NCD,0.0,Hospital_7
+Mujer,77.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,7,Cancer,0.0,Hospital_7
+Mujer,45.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,17,No_NCD,0.0,Hospital_7
+Mujer,81.0,Mestizo (a),Si,Soltero (a),Educación Básica,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,20,Cancer,0.0,Hospital_7
+Mujer,46.0,Mestizo (a),Si,Casado (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,29,No_NCD,0.0,Hospital_7
+Hombre,91.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,1,No_NCD,0.0,Hospital_7
+Hombre,95.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,10,No_NCD,0.0,Hospital_7
+Hombre,77.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,5,No_NCD,0.0,Hospital_7
+Mujer,61.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,7,Cardiovascular,1.0,Hospital_7
+Hombre,41.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,18,Cardiovascular,1.0,Hospital_7
+Hombre,11.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,20,No_NCD,0.0,Hospital_7
+Hombre,71.0,Mestizo (a),Si,Divorciado (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,14,Cardiovascular,0.0,Hospital_7
+Hombre,74.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,14,Diabetes,0.0,Hospital_7
+Hombre,85.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,10,No_NCD,0.0,Hospital_7
+Hombre,76.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,1,Cancer,0.0,Hospital_7
+Mujer,77.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,19,No_NCD,0.0,Hospital_7
+Mujer,68.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,29,No_NCD,0.0,Hospital_7
+Hombre,64.0,Mestizo (a),,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,Indeterminada,,No,No residente,2024,Noviembre,27,No_NCD,0.0,Hospital_7
+Hombre,54.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,14,Diabetes,1.0,Hospital_7
+Hombre,53.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,31,No_NCD,0.0,Hospital_7
+Hombre,86.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Otros accidentes,Vivienda,No,Residente,2024,Septiembre,21,No_NCD,0.0,Hospital_7
+Hombre,73.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,17,Cardiovascular,0.0,Hospital_7
+Mujer,73.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,12,No_NCD,0.0,Hospital_7
+Mujer,94.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,1,Cardiovascular,0.0,Hospital_7
+Mujer,92.0,Montubio (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,9,No_NCD,0.0,Hospital_7
+Mujer,75.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,26,Cancer,0.0,Hospital_7
+Mujer,84.0,Mestizo (a),No,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,2,No_NCD,0.0,Hospital_7
+Mujer,95.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,1,Cardiovascular,0.0,Hospital_7
+Hombre,84.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,8,Cardiovascular,0.0,Hospital_7
+Mujer,77.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,20,No_NCD,0.0,Hospital_7
+Mujer,67.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,28,Cardiovascular,1.0,Hospital_7
+Hombre,87.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,8,No_NCD,0.0,Hospital_7
+Mujer,69.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,12,Cardiovascular,1.0,Hospital_7
+Hombre,40.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,25,Cardiovascular,1.0,Hospital_7
+Hombre,67.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,24,No_NCD,0.0,Hospital_7
+Mujer,96.0,Mestizo (a),Si,Viudo (a),Primaria,Esmeraldas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,29,No_NCD,0.0,Hospital_7
+Mujer,78.0,Mestizo (a),No,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,30,Cardiovascular,0.0,Hospital_7
+Mujer,48.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Guayas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,13,Diabetes,1.0,Hospital_7
+Hombre,77.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,12,Cardiovascular,0.0,Hospital_7
+Hombre,66.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Otras cuasas externas,Escuela u oficina pública,No,Residente,2024,Diciembre,31,No_NCD,0.0,Hospital_7
+Mujer,75.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,27,Cardiovascular,0.0,Hospital_7
+Mujer,59.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,30,No_NCD,0.0,Hospital_7
+Mujer,71.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,1,Diabetes,0.0,Hospital_7
+Mujer,0.5,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,12,No_NCD,0.0,Hospital_7
+Hombre,0.052054794520547946,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,21,No_NCD,0.0,Hospital_7
+Mujer,76.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,10,Cardiovascular,0.0,Hospital_7
+Mujer,70.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,13,Cardiovascular,0.0,Hospital_7
+Mujer,93.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,25,Cardiovascular,0.0,Hospital_7
+Mujer,62.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,26,Diabetes,1.0,Hospital_7
+Mujer,54.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,30,No_NCD,0.0,Hospital_7
+Hombre,0.25,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,24,No_NCD,0.0,Hospital_7
+Hombre,0.16666666666666666,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,1,No_NCD,0.0,Hospital_7
+Hombre,59.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,10,Cardiovascular,1.0,Hospital_7
+Hombre,82.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,28,Cardiovascular,0.0,Hospital_7
+Hombre,72.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,10,Cardiovascular,0.0,Hospital_7
+Mujer,80.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,7,No_NCD,0.0,Hospital_7
+Mujer,68.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,17,No_NCD,0.0,Hospital_7
+Mujer,73.0,Mestizo (a),Si,Divorciado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,16,Cardiovascular,0.0,Hospital_7
+Hombre,90.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,19,Cancer,0.0,Hospital_7
+Hombre,77.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,18,No_NCD,0.0,Hospital_7
+Mujer,71.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,8,Cardiovascular,0.0,Hospital_7
+Mujer,71.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,1,No_NCD,0.0,Hospital_7
+Mujer,64.0,Mestizo (a),Si,Soltero (a),Centro de alfabetización,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,13,No_NCD,0.0,Hospital_7
+Mujer,80.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,28,No_NCD,0.0,Hospital_7
+Hombre,58.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,14,Cardiovascular,1.0,Hospital_7
+Hombre,58.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,4,Cancer,1.0,Hospital_7
+Mujer,60.0,Mestizo (a),No,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,18,No_NCD,0.0,Hospital_7
+Mujer,56.0,Montubio (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,21,No_NCD,0.0,Hospital_7
+Hombre,3.0,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,23,No_NCD,0.0,Hospital_7
+Hombre,73.0,Blanco (a),Si,Casado (a),Superior universitario,Esmeraldas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,7,Cancer,0.0,Hospital_7
+Mujer,85.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,4,Cardiovascular,0.0,Hospital_7
+Mujer,93.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,21,Cardiovascular,0.0,Hospital_7
+Mujer,67.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,10,No_NCD,0.0,Hospital_7
+Hombre,52.0,Mestizo (a),Si,Soltero (a),Superior no universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,6,No_NCD,0.0,Hospital_7
+Hombre,58.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,27,No_NCD,0.0,Hospital_7
+Mujer,77.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,20,Cancer,0.0,Hospital_7
+Hombre,29.0,Mestizo (a),Si,Soltero (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,1,No_NCD,0.0,Hospital_7
+Hombre,58.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,12,Cardiovascular,1.0,Hospital_7
+Hombre,28.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,29,No_NCD,0.0,Hospital_7
+Hombre,92.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,1,Cardiovascular,0.0,Hospital_7
+Hombre,83.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,10,Cardiovascular,0.0,Hospital_7
+Hombre,73.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,8,Cardiovascular,0.0,Hospital_7
+Mujer,38.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,5,No_NCD,0.0,Hospital_7
+Mujer,95.0,Mestizo (a),Si,Soltero (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,20,No_NCD,0.0,Hospital_7
+Hombre,39.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,7,No_NCD,0.0,Hospital_7
+Mujer,84.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,25,No_NCD,0.0,Hospital_7
+Hombre,54.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,3,No_NCD,0.0,Hospital_7
+Mujer,42.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,1,No_NCD,0.0,Hospital_7
+Hombre,35.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,5,No_NCD,0.0,Hospital_7
+Mujer,65.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,10,No_NCD,0.0,Hospital_7
+Hombre,0.3333333333333333,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,6,No_NCD,0.0,Hospital_7
+Mujer,60.0,Mestizo (a),Si,Soltero (a),Educación Básica,Santo Domingo de los Tsáchilas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,4,Cancer,1.0,Hospital_7
+Hombre,56.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,16,No_NCD,0.0,Hospital_7
+Hombre,85.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,19,No_NCD,0.0,Hospital_7
+Hombre,61.0,Mestizo (a),Si,Divorciado (a),Superior no universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,17,Cardiovascular,1.0,Hospital_7
+Hombre,56.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,27,Chronic_Respiratory,1.0,Hospital_7
+Mujer,58.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,23,No_NCD,0.0,Hospital_7
+Hombre,0.00011415525114155251,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,17,No_NCD,0.0,Hospital_7
+Hombre,68.0,Mestizo (a),Si,Casado (a),Superior universitario,Guayas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,20,No_NCD,0.0,Hospital_7
+Hombre,81.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,28,Cancer,0.0,Hospital_7
+Hombre,87.0,Mestizo (a),No,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,18,Chronic_Respiratory,0.0,Hospital_7
+Hombre,3.0,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,1,Cancer,0.0,Hospital_7
+Hombre,91.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,18,No_NCD,0.0,Hospital_7
+Hombre,84.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,5,Diabetes,0.0,Hospital_7
+Hombre,69.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,24,No_NCD,0.0,Hospital_7
+Mujer,58.0,Mestizo (a),,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,3,Cardiovascular,1.0,Hospital_7
+Mujer,89.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,19,Cardiovascular,0.0,Hospital_7
+Hombre,51.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,29,Cancer,1.0,Hospital_7
+Hombre,0.16666666666666666,Otra,,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,21,No_NCD,0.0,Hospital_7
+Mujer,80.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,Si,No residente,2024,Febrero,11,No_NCD,0.0,Hospital_7
+Hombre,81.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,1,Chronic_Respiratory,0.0,Hospital_7
+Hombre,77.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,29,Cardiovascular,0.0,Hospital_7
+Mujer,71.0,Montubio (a),Si,Viudo (a),Superior no universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,7,No_NCD,0.0,Hospital_7
+Hombre,72.0,Mestizo (a),Si,Casado (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,19,Cancer,0.0,Hospital_7
+Hombre,52.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,5,No_NCD,0.0,Hospital_7
+Hombre,37.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Otros accidentes,,No,No residente,2024,Junio,24,No_NCD,0.0,Hospital_7
+Hombre,72.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,26,No_NCD,0.0,Hospital_7
+Hombre,69.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,16,Cancer,1.0,Hospital_7
+Mujer,66.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,17,Cardiovascular,1.0,Hospital_7
+Mujer,49.0,Mestizo (a),Si,Divorciado (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,19,Cardiovascular,1.0,Hospital_7
+Hombre,86.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,8,Cardiovascular,0.0,Hospital_7
+Hombre,81.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,29,Cancer,0.0,Hospital_7
+Hombre,79.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,18,Cardiovascular,0.0,Hospital_7
+Hombre,83.0,Mestizo (a),Si,Viudo (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,31,No_NCD,0.0,Hospital_7
+Hombre,75.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,15,Cardiovascular,0.0,Hospital_7
+Mujer,62.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,27,No_NCD,0.0,Hospital_7
+Mujer,93.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,24,Cardiovascular,0.0,Hospital_7
+Hombre,71.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,30,No_NCD,0.0,Hospital_7
+Hombre,51.0,Mestizo (a),Si,Divorciado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,18,Cardiovascular,1.0,Hospital_7
+Hombre,90.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,28,Cardiovascular,0.0,Hospital_7
+Mujer,42.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,18,No_NCD,0.0,Hospital_7
+Hombre,41.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,19,Cardiovascular,1.0,Hospital_7
+Hombre,0.08333333333333333,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,10,No_NCD,0.0,Hospital_7
+Mujer,44.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,21,No_NCD,0.0,Hospital_7
+Mujer,41.0,Mestizo (a),Si,Soltero (a),Primaria,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,15,Cancer,1.0,Hospital_7
+Mujer,84.0,Mestizo (a),Si,Viudo (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,9,No_NCD,0.0,Hospital_7
+Hombre,74.0,Mestizo (a),Si,Viudo (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,9,Cardiovascular,0.0,Hospital_7
+Hombre,81.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,30,No_NCD,0.0,Hospital_7
+Mujer,87.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,3,Cardiovascular,0.0,Hospital_7
+Hombre,47.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,7,Cardiovascular,1.0,Hospital_7
+Hombre,80.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,21,Cardiovascular,0.0,Hospital_7
+Hombre,61.0,Mestizo (a),Si,Casado (a),Educación Básica,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,17,No_NCD,0.0,Hospital_7
+Hombre,81.0,Mestizo (a),,Casado (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,14,No_NCD,0.0,Hospital_7
+Hombre,67.0,Mestizo (a),Si,Casado (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,27,No_NCD,0.0,Hospital_7
+Mujer,71.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,23,No_NCD,0.0,Hospital_7
+Hombre,0.6666666666666666,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,13,Cardiovascular,0.0,Hospital_7
+Hombre,0.00034246575342465754,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,19,No_NCD,0.0,Hospital_7
+Mujer,0.07123287671232877,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,12,No_NCD,0.0,Hospital_7
+Hombre,47.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Otros accidentes,,No,No residente,2024,Marzo,19,No_NCD,0.0,Hospital_7
+Hombre,28.0,Mestizo (a),Si,Soltero (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,12,No_NCD,0.0,Hospital_7
+Hombre,71.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,4,Cardiovascular,0.0,Hospital_7
+Hombre,85.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,7,No_NCD,0.0,Hospital_7
+Hombre,91.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,13,No_NCD,0.0,Hospital_7
+Mujer,86.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,27,No_NCD,0.0,Hospital_7
+Mujer,94.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,12,Cardiovascular,0.0,Hospital_7
+Mujer,69.0,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,10,No_NCD,0.0,Hospital_7
+Mujer,94.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,16,Cancer,0.0,Hospital_7
+Hombre,56.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,9,No_NCD,0.0,Hospital_7
+Hombre,72.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,18,Cancer,0.0,Hospital_7
+Mujer,66.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,28,No_NCD,0.0,Hospital_7
+Mujer,93.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,5,Cardiovascular,0.0,Hospital_7
+Mujer,72.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,29,No_NCD,0.0,Hospital_7
+Hombre,47.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,3,Cardiovascular,1.0,Hospital_7
+Hombre,38.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,7,No_NCD,0.0,Hospital_7
+Mujer,0.08333333333333333,Mestizo (a),,Soltero (a),,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,26,No_NCD,0.0,Hospital_7
+Hombre,92.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,31,No_NCD,0.0,Hospital_7
+Hombre,67.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,24,Diabetes,1.0,Hospital_7
+Hombre,68.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,23,Cardiovascular,1.0,Hospital_7
+Mujer,72.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,12,Cancer,0.0,Hospital_7
+Hombre,54.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,8,No_NCD,0.0,Hospital_7
+Hombre,25.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,14,No_NCD,0.0,Hospital_7
+Hombre,92.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,17,Cardiovascular,0.0,Hospital_7
+Mujer,81.0,Mestizo (a),Si,Soltero (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,14,Cardiovascular,0.0,Hospital_7
+Hombre,60.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,17,Cardiovascular,1.0,Hospital_7
+Mujer,68.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,9,No_NCD,0.0,Hospital_7
+Mujer,51.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,30,Cardiovascular,1.0,Hospital_7
+Hombre,23.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,28,Cancer,0.0,Hospital_7
+Hombre,70.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,18,Cancer,0.0,Hospital_7
+Mujer,95.0,Mestizo (a),No,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,3,No_NCD,0.0,Hospital_7
+Mujer,34.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,9,No_NCD,0.0,Hospital_7
+Hombre,19.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,23,No_NCD,0.0,Hospital_7
+Mujer,0.01643835616438356,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,3,No_NCD,0.0,Hospital_7
+Hombre,69.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Guayas,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,2,Cardiovascular,1.0,Hospital_7
+Hombre,49.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,24,No_NCD,0.0,Hospital_7
+Mujer,88.0,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,7,No_NCD,0.0,Hospital_7
+Hombre,59.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,17,Diabetes,1.0,Hospital_7
+Mujer,97.0,Mestizo (a),No,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,Indeterminada,Vivienda,No,No residente,2024,Noviembre,1,No_NCD,0.0,Hospital_7
+Hombre,21.0,Mestizo (a),Si,Soltero (a),Superior no universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,26,No_NCD,0.0,Hospital_7
+Hombre,75.0,Blanco (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,19,Cancer,0.0,Hospital_7
+Mujer,83.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,25,Cardiovascular,0.0,Hospital_7
+Mujer,64.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,6,No_NCD,0.0,Hospital_7
+Hombre,58.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,12,No_NCD,0.0,Hospital_7
+Mujer,83.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,24,Cardiovascular,0.0,Hospital_7
+Hombre,93.0,Mestizo (a),Si,Divorciado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,12,Cardiovascular,0.0,Hospital_7
+Mujer,76.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,23,No_NCD,0.0,Hospital_7
+Mujer,78.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,12,Diabetes,0.0,Hospital_7
+Hombre,43.0,Mestizo (a),Si,Soltero (a),Primaria,Santa Elena,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,18,No_NCD,0.0,Hospital_7
+Mujer,80.0,Mestizo (a),Si,Soltero (a),Superior no universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,5,Diabetes,0.0,Hospital_7
+Hombre,79.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,17,No_NCD,0.0,Hospital_7
+Mujer,65.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,8,No_NCD,0.0,Hospital_7
+Mujer,61.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,6,Diabetes,1.0,Hospital_7
+Hombre,50.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,21,No_NCD,0.0,Hospital_7
+Hombre,28.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,28,No_NCD,0.0,Hospital_7
+Mujer,0.08333333333333333,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,5,No_NCD,0.0,Hospital_7
+Hombre,59.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,6,No_NCD,0.0,Hospital_7
+Hombre,77.0,Mestizo (a),,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,27,No_NCD,0.0,Hospital_7
+Hombre,91.0,Mestizo (a),Si,Viudo (a),Centro de alfabetización,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,23,No_NCD,0.0,Hospital_7
+Mujer,65.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,17,No_NCD,0.0,Hospital_7
+Hombre,0.021917808219178082,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,28,No_NCD,0.0,Hospital_7
+Hombre,91.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,18,No_NCD,0.0,Hospital_7
+Mujer,78.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,6,No_NCD,0.0,Hospital_7
+Mujer,78.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,20,No_NCD,0.0,Hospital_7
+Mujer,65.0,Mestizo (a),,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,7,No_NCD,0.0,Hospital_7
+Hombre,33.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Indeterminada,,No,No residente,2024,Mayo,27,No_NCD,0.0,Hospital_7
+Hombre,60.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,20,Cardiovascular,1.0,Hospital_7
+Hombre,71.0,Montubio (a),No,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,13,No_NCD,0.0,Hospital_7
+Mujer,100.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,30,No_NCD,0.0,Hospital_7
+Hombre,26.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,14,Cardiovascular,0.0,Hospital_7
+Mujer,82.0,Mestizo (a),Si,Casado (a),Educación Básica,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,14,No_NCD,0.0,Hospital_7
+Mujer,66.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,4,No_NCD,0.0,Hospital_7
+Hombre,66.0,Mestizo (a),,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,22,No_NCD,0.0,Hospital_7
+Hombre,71.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,17,Diabetes,0.0,Hospital_7
+Mujer,65.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,9,Cancer,1.0,Hospital_7
+Mujer,89.0,Mestizo (a),Si,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,31,No_NCD,0.0,Hospital_7
+Hombre,0.08333333333333333,Montubio (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,21,No_NCD,0.0,Hospital_7
+Hombre,91.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,6,No_NCD,0.0,Hospital_7
+Mujer,76.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,12,Cardiovascular,0.0,Hospital_7
+Hombre,75.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,5,Diabetes,0.0,Hospital_7
+Mujer,64.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,22,No_NCD,0.0,Hospital_7
+Hombre,57.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,23,Cancer,1.0,Hospital_7
+Hombre,29.0,Mestizo (a),Si,Soltero (a),Educación Básica,Esmeraldas,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,Otros accidentes,,No,No residente,2024,Marzo,18,No_NCD,0.0,Hospital_7
+Hombre,66.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,29,Cardiovascular,1.0,Hospital_7
+Hombre,47.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,9,No_NCD,0.0,Hospital_7
+Hombre,32.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Indeterminada,,No,Residente,2024,Noviembre,4,No_NCD,0.0,Hospital_7
+Mujer,88.0,Mestizo (a),,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Indeterminada,,No,Residente,2024,Septiembre,10,No_NCD,0.0,Hospital_7
+Hombre,84.0,Mestizo (a),,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,7,Cardiovascular,0.0,Hospital_7
+Mujer,85.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,9,Cardiovascular,0.0,Hospital_7
+Mujer,84.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,5,Cardiovascular,0.0,Hospital_7
+Mujer,65.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,4,No_NCD,0.0,Hospital_7
+Hombre,64.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,8,No_NCD,0.0,Hospital_7
+Hombre,58.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,28,No_NCD,0.0,Hospital_7
+Hombre,52.0,Mestizo (a),Si,Soltero (a),Superior no universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,25,No_NCD,0.0,Hospital_7
+Mujer,76.0,Montubio (a),Si,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,3,No_NCD,0.0,Hospital_7
+Mujer,64.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,1,Cardiovascular,1.0,Hospital_7
+Hombre,71.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,28,Cardiovascular,0.0,Hospital_7
+Mujer,81.0,Mestizo (a),Si,Viudo (a),Primaria,Guayas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,1,Cardiovascular,0.0,Hospital_7
+Hombre,84.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,28,No_NCD,0.0,Hospital_7
+Mujer,74.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,11,Cardiovascular,0.0,Hospital_7
+Hombre,58.0,Mestizo (a),No,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,14,Cardiovascular,1.0,Hospital_7
+Hombre,74.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,11,Diabetes,0.0,Hospital_7
+Mujer,60.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,12,No_NCD,0.0,Hospital_7
+Hombre,0.0027397260273972603,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,7,No_NCD,0.0,Hospital_7
+Hombre,65.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,5,Cardiovascular,1.0,Hospital_7
+Mujer,30.0,Mestizo (a),Si,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,18,No_NCD,0.0,Hospital_7
+Mujer,96.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,27,No_NCD,0.0,Hospital_7
+Mujer,90.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,13,No_NCD,0.0,Hospital_7
+Mujer,86.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,20,Cardiovascular,0.0,Hospital_7
+Mujer,60.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,5,No_NCD,0.0,Hospital_7
+Hombre,0.08333333333333333,Otra,,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,1,No_NCD,0.0,Hospital_7
+Mujer,76.0,Mestizo (a),Si,Divorciado (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,15,Cancer,0.0,Hospital_7
+Mujer,92.0,Mestizo (a),Si,Viudo (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,14,Chronic_Respiratory,0.0,Hospital_7
+Mujer,81.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,12,Cardiovascular,0.0,Hospital_7
+Mujer,79.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,2,Cardiovascular,0.0,Hospital_7
+Mujer,82.0,Mestizo (a),No,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,29,No_NCD,0.0,Hospital_7
+Hombre,58.0,Mestizo (a),Si,Divorciado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,27,Cardiovascular,1.0,Hospital_7
+Hombre,72.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,25,Cardiovascular,0.0,Hospital_7
+Hombre,50.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,10,Cardiovascular,1.0,Hospital_7
+Hombre,44.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,25,Cancer,1.0,Hospital_7
+Hombre,12.0,Otra,Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,25,No_NCD,0.0,Hospital_7
+Hombre,0.0027397260273972603,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,7,No_NCD,0.0,Hospital_7
+Mujer,35.0,Mestizo (a),Si,Soltero (a),Educación Básica,Guayas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,30,Cancer,1.0,Hospital_7
+Hombre,68.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,28,No_NCD,0.0,Hospital_7
+Mujer,59.0,Mestizo (a),No,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,27,No_NCD,0.0,Hospital_7
+Mujer,0.16666666666666666,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,3,No_NCD,0.0,Hospital_7
+Hombre,49.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,30,Diabetes,1.0,Hospital_7
+Hombre,31.0,Mestizo (a),Si,Soltero (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,27,No_NCD,0.0,Hospital_7
+Mujer,26.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,25,No_NCD,0.0,Hospital_7
+Mujer,76.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,19,Cardiovascular,0.0,Hospital_7
+Mujer,73.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,18,No_NCD,0.0,Hospital_7
+Mujer,93.0,Montubio (a),,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,21,Cardiovascular,0.0,Hospital_7
+Hombre,48.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,24,No_NCD,0.0,Hospital_7
+Hombre,34.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,8,No_NCD,0.0,Hospital_7
+Mujer,85.0,Mestizo (a),Si,Viudo (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,17,No_NCD,0.0,Hospital_7
+Hombre,66.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,14,Chronic_Respiratory,1.0,Hospital_7
+Mujer,95.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,27,No_NCD,0.0,Hospital_7
+Mujer,85.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,27,Chronic_Respiratory,0.0,Hospital_7
+Hombre,26.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,30,Cardiovascular,0.0,Hospital_7
+Mujer,0.3333333333333333,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,20,No_NCD,0.0,Hospital_7
+Hombre,86.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,14,No_NCD,0.0,Hospital_7
+Mujer,1.0,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,5,Cardiovascular,0.0,Hospital_7
+Mujer,75.0,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,19,Cancer,0.0,Hospital_7
+Mujer,52.0,Mestizo (a),Si,Soltero (a),Primaria,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,27,Cancer,1.0,Hospital_7
+Mujer,83.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,23,No_NCD,0.0,Hospital_7
+Mujer,76.0,Mestizo (a),Si,Soltero (a),Superior no universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,13,No_NCD,0.0,Hospital_7
+Hombre,75.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,23,Cardiovascular,0.0,Hospital_7
+Mujer,67.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,28,No_NCD,0.0,Hospital_7
+Mujer,66.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,18,Cardiovascular,1.0,Hospital_7
+Mujer,40.0,Mestizo (a),Si,Soltero (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,2,No_NCD,0.0,Hospital_7
+Hombre,36.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,27,No_NCD,0.0,Hospital_7
+Hombre,0.16666666666666666,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,12,No_NCD,0.0,Hospital_7
+Mujer,85.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,4,Cardiovascular,0.0,Hospital_7
+Mujer,74.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,8,No_NCD,0.0,Hospital_7
+Hombre,89.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,7,Cardiovascular,0.0,Hospital_7
+Mujer,66.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,26,Diabetes,1.0,Hospital_7
+Hombre,84.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,27,Cardiovascular,0.0,Hospital_7
+Mujer,79.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,22,Cardiovascular,0.0,Hospital_7
+Hombre,47.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,10,No_NCD,0.0,Hospital_7
+Hombre,34.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,1,No_NCD,0.0,Hospital_7
+Mujer,54.0,Mestizo (a),Si,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,12,No_NCD,0.0,Hospital_7
+Mujer,90.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,2,No_NCD,0.0,Hospital_7
+Mujer,80.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,11,No_NCD,0.0,Hospital_7
+Mujer,82.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,25,Cardiovascular,0.0,Hospital_7
+Mujer,74.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,17,Cardiovascular,0.0,Hospital_7
+Hombre,79.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,9,No_NCD,0.0,Hospital_7
+Mujer,71.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,14,No_NCD,0.0,Hospital_7
+Hombre,67.0,Mestizo (a),,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,22,No_NCD,0.0,Hospital_7
+Mujer,52.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Guayas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,3,No_NCD,0.0,Hospital_7
+Mujer,58.0,Mestizo (a),Si,Casado (a),Superior universitario,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,1,Diabetes,1.0,Hospital_7
+Mujer,94.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,22,Diabetes,0.0,Hospital_7
+Mujer,56.0,Mestizo (a),Si,Soltero (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,8,Diabetes,1.0,Hospital_7
+Hombre,92.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,16,No_NCD,0.0,Hospital_7
+Mujer,78.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,27,No_NCD,0.0,Hospital_7
+Mujer,62.0,Mestizo (a),Si,Soltero (a),Educación Básica,Guayas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,21,No_NCD,0.0,Hospital_7
+Mujer,0.07945205479452055,Mestizo (a),,Soltero (a),,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,1,No_NCD,0.0,Hospital_7
+Mujer,90.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,22,No_NCD,0.0,Hospital_7
+Hombre,70.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,2,Cancer,0.0,Hospital_7
+Mujer,74.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,19,No_NCD,0.0,Hospital_7
+Mujer,78.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,10,No_NCD,0.0,Hospital_7
+Mujer,78.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,6,Cancer,0.0,Hospital_7
+Hombre,66.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,4,No_NCD,0.0,Hospital_7
+Hombre,41.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Indeterminada,,No,Residente,2024,Agosto,28,No_NCD,0.0,Hospital_7
+Hombre,52.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,22,No_NCD,0.0,Hospital_7
+Mujer,15.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,25,No_NCD,0.0,Hospital_7
+Hombre,84.0,Mestizo (a),,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,9,Cancer,0.0,Hospital_7
+Mujer,57.0,Mestizo (a),Si,Divorciado (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,21,Cancer,1.0,Hospital_7
+Hombre,27.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,14,Cardiovascular,0.0,Hospital_7
+Mujer,0.9166666666666666,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,2,No_NCD,0.0,Hospital_7
+Hombre,0.0005707762557077625,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,14,No_NCD,0.0,Hospital_7
+Mujer,56.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,25,Cancer,1.0,Hospital_7
+Hombre,89.0,Mestizo (a),Si,Divorciado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,5,No_NCD,0.0,Hospital_7
+Hombre,82.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,11,Cancer,0.0,Hospital_7
+Hombre,72.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,26,No_NCD,0.0,Hospital_7
+Mujer,81.0,Mestizo (a),,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,30,No_NCD,0.0,Hospital_7
+Hombre,68.0,Mestizo (a),Si,Casado (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Indeterminada,,No,No residente,2024,Diciembre,23,No_NCD,0.0,Hospital_7
+Mujer,84.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,21,Cardiovascular,0.0,Hospital_7
+Hombre,51.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Indeterminada,,No,Residente,2024,Julio,13,No_NCD,0.0,Hospital_7
+Mujer,50.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,26,No_NCD,0.0,Hospital_7
+Hombre,46.0,Mestizo (a),,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,2,No_NCD,0.0,Hospital_7
+Mujer,0.08333333333333333,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,6,No_NCD,0.0,Hospital_7
+Hombre,0.030136986301369864,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,2,No_NCD,0.0,Hospital_7
+Hombre,26.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,26,No_NCD,0.0,Hospital_7
+Mujer,62.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,18,No_NCD,0.0,Hospital_7
+Mujer,93.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,10,No_NCD,0.0,Hospital_7
+Mujer,73.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,11,Cardiovascular,0.0,Hospital_7
+Mujer,10.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,30,No_NCD,0.0,Hospital_7
+Mujer,62.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,23,No_NCD,0.0,Hospital_7
+Hombre,0.75,Mestizo (a),,Soltero (a),,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,2,No_NCD,0.0,Hospital_7
+Hombre,77.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,26,Cardiovascular,0.0,Hospital_7
+Hombre,77.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,19,Cardiovascular,0.0,Hospital_7
+Hombre,64.0,Mestizo (a),Si,Divorciado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,5,Cardiovascular,1.0,Hospital_7
+Mujer,50.0,Montubio (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,29,Cancer,1.0,Hospital_7
+Hombre,43.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,23,No_NCD,0.0,Hospital_7
+Hombre,60.0,Mestizo (a),Si,Soltero (a),Primaria,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,27,Cardiovascular,1.0,Hospital_7
+Hombre,85.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Otros accidentes,,No,Residente,2024,Junio,29,No_NCD,0.0,Hospital_7
+Hombre,74.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,18,Diabetes,0.0,Hospital_7
+Hombre,64.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,4,No_NCD,0.0,Hospital_7
+Mujer,20.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,28,No_NCD,0.0,Hospital_7
+Mujer,27.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,7,No_NCD,0.0,Hospital_7
+Hombre,26.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,6,No_NCD,0.0,Hospital_7
+Hombre,75.0,Mestizo (a),Si,Divorciado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,19,No_NCD,0.0,Hospital_7
+Mujer,57.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,29,Cancer,1.0,Hospital_7
+Mujer,63.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,2,No_NCD,0.0,Hospital_7
+Mujer,8.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,9,No_NCD,0.0,Hospital_7
+Hombre,74.0,Mestizo (a),Si,Divorciado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,8,Cardiovascular,0.0,Hospital_7
+Hombre,61.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,12,Cancer,1.0,Hospital_7
+Mujer,63.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,29,No_NCD,0.0,Hospital_7
+Hombre,59.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,7,No_NCD,0.0,Hospital_7
+Hombre,52.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,3,Cardiovascular,1.0,Hospital_7
+Mujer,71.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,15,Diabetes,0.0,Hospital_7
+Hombre,53.0,Mestizo (a),Si,Soltero (a),Educación Básica,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,27,Cancer,1.0,Hospital_7
+Mujer,75.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,21,No_NCD,0.0,Hospital_7
+Hombre,73.0,Mestizo (a),Si,Soltero (a),Educación Básica,Santa Elena,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,5,No_NCD,0.0,Hospital_7
+Hombre,70.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,14,Diabetes,0.0,Hospital_7
+Hombre,67.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,12,No_NCD,0.0,Hospital_7
+Hombre,76.0,Mestizo (a),,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,28,Cardiovascular,0.0,Hospital_7
+Mujer,62.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,17,No_NCD,0.0,Hospital_7
+Hombre,48.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,8,Cardiovascular,1.0,Hospital_7
+Mujer,84.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,22,Cardiovascular,0.0,Hospital_7
+Mujer,99.0,Mestizo (a),Si,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,4,No_NCD,0.0,Hospital_7
+Hombre,79.0,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,9,No_NCD,0.0,Hospital_7
+Hombre,76.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,20,Cancer,0.0,Hospital_7
+Mujer,60.0,Mestizo (a),,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,12,Cardiovascular,1.0,Hospital_7
+Hombre,18.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,12,No_NCD,0.0,Hospital_7
+Hombre,70.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,19,No_NCD,0.0,Hospital_7
+Mujer,93.0,Mestizo (a),Si,Viudo (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,19,Cardiovascular,0.0,Hospital_7
+Mujer,88.0,Mestizo (a),Si,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,10,Cardiovascular,0.0,Hospital_7
+Hombre,53.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,6,No_NCD,0.0,Hospital_7
+Hombre,75.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,11,No_NCD,0.0,Hospital_7
+Mujer,63.0,Mestizo (a),Si,Casado (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,21,No_NCD,0.0,Hospital_7
+Mujer,72.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,14,No_NCD,0.0,Hospital_7
+Hombre,44.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,31,No_NCD,0.0,Hospital_7
+Hombre,52.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,1,Cardiovascular,1.0,Hospital_7
+Hombre,17.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,9,Cardiovascular,0.0,Hospital_7
+Hombre,92.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,27,Cardiovascular,0.0,Hospital_7
+Hombre,86.0,Mestizo (a),Si,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,15,No_NCD,0.0,Hospital_7
+Mujer,78.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,22,Cancer,0.0,Hospital_7
+Hombre,65.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,25,Diabetes,1.0,Hospital_7
+Mujer,0.01643835616438356,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,26,No_NCD,0.0,Hospital_7
+Hombre,65.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,8,No_NCD,0.0,Hospital_7
+Mujer,0.024657534246575342,Mestizo (a),,Soltero (a),,Santo Domingo de los Tsáchilas,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,11,No_NCD,0.0,Hospital_7
+Hombre,79.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,10,Cancer,0.0,Hospital_7
+Mujer,80.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,27,No_NCD,0.0,Hospital_7
+Hombre,72.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,14,Cardiovascular,0.0,Hospital_7
+Hombre,79.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,7,No_NCD,0.0,Hospital_7
+Mujer,62.0,Mestizo (a),Si,Casado (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,3,No_NCD,0.0,Hospital_7
+Hombre,40.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,3,No_NCD,0.0,Hospital_7
+Hombre,0.07945205479452055,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,15,No_NCD,0.0,Hospital_7
+Hombre,87.0,Mestizo (a),No,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,24,Cardiovascular,0.0,Hospital_7
+Hombre,81.0,Mestizo (a),,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,10,No_NCD,0.0,Hospital_7
+Hombre,72.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,14,Cardiovascular,0.0,Hospital_7
+Mujer,60.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,11,No_NCD,0.0,Hospital_7
+Hombre,87.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,6,No_NCD,0.0,Hospital_7
+Hombre,0.052054794520547946,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,14,No_NCD,0.0,Hospital_7
+Hombre,0.010958904109589041,Mestizo (a),,Soltero (a),,Esmeraldas,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,3,No_NCD,0.0,Hospital_7
+Mujer,93.0,Mestizo (a),No,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,7,No_NCD,0.0,Hospital_7
+Hombre,78.0,Mestizo (a),Si,Casado (a),Superior no universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,23,No_NCD,0.0,Hospital_7
+Mujer,48.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,10,Cancer,1.0,Hospital_7
+Mujer,1.0,Otra,,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,26,No_NCD,0.0,Hospital_7
+Hombre,0.3333333333333333,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,29,No_NCD,0.0,Hospital_7
+Mujer,0.01643835616438356,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,5,No_NCD,0.0,Hospital_7
+Hombre,77.0,Mestizo (a),Si,Viudo (a),Educación Básica,Cotopaxi,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,31,Cancer,0.0,Hospital_7
+Hombre,84.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,18,No_NCD,0.0,Hospital_7
+Hombre,74.0,Mestizo (a),No,Divorciado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,29,Cardiovascular,0.0,Hospital_7
+Mujer,71.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,22,No_NCD,0.0,Hospital_7
+Mujer,65.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,14,Cancer,1.0,Hospital_7
+Hombre,58.0,Montubio (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,25,No_NCD,0.0,Hospital_7
+Hombre,50.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,17,Diabetes,1.0,Hospital_7
+Mujer,83.0,Mestizo (a),,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,7,No_NCD,0.0,Hospital_7
+Hombre,76.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,17,No_NCD,0.0,Hospital_7
+Hombre,83.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,21,Cardiovascular,0.0,Hospital_7
+Hombre,86.0,Mestizo (a),Si,Divorciado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,15,Cardiovascular,0.0,Hospital_7
+Mujer,84.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,19,No_NCD,0.0,Hospital_7
+Hombre,56.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,8,No_NCD,0.0,Hospital_7
+Hombre,33.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,5,No_NCD,0.0,Hospital_7
+Hombre,74.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,26,Cancer,0.0,Hospital_7
+Hombre,74.0,Mestizo (a),No,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,14,Cardiovascular,0.0,Hospital_7
+Mujer,0.5,Mestizo (a),,Soltero (a),,Guayas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,21,No_NCD,0.0,Hospital_7
+Hombre,63.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,21,Cancer,1.0,Hospital_7
+Mujer,57.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,27,No_NCD,0.0,Hospital_7
+Mujer,62.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,15,Cancer,1.0,Hospital_7
+Mujer,43.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,8,No_NCD,0.0,Hospital_7
+Mujer,0.049315068493150684,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,21,No_NCD,0.0,Hospital_7
+Mujer,78.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,31,Cancer,0.0,Hospital_7
+Hombre,75.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,4,No_NCD,0.0,Hospital_7
+Hombre,75.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,19,Cardiovascular,0.0,Hospital_7
+Hombre,69.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,12,Cardiovascular,1.0,Hospital_7
+Mujer,72.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,17,No_NCD,0.0,Hospital_7
+Hombre,58.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,16,No_NCD,0.0,Hospital_7
+Mujer,46.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,31,No_NCD,0.0,Hospital_7
+Mujer,92.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,27,Cardiovascular,0.0,Hospital_7
+Hombre,0.0,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,1,No_NCD,0.0,Hospital_7
+Hombre,83.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,10,Cancer,0.0,Hospital_7
+Mujer,70.0,Mestizo (a),,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,11,No_NCD,0.0,Hospital_7
+Hombre,57.0,Mestizo (a),Si,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,1,No_NCD,0.0,Hospital_7
+Mujer,54.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,14,No_NCD,0.0,Hospital_7
+Mujer,55.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,8,No_NCD,0.0,Hospital_7
+Mujer,0.0273972602739726,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,10,No_NCD,0.0,Hospital_7
+Hombre,68.0,Mestizo (a),Si,Soltero (a),Educación Básica,Esmeraldas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,10,Cardiovascular,1.0,Hospital_7
+Hombre,77.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Otros accidentes,,No,No residente,2024,Marzo,10,No_NCD,0.0,Hospital_7
+Hombre,63.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,15,Cancer,1.0,Hospital_7
+Mujer,69.0,Mestizo (a),Si,Divorciado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,21,Cardiovascular,1.0,Hospital_7
+Mujer,67.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,6,Cancer,1.0,Hospital_7
+Hombre,1.0,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,4,No_NCD,0.0,Hospital_7
+Hombre,68.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,5,Cardiovascular,1.0,Hospital_7
+Mujer,55.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,14,No_NCD,0.0,Hospital_7
+Mujer,0.6666666666666666,Mestizo (a),,Soltero (a),,Santo Domingo de los Tsáchilas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,3,No_NCD,0.0,Hospital_7
+Hombre,26.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,24,No_NCD,0.0,Hospital_7
+Mujer,61.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,17,No_NCD,0.0,Hospital_7
+Hombre,62.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,10,No_NCD,0.0,Hospital_7
+Mujer,69.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,15,Cancer,1.0,Hospital_7
+Hombre,52.0,Mestizo (a),Si,Soltero (a),Primaria,Los Ríos,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,24,Cancer,1.0,Hospital_7
+Hombre,4.0,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,26,No_NCD,0.0,Hospital_7
+Mujer,18.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Santo Domingo de los Tsáchilas,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,1,No_NCD,0.0,Hospital_7
+Hombre,65.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,28,No_NCD,0.0,Hospital_7
+Hombre,54.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,30,No_NCD,0.0,Hospital_7
+Hombre,36.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,7,No_NCD,0.0,Hospital_7
+Hombre,68.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,19,No_NCD,0.0,Hospital_7
+Hombre,85.0,Mestizo (a),Si,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,26,No_NCD,0.0,Hospital_7
+Hombre,85.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,14,No_NCD,0.0,Hospital_7
+Hombre,65.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Septiembre,17,No_NCD,0.0,Hospital_7
+Mujer,87.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,28,No_NCD,0.0,Hospital_7
+Hombre,48.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,13,No_NCD,0.0,Hospital_7
+Hombre,46.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,27,No_NCD,0.0,Hospital_7
+Hombre,0.16666666666666666,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,14,No_NCD,0.0,Hospital_7
+Hombre,0.16666666666666666,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,18,No_NCD,0.0,Hospital_7
+Hombre,82.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,23,No_NCD,0.0,Hospital_7
+Hombre,86.0,Montubio (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,29,No_NCD,0.0,Hospital_7
+Mujer,85.0,Mestizo (a),No,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,20,No_NCD,0.0,Hospital_7
+Mujer,52.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,26,Diabetes,1.0,Hospital_7
+Mujer,87.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,24,No_NCD,0.0,Hospital_7
+Mujer,58.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,29,Cancer,1.0,Hospital_7
+Hombre,66.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,28,No_NCD,0.0,Hospital_7
+Mujer,1.0,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,29,No_NCD,0.0,Hospital_7
+Mujer,59.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,4,No_NCD,0.0,Hospital_7
+Hombre,19.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,1,No_NCD,0.0,Hospital_7
+Hombre,0.5,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,3,No_NCD,0.0,Hospital_7
+Mujer,68.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,28,Cardiovascular,1.0,Hospital_7
+Mujer,50.0,Mestizo (a),Si,Soltero (a),Educación Básica,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,12,Cancer,1.0,Hospital_7
+Mujer,70.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,11,No_NCD,0.0,Hospital_7
+Mujer,33.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,26,No_NCD,0.0,Hospital_7
+Hombre,36.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Indeterminada,,No,Residente,2024,Marzo,7,No_NCD,0.0,Hospital_7
+Mujer,0.5833333333333334,Mestizo (a),,Soltero (a),,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,23,No_NCD,0.0,Hospital_7
+Hombre,73.0,Mestizo (a),Si,Viudo (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,23,Cardiovascular,0.0,Hospital_7
+Mujer,92.0,Mestizo (a),No,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,5,Cardiovascular,0.0,Hospital_7
+Mujer,61.0,Mestizo (a),Si,Casado (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,16,Cancer,1.0,Hospital_7
+Mujer,56.0,Mestizo (a),Si,Casado (a),Superior no universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,26,Cardiovascular,1.0,Hospital_7
+Hombre,51.0,Mestizo (a),No,Divorciado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,1,Cardiovascular,1.0,Hospital_7
+Hombre,0.010958904109589041,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,22,No_NCD,0.0,Hospital_7
+Mujer,75.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Marzo,3,No_NCD,0.0,Hospital_7
+Hombre,74.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Mayo,14,No_NCD,0.0,Hospital_7
+Mujer,67.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,13,No_NCD,0.0,Hospital_7
+Hombre,71.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,2,Cardiovascular,0.0,Hospital_7
+Mujer,72.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Junio,8,No_NCD,0.0,Hospital_7
+Mujer,66.0,Mestizo (a),Si,Casado (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,12,Cardiovascular,1.0,Hospital_7
+Mujer,48.0,Mestizo (a),Si,Soltero (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,9,Cancer,1.0,Hospital_7
+Hombre,11.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,19,No_NCD,0.0,Hospital_7
+Hombre,78.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,Otros accidentes,,No,Residente,2024,Noviembre,6,No_NCD,0.0,Hospital_7
+Hombre,87.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,25,Cardiovascular,0.0,Hospital_7
+Hombre,80.0,Mestizo (a),,Casado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,1,Cardiovascular,0.0,Hospital_7
+Hombre,71.0,Mestizo (a),,Divorciado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,13,Diabetes,0.0,Hospital_7
+Hombre,71.0,Mestizo (a),,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,6,Cardiovascular,0.0,Hospital_7
+Mujer,66.0,Mestizo (a),Si,Casado (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,26,Cardiovascular,1.0,Hospital_7
+Hombre,52.0,Mestizo (a),Si,Soltero (a),Primaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,24,Diabetes,1.0,Hospital_7
+Mujer,46.0,Mestizo (a),Si,Casado (a),Educación Básica,Los Ríos,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,Si,No residente,2024,Marzo,6,Cancer,1.0,Hospital_7
+Mujer,84.0,Mestizo (a),,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,7,Diabetes,0.0,Hospital_7
+Mujer,82.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,17,Cardiovascular,0.0,Hospital_7
+Mujer,58.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,6,No_NCD,0.0,Hospital_7
+Hombre,59.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,4,Cancer,1.0,Hospital_7
+Hombre,39.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Julio,10,No_NCD,0.0,Hospital_7
+Hombre,47.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,6,Cardiovascular,1.0,Hospital_7
+Hombre,51.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,29,Cancer,1.0,Hospital_7
+Mujer,0.010958904109589041,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Febrero,5,No_NCD,0.0,Hospital_7
+Hombre,82.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,27,No_NCD,0.0,Hospital_7
+Mujer,94.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,8,Cardiovascular,0.0,Hospital_7
+Mujer,58.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Rural,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Enero,21,Cancer,1.0,Hospital_7
+Hombre,65.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,13,Diabetes,1.0,Hospital_7
+Hombre,57.0,Mestizo (a),Si,Divorciado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Octubre,4,No_NCD,0.0,Hospital_7
+Hombre,52.0,Mestizo (a),Si,Soltero (a),Secundaria,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,23,Cancer,1.0,Hospital_7
+Mujer,44.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Abril,30,Cancer,1.0,Hospital_7
+Mujer,51.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,12,No_NCD,0.0,Hospital_7
+Mujer,87.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,5,No_NCD,0.0,Hospital_7
+Mujer,26.0,Mestizo (a),Si,Soltero (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Abril,3,Cancer,0.0,Hospital_7
+Mujer,24.0,Mestizo (a),Si,Soltero (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Agosto,29,No_NCD,0.0,Hospital_7
+Mujer,1.0,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Noviembre,28,No_NCD,0.0,Hospital_7
+Hombre,88.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Diciembre,18,No_NCD,0.0,Hospital_7
+Mujer,70.0,Mestizo (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Agosto,16,No_NCD,0.0,Hospital_7
+Mujer,63.0,Mestizo (a),Si,Casado (a),Educación Media / Bachillerato,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,4,No_NCD,0.0,Hospital_7
+Hombre,96.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Enero,19,Cardiovascular,0.0,Hospital_7
+Hombre,0.0,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Julio,8,No_NCD,0.0,Hospital_7
+Hombre,62.0,Mestizo (a),Si,Soltero (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Marzo,27,Cancer,1.0,Hospital_7
+Hombre,82.0,Montubio (a),Si,Casado (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Octubre,10,No_NCD,0.0,Hospital_7
+Mujer,83.0,Mestizo (a),No,Divorciado (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Junio,19,No_NCD,0.0,Hospital_7
+Mujer,84.0,Mestizo (a),Si,Viudo (a),Educación Básica,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Mayo,3,Cancer,0.0,Hospital_7
+Mujer,85.0,Mestizo (a),No,Viudo (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Septiembre,22,Cardiovascular,0.0,Hospital_7
+Mujer,49.0,Mestizo (a),Si,Soltero (a),Superior universitario,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Noviembre,30,Cancer,1.0,Hospital_7
+Mujer,57.0,Mestizo (a),No,Soltero (a),Ninguno,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,Residente,2024,Febrero,24,No_NCD,0.0,Hospital_7
+Mujer,0.16666666666666666,Mestizo (a),,Soltero (a),,Manabí,Manabí,Portoviejo,Urbano,Urbano,Establecimientos del Ministerio de Salud,,,No,No residente,2024,Diciembre,20,No_NCD,0.0,Hospital_7
